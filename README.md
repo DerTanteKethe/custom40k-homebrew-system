@@ -1,4 +1,4 @@
-Template Data Repo
+Custom40k - Homebrew
 ==================
 
 [![Latest release](https://img.shields.io/github/release/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/releases/latest)
@@ -13,13 +13,15 @@ Template Data Repo
 
 __What's this?__
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [our homepage][BSData.net]
+Custom40k is a complete, ready to play homebrew ruleset for Warhammer 40.000 that has been in development over the past 2+ years and became the default system to play for my local group of about ~15 people. The rules aim to modernise, streamline and rebalance the "classic era" rules (3rd - 7th edition) while supporting all models GW ever made for all armies and bringing back army and model customisation via extensive armories for all factions. [our homepage](https://katago-ev.de/custom-40k) [Community-Discord](https://discord.gg/wnGAB3TYAY)
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+__What are the key differences to current 40k?__ _I just want those files..._
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
+- Alternating activation: Each player only activates one unit at a time, which leads to less downtime and less lethality.
+- Backwards compatability: Every model that GW released for Warhammer (and will release in the future) is playable and supported with rules.
+- Balance: Since its inception, Custom40k has been finetuned over 100+ games to ensure that all units are playable and have a purpose in the game. Points are calculated using a unified points calculator. Balancing for a game like 40k is an ever ongoing endeavour, but I'm doing my best to keep all armies and units on an even level.
+- Huge customisation: Where GW has a strict "No model, no rules" policy, "Customisation" is the name of the game. Each faction features their own, ever expanding armory full of options for character models, units and army composition. Kitbashing and creativity is explicitly desired.
+- Old school systems: Armor Values for vehicles and the Force Organisation Chart are back.
 
 __I found a bug!__ / *I have another request*
 
@@ -29,6 +31,8 @@ Great, thank you! Please [Report a bug][bug report] - you can also suggest enhan
 
 * [BSData organization homepage][BSData.net]
 * [BattleScribe app homepage](https://www.battlescribe.net/)
+* [Custom40k - ForumEntry](https://bolterandchainsword.com/topic/383354-custom40k-homebrew-with-alternate-activation-huge-customisation-support-for-all-models/)
+* [Discord Community Server](https://discord.gg/wnGAB3TYAY)
 
 [BSData.net]: https://www.bsdata.net/
 [bug report]: https://github.com/BSData/TemplateDataRepo/issues/new/choose
