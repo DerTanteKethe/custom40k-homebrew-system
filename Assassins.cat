@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="e632-5701-d96b-a286" name="Assassins" gameSystemId="sys-40a3-0cde-5873-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Callidus Assassin" hidden="false" id="1b82-385c-55a0-2970">
+      <costs>
+        <cost name="pts" typeId="40d8-7900-73a1-1378" value="163"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Neural Shredder" hidden="false" id="6ad9-165c-a417-08c1">
+          <profiles>
+            <profile name="Neural Shredder" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="4e25-960b-14b4-83d3">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flames, Seeking</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="765a-a1a5-8e03-eaf9"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d4c-c5cd-453e-9dc7"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Phase Sword" hidden="false" id="6b93-9b5c-3480-4bf5">
+          <profiles>
+            <profile name="Phase Sword" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="0a32-d010-8217-5916">
+              <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">+1</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-3</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">2</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">Shield Breaker(-2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bb8-da54-d24f-755e"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="87fa-48f4-75b7-e938"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="0da3-6387-627a-4b8f" targetId="79f3-f25d-2e24-7130" primary="false"/>
+        <categoryLink name="Callidus Assassin" hidden="false" id="4bd1-861c-e82b-b8dd" targetId="94a2-e26d-25e2-b635" primary="false"/>
+        <categoryLink name="Elite" hidden="false" id="7b46-063f-9bda-01dd" targetId="e998-b6e1-9f43-6739" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Parry" id="e13a-8e2c-404f-4f4a" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+        <infoLink name="Lightning Reflexes" id="54b3-5eec-cbcc-b6f3" hidden="false" type="profile" targetId="bf81-fc18-9366-b3ba"/>
+        <infoLink name="Deflect" id="9a7a-218e-acf9-7eb7" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+        <infoLink name="Hit &amp; Run" id="039e-6c13-5e23-79ae" hidden="false" type="rule" targetId="3120-d192-37d7-bf60"/>
+        <infoLink name="Infiltrator" id="3d5a-1190-9399-913e" hidden="false" type="rule" targetId="276b-ef81-2a62-da70"/>
+        <infoLink name="Move Through Cover" id="e09f-95ae-b07c-adb0" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="33c3-6e37-a903-64af" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Callidus Assasin" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="bb25-119f-e7c3-0190">
+          <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">4</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">6</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">9</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Neural Shredder" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="eb35-4308-705c-6156">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">To wound rolls are made against the target&apos;s Leadership value, instead of their Toughness. It has no effect on units without a Leadership value.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Polymorphine" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="21d3-b529-5637-912b">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The unit can always be set up as a reserve. When placed as a reserve, it can appear anywhere on the battlefield without scatter as long as it remains 3&quot; away from any enemy unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reign of Confusion" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="b4d9-ea79-809c-70cd">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You may re-roll your first initiative roll and the enemy player gets a -2 penalty to their first reserve roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Lone Operative" id="8af6-bfcc-71ff-add1" hidden="false">
+          <description>An army may only have one Assassin.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Culexus Assassin" hidden="false" id="fd77-1218-72e3-03ba">
+      <costs>
+        <cost name="pts" typeId="40d8-7900-73a1-1378" value="190"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Animus Speculum" hidden="false" id="22e2-e3f5-96b5-aa07">
+          <profiles>
+            <profile name="Animus Speculum" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="066b-82b0-3c4d-79f8">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">If a psyker is within 18&quot;, the type is changed to &quot;Assault 6&quot;.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0242-1fe2-48cc-2f96"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24f2-e4ef-906c-51c2"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Life Drain" hidden="false" id="6540-8051-84f6-806d">
+          <profiles>
+            <profile name="Life Drain" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="e243-447e-3940-cd91">
+              <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">T</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-5</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">2</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">Poison(2+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a0f-f286-8eb9-fe20"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c748-23f8-c15a-8af9"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="6a70-91ce-14f0-7320" targetId="79f3-f25d-2e24-7130" primary="false"/>
+        <categoryLink name="Culexus Assassin" hidden="false" id="70bd-8b86-abc7-1d5d" targetId="ab36-fdf6-4fd0-3afb" primary="false"/>
+        <categoryLink name="Elite" hidden="false" id="7973-5861-d6f5-4a51" targetId="e998-b6e1-9f43-6739" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="04c4-9ff3-11bc-2855" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Abomination" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="f4a9-c619-4893-250f">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The unit can never be affected by psychic powers. Psykers within 18&quot; suffer a -2 penalty to manifest and deny psychic powers. All models within 18&quot; suffer a -2 penalty to their Leadership.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Culexus Assassin" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="14ee-aa70-ee5b-3988">
+          <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">4</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">6</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">9</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Etherium" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="3b03-10d9-a438-d4be">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The Culexus can never be hit on anything better but a natural roll of 6.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Lightning Reflexes" id="7f42-cd3c-9767-123a" hidden="false" type="profile" targetId="bf81-fc18-9366-b3ba"/>
+        <infoLink name="Hit &amp; Run" id="5f0d-b7ff-6c9c-2590" hidden="false" type="rule" targetId="3120-d192-37d7-bf60"/>
+        <infoLink name="Infiltrator" id="7c1e-6b68-86cd-4e94" hidden="false" type="rule" targetId="276b-ef81-2a62-da70"/>
+        <infoLink name="Move Through Cover" id="61ad-771c-9fff-5f99" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+      </infoLinks>
+      <rules>
+        <rule name="Lone Operative" id="6ce0-af36-69a5-dfe2" hidden="false">
+          <description>An army may only have one Assassin.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vindicare Assassin" hidden="false" id="6e2f-65a2-7d80-2f4a">
+      <costs>
+        <cost name="pts" typeId="40d8-7900-73a1-1378" value="174"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="3938-7cb5-c222-4dfc" targetId="79f3-f25d-2e24-7130" primary="false"/>
+        <categoryLink name="Vindicare Assassin" hidden="false" id="4bd5-5d76-011b-cda8" targetId="4818-6ed0-3e24-d422" primary="false"/>
+        <categoryLink name="Elite" hidden="false" id="b265-6f2e-58c1-5740" targetId="e998-b6e1-9f43-6739" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Exitus Pistol" hidden="false" id="fd1b-f841-c04c-22b3">
+          <profiles>
+            <profile name="Exitus Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="288d-2cf1-e5ec-7f6a">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Poison(2+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="42ef-2b04-222c-ba06"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bdb-b136-bf46-555a"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Exitus Rifle" hidden="false" id="d6e8-0d9d-e857-be7a">
+          <profiles>
+            <profile name="➤Exitus Rifle - Hellfire" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="1576-5856-2c56-c741">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Poison(2+), Seeking, Suppression</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="➤Exitus Rifle - Turbo Penetrator" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="75de-5207-a2e9-05c0">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Armorbane, AT(3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da76-9147-4b4e-3754"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b15e-34f9-010e-d2cd"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="df70-fb1d-38db-12d4" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Headshot" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="59ec-83e0-1fef-8521">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If an enemy model suffers a wound from the Exitus rifle or pistol but is not eliminated, roll 1D6. On a 3+ the model suffers another wound with no save allowed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Perfect aim" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="f799-b05f-65c7-6ec9">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The model ignores any negative to hit modifications. The player may chose which model in the target unit has to be removed as a casualty.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Vindicare Assassin" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="68ad-0cec-5e90-2121">
+          <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">4</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">6</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">9</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Lightning Reflexes" id="15af-02a5-c3c4-0d07" hidden="false" type="profile" targetId="bf81-fc18-9366-b3ba"/>
+        <infoLink name="Deflect" id="a26c-a34b-01a4-b9a2" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+        <infoLink name="Hit &amp; Run" id="4419-c941-4455-550e" hidden="false" type="rule" targetId="3120-d192-37d7-bf60"/>
+        <infoLink name="Infiltrator" id="be92-a7aa-84b3-b84e" hidden="false" type="rule" targetId="276b-ef81-2a62-da70"/>
+        <infoLink name="Move Through Cover" id="4cc1-df84-454d-8b6f" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+        <infoLink name="Parry" id="4c52-3ed9-20a9-99f8" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+      </infoLinks>
+      <rules>
+        <rule name="Lone Operative" id="67ae-68d4-739a-9687" hidden="false">
+          <description>An army may only have one Assassin.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Eversor Assassin" hidden="false" id="37aa-b6e4-b18b-e28e">
+      <costs>
+        <cost name="pts" typeId="40d8-7900-73a1-1378" value="119"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="0ced-e232-05db-1888" targetId="79f3-f25d-2e24-7130" primary="false"/>
+        <categoryLink name="Eversor Assassin" hidden="false" id="c38a-d1c5-ad2e-a8b9" targetId="ee7a-fdf3-1958-dd5e" primary="false"/>
+        <categoryLink name="Elite" hidden="false" id="f15f-5ca8-398c-a8be" targetId="e998-b6e1-9f43-6739" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Executioner Pistol" hidden="false" id="a413-c09d-4784-9336">
+          <profiles>
+            <profile name="Executioner Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="820f-c565-90b4-9509">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Poison(2+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfd4-207a-44f5-8d6e"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96e3-6b7d-48fa-7c44"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="7192-b311-71aa-2d94">
+          <profiles>
+            <profile name="Melta Bombs" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="6d39-448e-d22b-7cfd">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">3&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Armorbane, AT(2)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3cb1-c3fb-fcae-d54e"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b48-ce5a-385b-216f"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Neuro Gauntlet" hidden="false" id="1108-5ca9-f56c-397b">
+          <profiles>
+            <profile name="Neuro Gauntlet" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="ae64-7f71-3f5a-c302">
+              <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">+1</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-3</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">2</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">Flurry(2), Shred</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44a2-8d3a-8d17-0de8"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7b2-76d3-12f3-46be"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5269-2f5b-c31d-ca37" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Bio meltdown" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="e9c4-d98b-bfea-e47b">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">After the unit is eliminated, all units within a 6&quot; radius suffer 1D3 automatic wounds with not saves allowed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eversor Assassin" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="7bc1-aeaf-29c5-60d5">
+          <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">4</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">6</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">9</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hyper metabolism" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="d991-4dcc-5db5-b319">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The model got a charge range of 12&quot; and gets 1D6+1 bonus attacks for charging instead of just 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stim overdrive" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="c3d6-0ecf-bc8b-653c">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per game the unit can double its attacks. Decide to use this rule when it is the Eversor&apos;s turn to fight in melee. Then remove the unit and execute the “Bio meltdown” rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Lightning Reflexes" id="9f79-5b3a-3ce1-7684" hidden="false" type="profile" targetId="bf81-fc18-9366-b3ba"/>
+        <infoLink name="Deflect" id="4204-8214-944d-b8ca" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+        <infoLink name="Furious Charge" id="7001-3a8a-260b-00ed" hidden="false" type="rule" targetId="8140-a6a8-b99c-8fb3"/>
+        <infoLink name="Hit &amp; Run" id="3cd8-2053-57a6-971d" hidden="false" type="rule" targetId="3120-d192-37d7-bf60"/>
+        <infoLink name="Infiltrator" id="c654-94b2-6f96-6579" hidden="false" type="rule" targetId="276b-ef81-2a62-da70"/>
+        <infoLink name="Move Through Cover" id="c95d-44ae-6091-46bc" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+        <infoLink name="Parry" id="8cb0-e09d-1a9e-ed62" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+      </infoLinks>
+      <rules>
+        <rule name="Lone Operative" id="eb5b-a630-3402-75ce" hidden="false">
+          <description>An army may only have one Assassin.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Callidus Assassin" hidden="false" id="5acc-d37d-127a-a256" type="selectionEntry" targetId="1b82-385c-55a0-2970">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="ac7d-1933-b746-f813" targetId="251a-e788-36d5-a036" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Culexus Assassin" hidden="false" id="25e8-48f3-cf63-2996" type="selectionEntry" targetId="fd77-1218-72e3-03ba">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="32df-11fb-bd90-192d" targetId="251a-e788-36d5-a036" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Eversor Assassin" hidden="false" id="eb02-77b7-1cf6-78a5" type="selectionEntry" targetId="37aa-b6e4-b18b-e28e">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="12c0-32ed-27a9-16b1" targetId="251a-e788-36d5-a036" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vindicare Assassin" hidden="false" id="8043-a4f8-4d38-9e61" type="selectionEntry" targetId="6e2f-65a2-7d80-2f4a">
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="297e-789b-da46-c525" targetId="251a-e788-36d5-a036" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedRules>
+    <rule name="Lightning Reflexes" id="62ec-db58-d522-deda" hidden="false" publicationId="f731-6aa6-pubN66377">
+      <description>A model with this special rule has a 4+ invulnerable save.</description>
+    </rule>
+    <rule name="Lone Operative" id="ee36-f3ae-b493-6f6d" hidden="false">
+      <description>An army may only have one Assassin.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile name="Lightning Reflexes" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="bf81-fc18-9366-b3ba">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this special rule has a 4+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <categoryEntries>
+    <categoryEntry name="Callidus Assassin" id="94a2-e26d-25e2-b635" hidden="false"/>
+    <categoryEntry name="Culexus Assassin" id="ab36-fdf6-4fd0-3afb" hidden="false"/>
+    <categoryEntry name="Vindicare Assassin" id="4818-6ed0-3e24-d422" hidden="false"/>
+    <categoryEntry name="Eversor Assassin" id="ee7a-fdf3-1958-dd5e" hidden="false"/>
+  </categoryEntries>
+</catalogue>
