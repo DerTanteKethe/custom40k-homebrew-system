@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="03ae-a0c4-a8b6-09a5" name="Leagues of Votann" gameSystemId="sys-40a3-0cde-5873-2d56" gameSystemRevision="1" revision="1" authorName="DerTanteKethe" authorContact="https://github.com/DerTanteKethe" authorUrl="https://github.com/DerTanteKethe" battleScribeVersion="2.03" page="https://docs.google.com/spreadsheets/d/1lZ6MxdCM710N-d4ba9RUSdhmeN8iJjzM5hlpVf73iPY/edit?gid=1160536425#gid=1160536425" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Original Publication</comment>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Brôkhyr Iron-master" hidden="false" id="1743-4050-f450-0a81">
+      <categoryLinks>
+        <categoryLink targetId="681b-82fd-7cc4-8ef8" id="84e2-701b-8146-e937" primary="true" name="HQ"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="40d8-7900-73a1-1378" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Brôkhyr Iron-master" id="fe98-dacc-7536-dc7d" hidden="false" type="profile" targetId="3f76-0784-43d7-cf5d"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Brôkhyr Iron-master" hidden="false" id="4d29-56fa-1471-35cf">
+          <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="67"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="681b-82fd-7cc4-8ef8" id="4f05-2a0a-d125-d441" primary="true" name="HQ"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d641-1099-fd42-fe11"/>
+          </constraints>
+          <profiles>
+            <profile name="Graviton Hammer" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="dded-61ef-ed04-31e9">
+              <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">x2</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-3</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">3</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">AT(2), Graviton, Slow(-3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Brôkhyr Iron-master" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="3f76-0784-43d7-cf5d">
+      <characteristics>
+        <characteristic name="M" typeId="2734-8af3-55f8-d225">6</characteristic>
+        <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3</characteristic>
+        <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3</characteristic>
+        <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+        <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+        <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+        <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+        <characteristic name="A" typeId="2813-4494-0abe-7149">2</characteristic>
+        <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">8</characteristic>
+        <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brôkhyr Forge-master" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="8299-f7f9-c0f6-56fb">
+      <characteristics>
+        <characteristic name="M" typeId="2734-8af3-55f8-d225">6</characteristic>
+        <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3</characteristic>
+        <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3</characteristic>
+        <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+        <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+        <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+        <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+        <characteristic name="A" typeId="2813-4494-0abe-7149">3</characteristic>
+        <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">9</characteristic>
+        <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="E-COG" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="9ca9-6cc9-83a8-0798">
+      <characteristics>
+        <characteristic name="M" typeId="2734-8af3-55f8-d225">6</characteristic>
+        <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">4</characteristic>
+        <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">4</characteristic>
+        <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+        <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+        <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">1</characteristic>
+        <characteristic name="I" typeId="4f40-356e-7cce-48e8">3</characteristic>
+        <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+        <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">6</characteristic>
+        <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">5</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink targetId="1743-4050-f450-0a81" id="cf7d-08f6-8b13-f5b7" type="selectionEntry" name="Brôkhyr Iron-master" hidden="false"/>
+  </entryLinks>
+  <sharedRules>
+    <rule name="Eye of the Ancestors" id="060b-513a-ea60-6b38" hidden="false">
+      <description>Everytime a friendly unit is removed from the game, place a Judgement token next to the enemy unit that caused the last wound. An enemy unit can&apos;t have more than 2 Judgement tokens at the same time. All friendly units attacking a target with at least 1 Judgement token gain the following, cumulative benefits:
+
+
+Judgment tokens Effect
+1 Re-roll 1 hit roll per activation
+2 Re-roll 1 wound roll per activation
+
+
+Character models that join a unit pool their Judgement tokens together. Once they leave the unit, these tokens have to be split up evenly.</description>
+    </rule>
+    <rule name="Steady Advance" id="4624-e7a3-6ef3-c5d0" hidden="false">
+      <description>The unit can never receive an &quot;Advance&quot; order and gains the &quot;Move through cover&quot; ability.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
