@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="b76d-fa02-cfe4-43e8" name="Harlequins" gameSystemId="sys-40a3-0cde-5873-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
+    <sharedSelectionEntries>
+        <selectionEntry type="unit" import="true" name="Great Harlequin" hidden="false" id="f2d6-0aa2-9eb7-41ce">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Great Harlequin" hidden="false" id="4ab7-671a-ff52-48844" defaultAmount=1>
+                    <constraints>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="4374-85f1-61b7-494e" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="a274-b241-4206-437e" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="73"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Great Harlequin weapons" id="ef49-7e5c-c6ac-4cd3" hidden="false" type="profile" targetId="95e1-17b6-52fd-445e"/>
+                        <infoLink name="Plasma grenade" id="0b1b-af5f-f71b-4bd7" hidden="false" type="profile" targetId="32ec-fbf8-6d7a-486e"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Character model" hidden="false" id="b2f4-13ca-6662-48b31" targetId="8005-00e1-1066-035d" primary="false"/>
+                <categoryLink name="Infantry" hidden="false" id="6d40-56d8-e5e2-4c4b1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="HQ" hidden="false" id="69a1-02d1-1c60-47b7" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Anti-grav" id="3eb6-15dc-476d-46ff" hidden="false" type="rule" targetId="37ce-5cc2-05ae-4ce8"/>
+                <infoLink name="Deflect" id="2309-66a4-9feb-4dde" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Parry" id="0b58-0058-775d-429a" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Terrifying(-1)" id="97e0-ec8e-3e3e-4d5b" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="$Harlequins$" id="6082-ab39-3530-43df" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="Cegorach’s Favour" id="33b0-fe4b-239d-4a79" hidden="false" type="rule" targetId="27b8-16d1-eafa-4dc8"/>
+                <infoLink name="Holo-suit" id="be90-3238-f03f-4e99" hidden="false" type="rule" targetId="d797-c245-feb5-467e"/>
+                <infoLink name="Great Harlequin" id="65aa-c046-3375-4e2d" hidden="false" type="profile" targetId="24a9-0eb5-54b5-4737"/>
+            </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Troupe" hidden="false" id="a38a-a3da-dffe-4aa9">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Troupe" hidden="false" id="bf58-65c7-c8f5-46064" defaultAmount=5>
+                    <constraints>
+                        <constraint type="max" value=12 field="selections" scope="parent" shared="true" id="b8ad-a76a-8c35-4afc" includeChildSelections="true"/>
+                        <constraint type="min" value=5 field="selections" scope="parent" shared="true" id="3fc8-d776-3031-4491" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="23"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Fusion pistol" id="7e0a-1b04-ddf6-484f" hidden="false" type="profile" targetId="a2a3-1bcc-885d-4ff4"/>
+                        <infoLink name="Harlequin weapons" id="3455-887e-c060-4e51" hidden="false" type="profile" targetId="948b-c25f-3f95-4a0c"/>
+                        <infoLink name="Neuro disruptor" id="23bd-0c35-e27b-4077" hidden="false" type="profile" targetId="d574-40f5-adf8-4e57"/>
+                        <infoLink name="Plasma grenade" id="d548-098f-dd8c-48bc" hidden="false" type="profile" targetId="32ec-fbf8-6d7a-486e"/>
+                        <infoLink name="Shuriken pistol" id="6769-7818-342e-4f58" hidden="false" type="profile" targetId="3d75-7c0b-90e0-4fcd"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Infantry" hidden="false" id="8171-1db7-eab5-4eab1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Troops" hidden="false" id="0723-b1fc-57ad-4c7d" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Anti-grav" id="6758-8e64-d3a6-43f4" hidden="false" type="rule" targetId="37ce-5cc2-05ae-4ce8"/>
+                <infoLink name="Deflect" id="49cb-6216-ffa1-4c35" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Parry" id="2c2b-e7bd-7bce-411e" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Terrifying(-1)" id="2a3f-f09c-7a91-4729" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="$Harlequins$" id="b4a0-f44e-a5f2-4185" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="Holo-suit" id="89e0-dd42-c493-4450" hidden="false" type="rule" targetId="d797-c245-feb5-467e"/>
+                <infoLink name="Neuro disruptor" id="007b-93bf-5192-4b65" hidden="false" type="rule" targetId="8fd0-e940-27ac-407b"/>
+                <infoLink name="Troupe" id="ad35-a217-b21c-40d3" hidden="false" type="profile" targetId="7dd9-4963-8899-4641"/>
+            </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Death Jester" hidden="false" id="7ff5-c02b-c9a7-4ced">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Death Jester" hidden="false" id="eb85-e13c-19f0-451b4" defaultAmount=1>
+                    <constraints>
+                        <constraint type="max" value=2 field="selections" scope="parent" shared="true" id="c3d0-0b57-54f0-460c" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="d32e-35a0-cbe0-4c47" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="64"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Aeldari missile launcher *" id="4a01-fa1d-71e6-44bb" hidden="false" type="profile" targetId="fbf6-e70c-e826-4002"/>
+                        <infoLink name="- Sunburst" id="c727-02b3-80f4-411e" hidden="false" type="profile" targetId="f3a6-5e53-bc87-47dd"/>
+                        <infoLink name="- Starshot" id="6b13-c250-ffa9-438f" hidden="false" type="profile" targetId="adf2-b7dd-22b9-4485"/>
+                        <infoLink name="Bright lance" id="fb84-abbe-5746-4510" hidden="false" type="profile" targetId="2c99-e69e-e54c-4e81"/>
+                        <infoLink name="Harlequin weapons" id="5e4a-9921-795b-45fe" hidden="false" type="profile" targetId="948b-c25f-3f95-4a0c"/>
+                        <infoLink name="Plasma grenade" id="8efb-ed57-c498-4925" hidden="false" type="profile" targetId="32ec-fbf8-6d7a-486e"/>
+                        <infoLink name="Shrieker cannon" id="d2f7-dd26-78e1-40a3" hidden="false" type="profile" targetId="7ca4-4f47-9d1e-4072"/>
+                        <infoLink name="Shuriken cannon" id="6a01-e2f6-0025-4a0b" hidden="false" type="profile" targetId="8991-a44b-6497-4096"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Character model" hidden="false" id="a778-9137-4687-46871" targetId="8005-00e1-1066-035d" primary="false"/>
+                <categoryLink name="Infantry" hidden="false" id="7bcd-5c69-19aa-44611" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="8747-16cd-ae9f-40ba" targetId="e998-b6e1-9f43-6739" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Anti-grav" id="da52-0a97-8695-4b84" hidden="false" type="rule" targetId="37ce-5cc2-05ae-4ce8"/>
+                <infoLink name="Command squad" id="66e4-7393-4056-4534" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
+                <infoLink name="Deflect" id="c835-d4ab-9232-4bea" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Parry" id="43cb-139f-2c33-46fb" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Squadron" id="1836-3cca-81c3-46d9" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="Terrifying(-1)" id="739e-4f0a-e057-4c20" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="$Harlequins$" id="65b5-443f-4e83-4ba1" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="Holo-suit" id="e329-684b-00d2-4afd" hidden="false" type="rule" targetId="d797-c245-feb5-467e"/>
+                <infoLink name="Bio-explosion" id="9b0d-03be-4610-4e65" hidden="false" type="rule" targetId="4d37-558c-cb5c-45a5"/>
+                <infoLink name="Death Jester" id="e547-0213-9da2-46d0" hidden="false" type="profile" targetId="6a68-fad6-bd57-42c8"/>
+            </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Shadowseer" hidden="false" id="d805-1075-cc99-470b">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Shadowseer" hidden="false" id="ca54-9226-3505-4d434" defaultAmount=1>
+                    <constraints>
+                        <constraint type="max" value=2 field="selections" scope="parent" shared="true" id="93df-ea87-f63f-4736" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="93af-fede-5700-4c51" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="66"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Plasma grenade" id="1a6b-24e6-9726-4939" hidden="false" type="profile" targetId="32ec-fbf8-6d7a-486e"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Character model" hidden="false" id="eb56-7188-5259-4cf21" targetId="8005-00e1-1066-035d" primary="false"/>
+                <categoryLink name="Infantry" hidden="false" id="4131-1c15-b575-4cde1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="6f49-b36b-b431-4a79" targetId="e998-b6e1-9f43-6739" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Anti-grav" id="f8e7-afbb-4ec0-444b" hidden="false" type="rule" targetId="37ce-5cc2-05ae-4ce8"/>
+                <infoLink name="Command squad" id="cc13-e00b-5e84-4b01" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
+                <infoLink name="Deflect" id="3981-f8fa-a8bc-489d" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Parry" id="7773-9108-febc-484f" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Squadron" id="9fb2-7c47-fa8a-4c55" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="Terrifying(-1)" id="0e41-4fb9-cda4-4679" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="$Harlequins$" id="208a-cde6-de2f-4978" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="Holo-suit" id="712f-978e-2c0f-40a9" hidden="false" type="rule" targetId="d797-c245-feb5-467e"/>
+                <infoLink name="Psyker" id="98f2-c6f5-e3df-4b51" hidden="false" type="rule" targetId="943c-18af-a1bb-44ed"/>
+                <infoLink name="Shadowseer" id="4458-4e22-e242-4029" hidden="false" type="profile" targetId="9a32-b96e-538f-48e9"/>
+            </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Solitaire" hidden="false" id="36e1-6c71-fb82-4370">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Solitaire" hidden="false" id="86bc-c0ad-8f0a-42a14" defaultAmount=1>
+                    <constraints>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="5d10-ef42-3219-41f8" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="b72f-2534-d2a6-459a" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="94"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Solitaire weapons" id="2fbd-5c8c-e521-4eba" hidden="false" type="profile" targetId="f183-796d-7167-47bc"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Infantry" hidden="false" id="b844-7e21-fd14-42671" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="c41a-c215-1238-4e9d" targetId="e998-b6e1-9f43-6739" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Anti-grav" id="d902-da5c-f2f2-46bc" hidden="false" type="rule" targetId="37ce-5cc2-05ae-4ce8"/>
+                <infoLink name="Deep strike" id="0144-b2f7-d9a2-4402" hidden="false" type="rule" targetId="ea49-8f6d-64fe-e520"/>
+                <infoLink name="Deflect" id="b4e2-9c5b-9599-4fea" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Fearless" id="7a52-046f-7a28-441c" hidden="false" type="rule" targetId="a80b-2144-465a-1568"/>
+                <infoLink name="Parry" id="aed5-d691-6b52-42dd" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Terrifying(-1)" id="bc2f-006b-eb66-4af7" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="$Harlequins$" id="b773-6696-a9e6-4218" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="Holo-suit" id="6620-9b59-fa1f-4b97" hidden="false" type="rule" targetId="d797-c245-feb5-467e"/>
+                <infoLink name="Blitz" id="5f95-176d-7308-456d" hidden="false" type="rule" targetId="5ebb-4196-dd6a-419a"/>
+                <infoLink name="Impossible Form" id="30ea-6085-5b18-4b4f" hidden="false" type="rule" targetId="87bd-91da-f6cb-49e2"/>
+                <infoLink name="Path of Damnation" id="a323-b42d-3c4e-4529" hidden="false" type="rule" targetId="131e-e744-6061-42c1"/>
+                <infoLink name="Solitaire" id="0566-4133-6b2a-4ee8" hidden="false" type="profile" targetId="821b-6167-e973-4a5c"/>
+            </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Skyweavers" hidden="false" id="589e-cc8e-19c0-4c4e">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Skyweavers" hidden="false" id="2924-6a8a-0ce5-4e1d4" defaultAmount=2>
+                    <constraints>
+                        <constraint type="max" value=6 field="selections" scope="parent" shared="true" id="fe8e-2a31-5511-4589" includeChildSelections="true"/>
+                        <constraint type="min" value=2 field="selections" scope="parent" shared="true" id="f31e-f96a-969f-41d5" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="81"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Haywire cannon" id="e770-9825-d094-4647" hidden="false" type="profile" targetId="7a23-db57-3d94-4b0a"/>
+                        <infoLink name="Shuriken cannon" id="b70d-16b2-9238-4d0a" hidden="false" type="profile" targetId="8991-a44b-6497-4096"/>
+                        <infoLink name="Star bolas" id="4ec7-8dcf-edea-4b24" hidden="false" type="profile" targetId="925d-4a50-10ad-4e4c"/>
+                        <infoLink name="Twin shuriken catapult" id="e7ad-da63-2d70-4123" hidden="false" type="profile" targetId="d99e-e754-aca6-4db1"/>
+                        <infoLink name="Zephyrglaive" id="3c6a-bda2-00c0-4f04" hidden="false" type="profile" targetId="3b61-f5ba-85d6-4dc3"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Jetbike" hidden="false" id="a427-fe1f-9d56-46801" targetId="8fdb-fe9a-7327-4372" primary="false"/>
+                <categoryLink name="Fast Attack" hidden="false" id="d026-8270-b60a-4872" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Deflect" id="975a-18a7-52c2-4b04" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Parry" id="b768-cb14-a8f4-44cd" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Terrifying(-1)" id="fb17-2e52-01d6-44f6" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="$Harlequins$" id="a5b8-28e6-d388-48bb" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="Holo-suit" id="94e7-d7f5-1fbd-40aa" hidden="false" type="rule" targetId="d797-c245-feb5-467e"/>
+                <infoLink name="Mirage launcher" id="ff38-ed7d-0df9-4bd9" hidden="false" type="rule" targetId="4ef8-102d-21e8-4ce0"/>
+                <infoLink name="Skyweavers" id="dbfe-fcac-75cd-4d0e" hidden="false" type="profile" targetId="e9a7-2b41-ca82-4eed"/>
+            </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Harlequin Wraithlord" hidden="false" id="0c30-b750-3c64-4f62">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Harlequin Wraithlord" hidden="false" id="94f1-cc9d-6ec7-40534" defaultAmount=1>
+                    <constraints>
+                        <constraint type="max" value=2 field="selections" scope="parent" shared="true" id="08a0-0985-5f82-47b4" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="7ae4-113e-5e48-4cd9" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="260"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Aeldari flamer" id="718e-7757-afa4-48e4" hidden="false" type="profile" targetId="34a1-b81b-5f50-4bbd"/>
+                        <infoLink name="Aeldari missile launcher *" id="d3c1-ba83-6e3e-4966" hidden="false" type="profile" targetId="fbf6-e70c-e826-4002"/>
+                        <infoLink name="- Sunburst" id="25e6-2ca1-dd6e-4067" hidden="false" type="profile" targetId="f3a6-5e53-bc87-47dd"/>
+                        <infoLink name="- Starshot" id="4ba5-6abb-8c54-4df0" hidden="false" type="profile" targetId="adf2-b7dd-22b9-4485"/>
+                        <infoLink name="Bright lance" id="73d8-5478-a704-4905" hidden="false" type="profile" targetId="2c99-e69e-e54c-4e81"/>
+                        <infoLink name="Ghostglaive" id="84ca-31ad-edf8-4d85" hidden="false" type="profile" targetId="7b48-2d88-0f15-4f7a"/>
+                        <infoLink name="Scatter laser" id="11f4-7acf-03a5-450a" hidden="false" type="profile" targetId="5f6b-6056-4af7-4eae"/>
+                        <infoLink name="Shuriken cannon" id="a55e-2dbf-a71b-4697" hidden="false" type="profile" targetId="8991-a44b-6497-4096"/>
+                        <infoLink name="Shuriken catapult" id="9355-8fac-98ee-4181" hidden="false" type="profile" targetId="2103-e580-cd53-4485"/>
+                        <infoLink name="Starcannon" id="736e-22c0-d10c-4139" hidden="false" type="profile" targetId="e881-13e0-752e-4dc8"/>
+                        <infoLink name="Wraithbone fists" id="ae96-7d4d-944a-4d07" hidden="false" type="profile" targetId="9331-b38d-950e-4383"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Monstrous creature" hidden="false" id="2c8a-498a-c847-413e1" targetId="efc0-368c-ccad-42a3" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="3a70-42b4-9b8a-4ede" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Squadron" id="2f4b-e057-1ef6-40f7" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="Terrifying(-1)" id="8d58-722a-2440-4455" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="$Harlequins$" id="078c-92fd-8973-4215" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="$Wraith$" id="b14c-8a09-e42f-4b20" hidden="false" type="rule" targetId="e99e-b470-a8ea-4c06"/>
+                <infoLink name="Holo-suit" id="eb4c-6bd3-048f-4753" hidden="false" type="rule" targetId="d797-c245-feb5-467e"/>
+                <infoLink name="Wraithbone" id="b584-403f-855a-44d0" hidden="false" type="rule" targetId="aaf6-1f11-4b5a-4bd8"/>
+                <infoLink name="Harlequin Wraithlord" id="fcf2-9853-c65c-4601" hidden="false" type="profile" targetId="a3b3-96d6-7d34-4e25"/>
+            </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Voidweaver" hidden="false" id="e278-70e2-ac0b-4137">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Voidweaver" hidden="false" id="edb7-e258-c268-4abc4" defaultAmount=1>
+                    <constraints>
+                        <constraint type="max" value=2 field="selections" scope="parent" shared="true" id="52a6-1d91-cca4-4b6c" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="185b-7d15-8eb4-4bf5" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="238"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Haywire cannon" id="a0b8-874b-6383-4ab7" hidden="false" type="profile" targetId="7a23-db57-3d94-4b0a"/>
+                        <infoLink name="Shuriken cannon" id="d138-5275-523f-414e" hidden="false" type="profile" targetId="8991-a44b-6497-4096"/>
+                        <infoLink name="Prismatic cannon" id="fc79-3b75-f3d6-47cc" hidden="false" type="profile" targetId="1a94-2991-d0a7-48b4"/>
+                        <infoLink name="- Lance" id="b862-85c4-c3c6-43fc" hidden="false" type="profile" targetId="05c9-bbc3-fd46-4026"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Vehicle" hidden="false" id="5433-0cfb-b9fb-40421" targetId="243a-2cd5-61a0-1b44" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="7dea-9898-b7cd-40be" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Anti-Grav" id="a7f7-6f7d-1180-40ec" hidden="false" type="rule" targetId="1694-8bbc-0a3e-a52d"/>
+                <infoLink name="Fast" id="9513-cadf-277a-4e87" hidden="false" type="rule" targetId="2ba2-3d77-c587-697d"/>
+                <infoLink name="Open" id="33b2-b46a-9082-46d0" hidden="false" type="rule" targetId="8856-b7c8-106b-42c5"/>
+                <infoLink name="Squadron" id="522d-5a60-07cf-44a4" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="$Harlequins$" id="81eb-01d9-d323-40ba" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="Mirage launcher" id="7740-4e43-09e0-4d1f" hidden="false" type="rule" targetId="4ef8-102d-21e8-4ce0"/>
+                <infoLink name="Voidweaver" id="a0c6-5d0c-de45-46f0" hidden="false" type="profile" targetId="da7c-294d-411f-4286"/>
+            </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Starweaver" hidden="false" id="03d3-5e86-6081-488d">
+            <selectionEntries>
+                <selectionEntry type="model" import="true" name="Starweaver" hidden="false" id="7f8b-c4b3-dbd1-46da4" defaultAmount=1>
+                    <constraints>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="8422-bcb6-8667-4653" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="c543-9921-7b11-485d" includeChildSelections="false"/>
+                    </constraints>
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="226"/>
+                    </costs>
+                    <infoLinks>
+                        <infoLink name="Shuriken cannon" id="4c46-0fa3-9803-4a20" hidden="false" type="profile" targetId="8991-a44b-6497-4096"/>
+                    </infoLinks>
+                </selectionEntry>
+            </selectionEntries>
+            <categoryLinks>
+                <categoryLink name="Vehicle" hidden="false" id="6e71-08d6-4110-42c51" targetId="243a-2cd5-61a0-1b44" primary="false"/>
+                <categoryLink name="Transports" hidden="false" id="a5a0-72ba-fa5e-430d" targetId="8046-e26a-aa36-3308" primary="true"/>
+            </categoryLinks>
+            <infoLinks>
+                <infoLink name="Anti-Grav" id="16d2-ce39-bc96-451e" hidden="false" type="rule" targetId="1694-8bbc-0a3e-a52d"/>
+                <infoLink name="Fast" id="27d1-f107-07d9-45b2" hidden="false" type="rule" targetId="2ba2-3d77-c587-697d"/>
+                <infoLink name="Open" id="a04b-f256-3cf8-4b55" hidden="false" type="rule" targetId="8856-b7c8-106b-42c5"/>
+                <infoLink name="$Harlequins$" id="694a-c1f6-32d7-49c7" hidden="false" type="rule" targetId="63fe-b6ba-5301-43f9"/>
+                <infoLink name="Holo-suit" id="b984-61d2-ef1f-444d" hidden="false" type="rule" targetId="d797-c245-feb5-467e"/>
+                <infoLink name="Mirage launcher" id="97d4-87ce-a8fd-4466" hidden="false" type="rule" targetId="4ef8-102d-21e8-4ce0"/>
+                <infoLink name="Transport" id="f123-933f-6ecc-41fd" hidden="false" type="rule" targetId="02d1-9e4a-7267-467e"/>
+                <infoLink name="Starweaver" id="5ba3-6055-ba5c-49e3" hidden="false" type="profile" targetId="242b-7f6c-ccce-42d5"/>
+            </infoLinks>
+        </selectionEntry>
+    </sharedSelectionEntries>
+    <sharedProfiles>
+        <profile name="Great Harlequin" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="24a9-0eb5-54b5-4737">
+            <characteristics>
+                <characteristic name="M" typeId="2734-8af3-55f8-d225">8"&quot;</characteristic>
+                <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+                <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+                <characteristic name="S" typeId="355a-95af-e32c-6a76">3</characteristic>
+                <characteristic name="T" typeId="f0a6-a47d-9895-24fd">3</characteristic>
+                <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+                <characteristic name="I" typeId="4f40-356e-7cce-48e8">7</characteristic>
+                <characteristic name="A" typeId="2813-4494-0abe-7149">5</characteristic>
+                <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">9</characteristic>
+                <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Great Harlequin weapons" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="95e1-17b6-52fd-445e">
+            <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">+2</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-4</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">2</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">Precision(5+)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Plasma grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="32ec-fbf8-6d7a-486e">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Troupe" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="7dd9-4963-8899-4641">
+            <characteristics>
+                <characteristic name="M" typeId="2734-8af3-55f8-d225">8"&quot;</characteristic>
+                <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+                <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+                <characteristic name="S" typeId="355a-95af-e32c-6a76">3</characteristic>
+                <characteristic name="T" typeId="f0a6-a47d-9895-24fd">3</characteristic>
+                <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">1</characteristic>
+                <characteristic name="I" typeId="4f40-356e-7cce-48e8">5</characteristic>
+                <characteristic name="A" typeId="2813-4494-0abe-7149">2</characteristic>
+                <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">8</characteristic>
+                <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Fusion pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="a2a3-1bcc-885d-4ff4">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1), Melta</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="6"/>
+        </costs>
+        <profile name="Harlequin weapons" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="948b-c25f-3f95-4a0c">
+            <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">+1</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-4</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">1</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">Precision(5+)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Neuro disruptor" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="d574-40f5-adf8-4e57">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Neuro disruptor</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="8"/>
+        </costs>
+        <profile name="Plasma grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="32ec-fbf8-6d7a-486e">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Shuriken pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="3d75-7c0b-90e0-4fcd">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Shuriken</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Death Jester" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="6a68-fad6-bd57-42c8">
+            <characteristics>
+                <characteristic name="M" typeId="2734-8af3-55f8-d225">8"&quot;</characteristic>
+                <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+                <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+                <characteristic name="S" typeId="355a-95af-e32c-6a76">3</characteristic>
+                <characteristic name="T" typeId="f0a6-a47d-9895-24fd">3</characteristic>
+                <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+                <characteristic name="I" typeId="4f40-356e-7cce-48e8">5</characteristic>
+                <characteristic name="A" typeId="2813-4494-0abe-7149">3</characteristic>
+                <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">9</characteristic>
+                <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Aeldari missile launcher *" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="fbf6-e70c-e826-4002">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="- Sunburst" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="f3a6-5e53-bc87-47dd">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="- Starshot" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="adf2-b7dd-22b9-4485">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Anti-Air, AT(1)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Bright lance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="2c99-e69e-e54c-4e81">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(2), Lance(+2)</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="56"/>
+        </costs>
+        <profile name="Harlequin weapons" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="948b-c25f-3f95-4a0c">
+            <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">+1</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-4</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">1</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">Precision(5+)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Plasma grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="32ec-fbf8-6d7a-486e">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Shrieker cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="7ca4-4f47-9d1e-4072">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Bio-explosion, Poison(2+), Shuriken, Suppression</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Shuriken cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8991-a44b-6497-4096">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Shuriken</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="20"/>
+        </costs>
+        <profile name="Shadowseer" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="9a32-b96e-538f-48e9">
+            <characteristics>
+                <characteristic name="M" typeId="2734-8af3-55f8-d225">8"&quot;</characteristic>
+                <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+                <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+                <characteristic name="S" typeId="355a-95af-e32c-6a76">3</characteristic>
+                <characteristic name="T" typeId="f0a6-a47d-9895-24fd">3</characteristic>
+                <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+                <characteristic name="I" typeId="4f40-356e-7cce-48e8">5</characteristic>
+                <characteristic name="A" typeId="2813-4494-0abe-7149">3</characteristic>
+                <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">9</characteristic>
+                <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Plasma grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="32ec-fbf8-6d7a-486e">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Solitaire" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="821b-6167-e973-4a5c">
+            <characteristics>
+                <characteristic name="M" typeId="2734-8af3-55f8-d225">12"&quot;</characteristic>
+                <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+                <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+                <characteristic name="S" typeId="355a-95af-e32c-6a76">3</characteristic>
+                <characteristic name="T" typeId="f0a6-a47d-9895-24fd">3</characteristic>
+                <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+                <characteristic name="I" typeId="4f40-356e-7cce-48e8">7</characteristic>
+                <characteristic name="A" typeId="2813-4494-0abe-7149">5</characteristic>
+                <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+                <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Solitaire weapons" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="f183-796d-7167-47bc">
+            <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">+2</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-4</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">2</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">Deadly(5+), Precision(4+)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Skyweavers" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="e9a7-2b41-ca82-4eed">
+            <characteristics>
+                <characteristic name="M" typeId="2734-8af3-55f8-d225">14"&quot;</characteristic>
+                <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+                <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+                <characteristic name="S" typeId="355a-95af-e32c-6a76">3</characteristic>
+                <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+                <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+                <characteristic name="I" typeId="4f40-356e-7cce-48e8">5</characteristic>
+                <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+                <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">8</characteristic>
+                <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Haywire cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="7a23-db57-3d94-4b0a">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive, Haywire</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="8"/>
+        </costs>
+        <profile name="Shuriken cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8991-a44b-6497-4096">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Shuriken</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="20"/>
+        </costs>
+        <profile name="Star bolas" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="925d-4a50-10ad-4e4c">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="7"/>
+        </costs>
+        <profile name="Twin shuriken catapult" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="d99e-e754-aca6-4db1">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Shuriken</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Zephyrglaive" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="3b61-f5ba-85d6-4dc3">
+            <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">+1</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-4</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">1</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">Quick(+1), Precision(5+)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Harlequin Wraithlord" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="a3b3-96d6-7d34-4e25">
+            <characteristics>
+                <characteristic name="M" typeId="2734-8af3-55f8-d225">8"&quot;</characteristic>
+                <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+                <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+                <characteristic name="S" typeId="355a-95af-e32c-6a76">7</characteristic>
+                <characteristic name="T" typeId="f0a6-a47d-9895-24fd">8</characteristic>
+                <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">6</characteristic>
+                <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+                <characteristic name="A" typeId="2813-4494-0abe-7149">3</characteristic>
+                <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+                <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Aeldari flamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="34a1-b81b-5f50-4bbd">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flames</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Aeldari missile launcher *" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="fbf6-e70c-e826-4002">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="- Sunburst" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="f3a6-5e53-bc87-47dd">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="- Starshot" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="adf2-b7dd-22b9-4485">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Anti-Air, AT(1)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Bright lance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="2c99-e69e-e54c-4e81">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(2), Lance(+2)</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="56"/>
+        </costs>
+        <profile name="Ghostglaive" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="7b48-2d88-0f15-4f7a">
+            <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">x2</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-4</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">2</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">AT(2), Flurry(1)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Scatter laser" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="5f6b-6056-4af7-4eae">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Suppression</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="19"/>
+        </costs>
+        <profile name="Shuriken cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8991-a44b-6497-4096">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Shuriken</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="20"/>
+        </costs>
+        <profile name="Shuriken catapult" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="2103-e580-cd53-4485">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Shuriken</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Starcannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="e881-13e0-752e-4dc8">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1)</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="49"/>
+        </costs>
+        <profile name="Wraithbone fists" typeId="77f2-c286-4a8e-85d6" typeName="Melee Weapons" hidden="false" id="9331-b38d-950e-4383">
+            <characteristics>
+                <characteristic name="Range" typeId="17a8-c6d1-4902-3240">-</characteristic>
+                <characteristic name="Type" typeId="85b8-b86f-84a1-6a8a">Melee</characteristic>
+                <characteristic name="S" typeId="dfe1-ab2e-bf82-b051">U</characteristic>
+                <characteristic name="AP" typeId="5769-5be9-c3dd-1b76">-2</characteristic>
+                <characteristic name="D" typeId="40a0-b76f-918f-50a5">1</characteristic>
+                <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">-</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Voidweaver" typeId="59b4-be0a-1831-66da" typeName="Vehicle" hidden="false" id="da7c-294d-411f-4286">
+            <characteristics>
+                <characteristic name="M" typeId="18ec-e05c-d636-557e">12"&quot;</characteristic>
+                <characteristic name="WS" typeId="719d-3cbe-e714-3a18">6+</characteristic>
+                <characteristic name="BS" typeId="8ed0-fc43-ed40-a444">3+</characteristic>
+                <characteristic name="S" typeId="a605-3723-dd34-38d9">5</characteristic>
+                <characteristic name="Front" typeId="e013-2266-f53b-17c5">10</characteristic>
+                <characteristic name="Side" typeId="fb94-2c8c-c703-abca">10</characteristic>
+                <characteristic name="Rear" typeId="08aa-4921-808a-162b">10</characteristic>
+                <characteristic name="I" typeId="7e1c-b2d7-d93f-6818">5</characteristic>
+                <characteristic name="A" typeId="4abb-397d-93bf-f21d">1</characteristic>
+                <characteristic name="HP" typeId="26e7-b9b8-b7d3-f27c">2</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Haywire cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="7a23-db57-3d94-4b0a">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive, Haywire</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="8"/>
+        </costs>
+        <profile name="Shuriken cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8991-a44b-6497-4096">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Shuriken</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="20"/>
+        </costs>
+        <profile name="Prismatic cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="1a94-2991-d0a7-48b4">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">-</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="29"/>
+        </costs>
+        <profile name="- Lance" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="05c9-bbc3-fd46-4026">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">7</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1), Beam, Lance(+1)</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Starweaver" typeId="59b4-be0a-1831-66da" typeName="Vehicle" hidden="false" id="242b-7f6c-ccce-42d5">
+            <characteristics>
+                <characteristic name="M" typeId="18ec-e05c-d636-557e">14"&quot;</characteristic>
+                <characteristic name="WS" typeId="719d-3cbe-e714-3a18">6+</characteristic>
+                <characteristic name="BS" typeId="8ed0-fc43-ed40-a444">3+</characteristic>
+                <characteristic name="S" typeId="a605-3723-dd34-38d9">5</characteristic>
+                <characteristic name="Front" typeId="e013-2266-f53b-17c5">10</characteristic>
+                <characteristic name="Side" typeId="fb94-2c8c-c703-abca">10</characteristic>
+                <characteristic name="Rear" typeId="08aa-4921-808a-162b">10</characteristic>
+                <characteristic name="I" typeId="7e1c-b2d7-d93f-6818">5</characteristic>
+                <characteristic name="A" typeId="4abb-397d-93bf-f21d">1</characteristic>
+                <characteristic name="HP" typeId="26e7-b9b8-b7d3-f27c">2</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Shuriken cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8991-a44b-6497-4096">
+            <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24"</characteristic>
+                <characteristic name="Type" typeId="8077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Shuriken</characteristic>
+            </characteristics>
+        </profile>
+        <costs>
+            <cost name="pts" typeId="40d8-7900-73a1-1378" value="20"/>
+        </costs>
+        <profile name="Cegorach’s Favour" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="27b8-16d1-eafa-4dc8">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The model may re-roll any one die per activation.</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Holo-suit" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="d797-c245-feb5-467e">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The model gains a 4+ invulnerability save.</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Neuro disruptor" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="8fd0-e940-27ac-407b">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll 3D6 after a successful hit and compare it with the Leadership value of the unit. If your roll is higher, the target suffers an automatic wound with no saves allowed.</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Bio-explosion" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="4d37-558c-cb5c-45a5">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a model is killed by the Shrieker cannon, it explodes! The remaining unit suffers 4 automatic hits with Strength 6, AP -1, Damage 1; Seeking.</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Psyker" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="943c-18af-a1bb-44ed">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The model can cast 1 power and deny 1 power per battle round. It knows Smite and all powers from a chosen discipline.</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Blitz" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="5ebb-4196-dd6a-419a">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Once per battle you can make a Blitz move. Add 1D6" to the Charge and Attack characteristics until the end of this turn.</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Impossible Form" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="87bd-91da-f6cb-49e2">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The model can't be targeted by anything outside of 18".</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Path of Damnation" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="131e-e744-6061-42c1">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The model can never be joined by other units.</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Mirage launcher" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="4ef8-102d-21e8-4ce0">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Instead of shooting a weapon, the unit may gain the benefit of cover.</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Wraithbone" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="aaf6-1f11-4b5a-4bd8">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Reduces AP of enemy attacks by -1 (to a minimum of 0).</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Transport" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities" hidden="false" id="02d1-9e4a-7267-467e">
+            <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a transport capacity of 6 infantry models.</characteristic>
+            </characteristics>
+        </profile>
+    </sharedProfiles>
+    <entryLinks>
+        <entryLink import="true" name="Great Harlequin" hidden="false" id="cb7e-a0fe-9849-4f98" type="selectionEntry" targetId="f2d6-0aa2-9eb7-41ce">
+            <categoryLinks>
+                <categoryLink name="HQ" hidden="false" id="3c28-9bfa-0f0e-4c5c" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Troupe" hidden="false" id="3978-6b8a-058d-44d5" type="selectionEntry" targetId="a38a-a3da-dffe-4aa9">
+            <categoryLinks>
+                <categoryLink name="Troops" hidden="false" id="ff5d-9d2f-d182-4122" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Death Jester" hidden="false" id="14ea-4b7f-b9b7-4010" type="selectionEntry" targetId="7ff5-c02b-c9a7-4ced">
+            <categoryLinks>
+                <categoryLink name="Elite" hidden="false" id="c633-e53d-9dcf-43b7" targetId="e998-b6e1-9f43-6739" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Shadowseer" hidden="false" id="1709-3bd1-efde-4532" type="selectionEntry" targetId="d805-1075-cc99-470b">
+            <categoryLinks>
+                <categoryLink name="Elite" hidden="false" id="266f-3dfc-422e-43d5" targetId="e998-b6e1-9f43-6739" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Solitaire" hidden="false" id="2d51-7c7a-f0bd-44c3" type="selectionEntry" targetId="36e1-6c71-fb82-4370">
+            <categoryLinks>
+                <categoryLink name="Elite" hidden="false" id="69bf-eb74-f8d6-495b" targetId="e998-b6e1-9f43-6739" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Skyweavers" hidden="false" id="15d3-52b8-744a-456d" type="selectionEntry" targetId="589e-cc8e-19c0-4c4e">
+            <categoryLinks>
+                <categoryLink name="Fast Attack" hidden="false" id="b6fe-089d-fcd8-4d30" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Harlequin Wraithlord" hidden="false" id="cfd5-1ef0-9d92-47a2" type="selectionEntry" targetId="0c30-b750-3c64-4f62">
+            <categoryLinks>
+                <categoryLink name="Heavy Support" hidden="false" id="c47b-a0a2-8d67-43de" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Voidweaver" hidden="false" id="f99c-a342-4fbd-45e0" type="selectionEntry" targetId="e278-70e2-ac0b-4137">
+            <categoryLinks>
+                <categoryLink name="Heavy Support" hidden="false" id="f0fe-ba87-e69e-4361" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+        <entryLink import="true" name="Starweaver" hidden="false" id="4fc5-0711-7974-4565" type="selectionEntry" targetId="03d3-5e86-6081-488d">
+            <categoryLinks>
+                <categoryLink name="Transports" hidden="false" id="724e-b822-f22a-45bb" targetId="8046-e26a-aa36-3308" primary="true"/>
+            </categoryLinks>
+        </entryLink>
+    </entryLinks>
+    <sharedRules>
+        <rule name="Shuriken" id="5fea-acb8-d34d-49ae" hidden="false">
+            <description>To wound rolls of 5+ gain additional -2 AP.</description>
+        </rule>
+        <rule name="Webway strike" id="3df8-43e6-602c-46e8" hidden="false">
+            <description>For each started 1000 points of game size, one infantry unit (including attached character models) may be set up using the rules for Infiltrators for +1 point per Wound.</description>
+        </rule>
+    </sharedRules>
+    <sharedSelectionEntryGroups>
+    </sharedSelectionEntryGroups>
+    <categoryEntries>
+    </categoryEntries>
+    <catalogueLinks>
+    </catalogueLinks>
+</catalogue>
