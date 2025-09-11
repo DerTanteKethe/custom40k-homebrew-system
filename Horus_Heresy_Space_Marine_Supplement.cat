@@ -3,77 +3,77 @@
     <sharedSelectionEntries>
         <selectionEntry type="unit" import="true" name="Legion Breacher Squad" hidden="false" id="b002-96a3-6326-449d">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Breacher Squad" hidden="false" id="ba52-e317-c462-47ee4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Breacher Squad" hidden="false" id="5c0b-c55c-b878-42514" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="acdb-b1e5-faef-44ff" includeChildSelections="false"/>
-                        <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="ec26-e373-399e-411e" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ddb8-712d-18cb-4081" includeChildSelections="false"/>
+                        <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="812a-ed28-875c-488a" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="40"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Breacher Squad" id="6324-e450-0b83-4e22" hidden="false" type="profile" targetId="e94a-7b91-8802-43ac"/>
+                        <infoLink name="Legion Breacher Squad" id="6ab7-ca53-5bc6-44b4" hidden="false" type="profile" targetId="e94a-7b91-8802-43ac"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="7b65-eb21-2fad-4ff5" hidden="false" defaultSelectionEntryId="8a3f-2f67-427f-4ebc">
+                        <selectionEntryGroup name="Weapon Choice" id="a5aa-0f7a-d9f9-4dc2" hidden="false" defaultSelectionEntryId="3bcb-6900-8e56-4d61">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="167c-482f-727f-4bd9" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="cd0f-278c-a47d-48dc" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Bolt pistol" id="167c-482f-727f-4bd91" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
+                                        <infoLink name="Bolt pistol" id="cd0f-278c-a47d-48dc1" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="9292-a889-300f-442a" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="0a43-8032-2151-4d59" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Boltgun" id="9292-a889-300f-442a1" hidden="false" type="profile" targetId="6637-0683-1fd2-4e1a"/>
+                                        <infoLink name="Boltgun" id="0a43-8032-2151-4d591" hidden="false" type="profile" targetId="6637-0683-1fd2-4e1a"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="5694-63d1-03b7-4eea" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="c17b-b7f1-6d3d-472c" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Flamer" id="5694-63d1-03b7-4eea1" hidden="false" type="profile" targetId="5c52-e8c6-5ce2-45b7"/>
+                                        <infoLink name="Flamer" id="c17b-b7f1-6d3d-472c1" hidden="false" type="profile" targetId="5c52-e8c6-5ce2-45b7"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="0"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="e004-7c65-1a39-4786" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="ba22-96f5-f648-49ca" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Frag grenade" id="e004-7c65-1a39-47861" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
+                                        <infoLink name="Frag grenade" id="ba22-96f5-f648-49ca1" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Graviton gun" hidden="false" id="52d3-e558-49b6-4323" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="Graviton gun" hidden="false" id="476a-fa75-7c03-4409" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="Graviton gun" id="52d3-e558-49b6-43231" hidden="false" type="profile" targetId="35f8-9b90-ef91-4a6e"/>
+                                        <infoLink name="Graviton gun" id="476a-fa75-7c03-44091" hidden="false" type="profile" targetId="35f8-9b90-ef91-4a6e"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="31"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="1a37-d6b6-5cdd-4793" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="43de-ef10-ff29-4d16" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Krak grenade" id="1a37-d6b6-5cdd-47931" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
+                                        <infoLink name="Krak grenade" id="43de-ef10-ff29-4d161" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Lascutter *" hidden="false" id="4588-171a-7b91-4124" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Lascutter *" hidden="false" id="4e52-80b7-03f7-45e5" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Lascutter *" id="4588-171a-7b91-41241" hidden="false" type="profile" targetId="0d25-1df2-afaa-4e52"/>
+                                        <infoLink name="Lascutter *" id="4e52-80b7-03f7-45e51" hidden="false" type="profile" targetId="0d25-1df2-afaa-4e52"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Ranged" hidden="false" id="7ab8-deb7-660e-4527" sortIndex="8">
+                                <selectionEntry type="upgrade" import="true" name="- Ranged" hidden="false" id="c472-492d-d849-4d01" sortIndex="8">
                                     <infoLinks>
-                                        <infoLink name="- Ranged" id="7ab8-deb7-660e-45271" hidden="false" type="profile" targetId="8268-66df-67d0-42a1"/>
+                                        <infoLink name="- Ranged" id="c472-492d-d849-4d011" hidden="false" type="profile" targetId="8268-66df-67d0-42a1"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Melta" hidden="false" id="0691-c0d6-d7c7-40f9" sortIndex="9">
+                                <selectionEntry type="upgrade" import="true" name="Melta" hidden="false" id="c616-b92b-fa31-4793" sortIndex="9">
                                     <infoLinks>
-                                        <infoLink name="Melta" id="0691-c0d6-d7c7-40f91" hidden="false" type="profile" targetId="bbe1-fa8e-676a-4bda"/>
+                                        <infoLink name="Melta" id="c616-b92b-fa31-47931" hidden="false" type="profile" targetId="bbe1-fa8e-676a-4bda"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="12"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Volkite charger" hidden="false" id="8c56-3380-9413-42ff" sortIndex="10">
+                                <selectionEntry type="upgrade" import="true" name="Volkite charger" hidden="false" id="7037-7671-869c-4592" sortIndex="10">
                                     <infoLinks>
-                                        <infoLink name="Volkite charger" id="8c56-3380-9413-42ff1" hidden="false" type="profile" targetId="ee3b-8cbd-aa13-4294"/>
+                                        <infoLink name="Volkite charger" id="7037-7671-869c-45921" hidden="false" type="profile" targetId="ee3b-8cbd-aa13-4294"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="10"/>
@@ -81,184 +81,200 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="7514-54f2-f983-456e" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="127f-9038-8283-4b6f" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="ce0a-4021-1a21-431d" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="14c6-bc1f-c620-4f8b" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Legion Sergeant" hidden="false" id="b2c1-4949-b76c-44b3" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="50"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07e4-c618-66af-4b5a" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="062f-dd4f-76c3-4ddb1" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="cb58-6ea7-70ec-4468" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="ca83-45e2-c64c-490b1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Troops" hidden="false" id="c469-13ed-80cc-4ba4" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="3202-2412-bbd7-40bd" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
-                <infoLink name="Boarding shield" id="c8be-f49c-efa4-4c66" hidden="false" type="rule" targetId="e35d-f6db-394e-4c97"/>
+                <infoLink name="-" id="9576-8bde-df2b-4674" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="Boarding shield" id="41a3-dc30-afb5-4aba" hidden="false" type="rule" targetId="e35d-f6db-394e-4c97"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Tactical Squad" hidden="false" id="5107-72fe-40a1-4d97">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Tactical Squad" hidden="false" id="5aa8-dfad-9c7a-4dd84" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Tactical Squad" hidden="false" id="b297-6348-2afb-42244" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5a95-cdab-4039-461d" includeChildSelections="false"/>
-                        <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="9b59-a551-d9c0-4493" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8d25-3074-040e-4e74" includeChildSelections="false"/>
+                        <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="460f-8560-337c-48a5" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="39"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Tactical Squad" id="5076-dcc1-1974-4539" hidden="false" type="profile" targetId="d0ab-f973-150c-4791"/>
+                        <infoLink name="Legion Tactical Squad" id="a1f6-a0f7-cc96-41a2" hidden="false" type="profile" targetId="d0ab-f973-150c-4791"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="6cd1-31f2-c81c-4f6a" hidden="false" defaultSelectionEntryId="df63-d245-38e0-4c1c">
+                        <selectionEntryGroup name="Weapon Choice" id="c800-247f-fde0-48fd" hidden="false" defaultSelectionEntryId="ecc3-d9ba-02db-466a">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Astartes chainsword" hidden="false" id="f3ea-7fb1-0474-4745" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Astartes chainsword" hidden="false" id="94e3-669f-34a3-4f73" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Astartes chainsword" id="f3ea-7fb1-0474-47451" hidden="false" type="profile" targetId="42bd-37c1-dcc6-4cde"/>
+                                        <infoLink name="Astartes chainsword" id="94e3-669f-34a3-4f731" hidden="false" type="profile" targetId="42bd-37c1-dcc6-4cde"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="fe9c-3f95-6e76-432a" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="e355-6070-04ea-446b" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Bayonet" id="fe9c-3f95-6e76-432a1" hidden="false" type="profile" targetId="cee1-2476-7d0e-4dcc"/>
+                                        <infoLink name="Bayonet" id="e355-6070-04ea-446b1" hidden="false" type="profile" targetId="cee1-2476-7d0e-4dcc"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="1"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="4d8a-a56c-9b7b-44f5" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="2611-17d7-a912-4053" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Bolt pistol" id="4d8a-a56c-9b7b-44f51" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
+                                        <infoLink name="Bolt pistol" id="2611-17d7-a912-40531" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="8c07-1204-0874-4d60" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="06bb-9fc1-572b-497c" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Boltgun" id="8c07-1204-0874-4d601" hidden="false" type="profile" targetId="6637-0683-1fd2-4e1a"/>
+                                        <infoLink name="Boltgun" id="06bb-9fc1-572b-497c1" hidden="false" type="profile" targetId="6637-0683-1fd2-4e1a"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Chain bayonet" hidden="false" id="3092-bd1f-3930-4428" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="Chain bayonet" hidden="false" id="0509-e4f9-ce41-49e1" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="Chain bayonet" id="3092-bd1f-3930-44281" hidden="false" type="profile" targetId="9033-318d-7921-4e2a"/>
+                                        <infoLink name="Chain bayonet" id="0509-e4f9-ce41-49e11" hidden="false" type="profile" targetId="9033-318d-7921-4e2a"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="3"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="bb33-bd55-ee05-45fb" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="40f4-836a-406d-4920" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Frag grenade" id="bb33-bd55-ee05-45fb1" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
+                                        <infoLink name="Frag grenade" id="40f4-836a-406d-49201" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="5d53-7490-2474-4362" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="f3b3-4a8f-b47b-478b" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Krak grenade" id="5d53-7490-2474-43621" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
+                                        <infoLink name="Krak grenade" id="f3b3-4a8f-b47b-478b1" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="2567-ed16-8822-41a3" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="f6ee-0a3f-5c2e-4e81" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="3ac8-f31f-97ae-43e3" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="6f38-7df3-0d1c-4c44" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Legion Sergeant" hidden="false" id="6b17-2a95-d81e-416f" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="49"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0333-798d-402e-469b" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="1cd3-3b2f-ef62-4be91" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="05b1-e1ec-f8f3-4552" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="b477-d1a7-95ff-4b971" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Troops" hidden="false" id="ad55-90b1-60f1-4263" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="f209-c03f-7b16-4a70" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
-                <infoLink name="Heart of the Legion" id="9154-4550-803a-4577" hidden="false" type="rule" targetId="ce48-ad15-5a0c-4c74"/>
-                <infoLink name="Wrath of the Legion" id="9fc6-9adf-ce0c-461a" hidden="false" type="rule" targetId="0625-6f4a-d1ff-44d2"/>
+                <infoLink name="-" id="3b35-9bfc-ee08-4de5" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="Heart of the Legion" id="b279-1070-9148-4753" hidden="false" type="rule" targetId="ce48-ad15-5a0c-4c74"/>
+                <infoLink name="Wrath of the Legion" id="cd52-43d8-d86c-495f" hidden="false" type="rule" targetId="0625-6f4a-d1ff-44d2"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Tactical Support Squad" hidden="false" id="2a9c-bb3b-db3b-4722">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Tactical Support Squad" hidden="false" id="d262-ae34-c372-45a54" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Tactical Support Squad" hidden="false" id="02ef-0d52-3958-48834" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="cd91-3a49-c31c-4010" includeChildSelections="false"/>
-                        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="045b-6c17-7a21-4d21" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="f0a6-cd18-b25d-44dd" includeChildSelections="false"/>
+                        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="40ba-64f1-7fb9-4780" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="35"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Tactical Support Squad" id="22d0-723d-6313-40ee" hidden="false" type="profile" targetId="d6a2-8271-9cd9-4289"/>
+                        <infoLink name="Legion Tactical Support Squad" id="0b79-b3f9-4788-425b" hidden="false" type="profile" targetId="d6a2-8271-9cd9-4289"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="e43f-59f6-df9d-4400" hidden="false" defaultSelectionEntryId="bf68-b404-fa34-4510">
+                        <selectionEntryGroup name="Weapon Choice" id="9ce8-f146-04ee-49d4" hidden="false" defaultSelectionEntryId="fc14-efd8-4d8f-4ffd">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Astartes chainsword" hidden="false" id="9d2d-329c-1116-4388" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Astartes chainsword" hidden="false" id="b867-5970-142b-4180" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Astartes chainsword" id="9d2d-329c-1116-43881" hidden="false" type="profile" targetId="42bd-37c1-dcc6-4cde"/>
+                                        <infoLink name="Astartes chainsword" id="b867-5970-142b-41801" hidden="false" type="profile" targetId="42bd-37c1-dcc6-4cde"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="262b-396a-c726-4b49" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="fe7b-d9dd-efa7-48bc" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Bolt pistol" id="262b-396a-c726-4b491" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
+                                        <infoLink name="Bolt pistol" id="fe7b-d9dd-efa7-48bc1" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="dfa3-1bed-ceb1-47d8" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="e710-a467-cf03-4964" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Flamer" id="dfa3-1bed-ceb1-47d81" hidden="false" type="profile" targetId="5c52-e8c6-5ce2-45b7"/>
+                                        <infoLink name="Flamer" id="e710-a467-cf03-49641" hidden="false" type="profile" targetId="5c52-e8c6-5ce2-45b7"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="0"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="c251-8c61-7089-4dd1" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="a488-a28d-eb77-479a" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Frag grenade" id="c251-8c61-7089-4dd11" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
+                                        <infoLink name="Frag grenade" id="a488-a28d-eb77-479a1" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="9049-40e3-bc40-4b36" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="32da-116d-878c-4959" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="Krak grenade" id="9049-40e3-bc40-4b361" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
+                                        <infoLink name="Krak grenade" id="32da-116d-878c-49591" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Melta" hidden="false" id="e55b-395d-cc11-4b16" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Melta" hidden="false" id="64e0-54a7-ba09-477f" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Melta" id="e55b-395d-cc11-4b161" hidden="false" type="profile" targetId="bbe1-fa8e-676a-4bda"/>
+                                        <infoLink name="Melta" id="64e0-54a7-ba09-477f1" hidden="false" type="profile" targetId="bbe1-fa8e-676a-4bda"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="12"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma gun *" hidden="false" id="573c-6d71-50e6-414e" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Plasma gun *" hidden="false" id="7309-8793-9c49-4302" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Plasma gun *" id="573c-6d71-50e6-414e1" hidden="false" type="profile" targetId="0b97-c87f-40ab-412b"/>
+                                        <infoLink name="Plasma gun *" id="7309-8793-9c49-43021" hidden="false" type="profile" targetId="0b97-c87f-40ab-412b"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="f119-e311-d4df-4d1b" sortIndex="8">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="54d1-d604-cab8-45be" sortIndex="8">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="f119-e311-d4df-4d1b1" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="54d1-d604-cab8-45be1" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overheating" hidden="false" id="030c-e647-4d10-4f67" sortIndex="9">
+                                <selectionEntry type="upgrade" import="true" name="- Overheating" hidden="false" id="bad8-414f-fa20-460d" sortIndex="9">
                                     <infoLinks>
-                                        <infoLink name="- Overheating" id="030c-e647-4d10-4f671" hidden="false" type="profile" targetId="2625-3368-3b2b-4b22"/>
+                                        <infoLink name="- Overheating" id="bad8-414f-fa20-460d1" hidden="false" type="profile" targetId="2625-3368-3b2b-4b22"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Rotor cannon" hidden="false" id="aa25-d018-e979-42e5" sortIndex="10">
+                                <selectionEntry type="upgrade" import="true" name="Rotor cannon" hidden="false" id="d124-9142-141d-42fc" sortIndex="10">
                                     <infoLinks>
-                                        <infoLink name="Rotor cannon" id="aa25-d018-e979-42e51" hidden="false" type="profile" targetId="59ab-ce02-2891-421a"/>
+                                        <infoLink name="Rotor cannon" id="d124-9142-141d-42fc1" hidden="false" type="profile" targetId="59ab-ce02-2891-421a"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="14"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Volkite caliver" hidden="false" id="4b12-b30f-53de-4aea" sortIndex="11">
+                                <selectionEntry type="upgrade" import="true" name="Volkite caliver" hidden="false" id="7a14-de5a-55c7-4f5e" sortIndex="11">
                                     <infoLinks>
-                                        <infoLink name="Volkite caliver" id="4b12-b30f-53de-4aea1" hidden="false" type="profile" targetId="e491-fb4a-f752-4dfe"/>
+                                        <infoLink name="Volkite caliver" id="7a14-de5a-55c7-4f5e1" hidden="false" type="profile" targetId="e491-fb4a-f752-4dfe"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="12"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Volkite charger" hidden="false" id="7f9d-db25-87e8-4695" sortIndex="12">
+                                <selectionEntry type="upgrade" import="true" name="Volkite charger" hidden="false" id="42fd-9d39-44ae-444f" sortIndex="12">
                                     <infoLinks>
-                                        <infoLink name="Volkite charger" id="7f9d-db25-87e8-46951" hidden="false" type="profile" targetId="ee3b-8cbd-aa13-4294"/>
+                                        <infoLink name="Volkite charger" id="42fd-9d39-44ae-444f1" hidden="false" type="profile" targetId="ee3b-8cbd-aa13-4294"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="10"/>
@@ -266,168 +282,176 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="123c-9ae1-c511-4771" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="962e-445c-a52b-4797" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="2a9f-f49a-323d-4fe5" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="caef-5360-ea62-4339" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Legion Sergeant" hidden="false" id="97ff-53c8-9693-4000" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="45"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09d0-3946-6f31-4567" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="dced-8cd2-7807-4b7b1" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="a60c-d1cf-bd3d-4600" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="70c1-f112-8f86-48c71" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Troops" hidden="false" id="5d91-079a-ba5e-4618" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="1b9c-546e-e8b0-4ce5" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="-" id="c1bd-0b73-54b3-499a" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Terminator Cataphractii Squad" hidden="false" id="2949-f532-7b49-4e12">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Terminator Cataphractii Squad" hidden="false" id="3d71-37de-ce02-4ed54" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Terminator Cataphractii Squad" hidden="false" id="b3c4-4f82-57ef-413d4" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="89fe-3d9b-b53c-4b26" includeChildSelections="false"/>
-                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="553a-bb00-09a2-4597" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="ef05-8d11-9d13-4697" includeChildSelections="false"/>
+                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="1ae3-1e6f-2f99-4bef" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="85"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Terminator Cataphractii Squad" id="db28-a61c-0607-4dd4" hidden="false" type="profile" targetId="4ba7-a0de-f8d2-482d"/>
+                        <infoLink name="Legion Terminator Cataphractii Squad" id="0923-3a72-f96c-496f" hidden="false" type="profile" targetId="4ba7-a0de-f8d2-482d"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="f4cd-5f7f-43b2-45ea" hidden="false" defaultSelectionEntryId="3bec-6e0e-5ac6-40e9">
+                        <selectionEntryGroup name="Weapon Choice" id="8b8b-c53a-e5a6-4d06" hidden="false" defaultSelectionEntryId="920e-438e-8233-4ee2">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Chainfist" hidden="false" id="fe2d-4a41-afc9-4a49" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Chainfist" hidden="false" id="0921-15a5-3358-42fd" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Chainfist" id="fe2d-4a41-afc9-4a491" hidden="false" type="profile" targetId="8c64-80da-7a67-4750"/>
+                                        <infoLink name="Chainfist" id="0921-15a5-3358-42fd1" hidden="false" type="profile" targetId="8c64-80da-7a67-4750"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="17"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="1412-7962-0e7a-423f" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="612d-bcf6-467c-490f" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Combi-bolter" id="1412-7962-0e7a-423f1" hidden="false" type="profile" targetId="979a-66a7-126b-4b0d"/>
+                                        <infoLink name="Combi-bolter" id="612d-bcf6-467c-490f1" hidden="false" type="profile" targetId="979a-66a7-126b-4b0d"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Combi-flamer *" hidden="false" id="0ab4-1ae1-311b-4423" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Combi-flamer *" hidden="false" id="7c6a-b31c-2fba-4082" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Combi-flamer *" id="0ab4-1ae1-311b-44231" hidden="false" type="profile" targetId="2f53-dc8a-1878-47f0"/>
+                                        <infoLink name="Combi-flamer *" id="7c6a-b31c-2fba-40821" hidden="false" type="profile" targetId="2f53-dc8a-1878-47f0"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Bolter" hidden="false" id="7c5a-b654-b30f-48ee" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="- Bolter" hidden="false" id="2ecc-1fef-b40d-4513" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="- Bolter" id="7c5a-b654-b30f-48ee1" hidden="false" type="profile" targetId="588b-136f-8639-48d3"/>
+                                        <infoLink name="- Bolter" id="2ecc-1fef-b40d-45131" hidden="false" type="profile" targetId="588b-136f-8639-48d3"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Flamer" hidden="false" id="67b6-0ebf-68bf-4696" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="- Flamer" hidden="false" id="e253-8f31-2178-4609" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="- Flamer" id="67b6-0ebf-68bf-46961" hidden="false" type="profile" targetId="5863-32c2-0fd6-4bf2"/>
+                                        <infoLink name="- Flamer" id="e253-8f31-2178-46091" hidden="false" type="profile" targetId="5863-32c2-0fd6-4bf2"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Combi-melta *" hidden="false" id="72dc-338e-7355-4656" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Combi-melta *" hidden="false" id="71e2-7c48-cedb-4d59" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Combi-melta *" id="72dc-338e-7355-46561" hidden="false" type="profile" targetId="359c-31d8-196e-4fa0"/>
+                                        <infoLink name="Combi-melta *" id="71e2-7c48-cedb-4d591" hidden="false" type="profile" targetId="359c-31d8-196e-4fa0"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Bolter" hidden="false" id="ec5e-6228-ad27-49db" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="- Bolter" hidden="false" id="0b4c-9275-5ed2-4daa" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="- Bolter" id="ec5e-6228-ad27-49db1" hidden="false" type="profile" targetId="588b-136f-8639-48d3"/>
+                                        <infoLink name="- Bolter" id="0b4c-9275-5ed2-4daa1" hidden="false" type="profile" targetId="588b-136f-8639-48d3"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Melta" hidden="false" id="70a4-1159-5822-4743" sortIndex="8">
+                                <selectionEntry type="upgrade" import="true" name="- Melta" hidden="false" id="c599-99e1-c002-477e" sortIndex="8">
                                     <infoLinks>
-                                        <infoLink name="- Melta" id="70a4-1159-5822-47431" hidden="false" type="profile" targetId="2e0f-6e3e-91cc-4a94"/>
+                                        <infoLink name="- Melta" id="c599-99e1-c002-477e1" hidden="false" type="profile" targetId="2e0f-6e3e-91cc-4a94"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Combi-plasma *" hidden="false" id="7588-9e30-b9e4-4565" sortIndex="9">
+                                <selectionEntry type="upgrade" import="true" name="Combi-plasma *" hidden="false" id="4532-1f60-a043-4dd1" sortIndex="9">
                                     <infoLinks>
-                                        <infoLink name="Combi-plasma *" id="7588-9e30-b9e4-45651" hidden="false" type="profile" targetId="ae96-e68b-a1ce-43b8"/>
+                                        <infoLink name="Combi-plasma *" id="4532-1f60-a043-4dd11" hidden="false" type="profile" targetId="ae96-e68b-a1ce-43b8"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Bolter" hidden="false" id="1f95-adf1-82f9-493c" sortIndex="10">
+                                <selectionEntry type="upgrade" import="true" name="- Bolter" hidden="false" id="1681-2bd7-724f-414c" sortIndex="10">
                                     <infoLinks>
-                                        <infoLink name="- Bolter" id="1f95-adf1-82f9-493c1" hidden="false" type="profile" targetId="588b-136f-8639-48d3"/>
+                                        <infoLink name="- Bolter" id="1681-2bd7-724f-414c1" hidden="false" type="profile" targetId="588b-136f-8639-48d3"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Plasma (Standard)" hidden="false" id="589d-d856-385b-4380" sortIndex="11">
+                                <selectionEntry type="upgrade" import="true" name="- Plasma (Standard)" hidden="false" id="9c93-cec9-40c7-4f8a" sortIndex="11">
                                     <infoLinks>
-                                        <infoLink name="- Plasma (Standard)" id="589d-d856-385b-43801" hidden="false" type="profile" targetId="79a4-3045-05df-4c4e"/>
+                                        <infoLink name="- Plasma (Standard)" id="9c93-cec9-40c7-4f8a1" hidden="false" type="profile" targetId="79a4-3045-05df-4c4e"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Plasma (Overcharged)" hidden="false" id="a38b-efc5-36c6-448d" sortIndex="12">
+                                <selectionEntry type="upgrade" import="true" name="- Plasma (Overcharged)" hidden="false" id="9332-fe5c-4ab2-47a8" sortIndex="12">
                                     <infoLinks>
-                                        <infoLink name="- Plasma (Overcharged)" id="a38b-efc5-36c6-448d1" hidden="false" type="profile" targetId="bf72-840c-3112-4240"/>
+                                        <infoLink name="- Plasma (Overcharged)" id="9332-fe5c-4ab2-47a81" hidden="false" type="profile" targetId="bf72-840c-3112-4240"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="c8c2-7108-7c29-4d5a" sortIndex="13">
+                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="62bd-86e7-25f4-460d" sortIndex="13">
                                     <infoLinks>
-                                        <infoLink name="Heavy flamer" id="c8c2-7108-7c29-4d5a1" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
+                                        <infoLink name="Heavy flamer" id="62bd-86e7-25f4-460d1" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="13"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Lightning claw" hidden="false" id="eb49-a30f-7422-490b" sortIndex="14">
+                                <selectionEntry type="upgrade" import="true" name="Lightning claw" hidden="false" id="9076-8bf7-1313-4c50" sortIndex="14">
                                     <infoLinks>
-                                        <infoLink name="Lightning claw" id="eb49-a30f-7422-490b1" hidden="false" type="profile" targetId="e88a-eadd-1c93-4364"/>
+                                        <infoLink name="Lightning claw" id="9076-8bf7-1313-4c501" hidden="false" type="profile" targetId="e88a-eadd-1c93-4364"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="1"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Pair of lightning claws" hidden="false" id="ab0a-dda8-53cf-4e6e" sortIndex="15">
+                                <selectionEntry type="upgrade" import="true" name="Pair of lightning claws" hidden="false" id="b571-c2c6-ed67-43e2" sortIndex="15">
                                     <infoLinks>
-                                        <infoLink name="Pair of lightning claws" id="ab0a-dda8-53cf-4e6e1" hidden="false" type="profile" targetId="560e-da3b-e32c-42ac"/>
+                                        <infoLink name="Pair of lightning claws" id="b571-c2c6-ed67-43e21" hidden="false" type="profile" targetId="560e-da3b-e32c-42ac"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="0"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma blaster *" hidden="false" id="d398-6c26-81bd-48e5" sortIndex="16">
+                                <selectionEntry type="upgrade" import="true" name="Plasma blaster *" hidden="false" id="7829-1a36-0e8a-4d9b" sortIndex="16">
                                     <infoLinks>
-                                        <infoLink name="Plasma blaster *" id="d398-6c26-81bd-48e51" hidden="false" type="profile" targetId="c4ba-2a02-bdc6-4390"/>
+                                        <infoLink name="Plasma blaster *" id="7829-1a36-0e8a-4d9b1" hidden="false" type="profile" targetId="c4ba-2a02-bdc6-4390"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="1783-bc71-372d-4b4c" sortIndex="17">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="fe8e-32f4-f5a5-462a" sortIndex="17">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="1783-bc71-372d-4b4c1" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="fe8e-32f4-f5a5-462a1" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="c17d-2709-5ac7-466c" sortIndex="18">
+                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="3d73-10ff-75bb-4662" sortIndex="18">
                                     <infoLinks>
-                                        <infoLink name="- Overcharged" id="c17d-2709-5ac7-466c1" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
+                                        <infoLink name="- Overcharged" id="3d73-10ff-75bb-46621" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Power fist" hidden="false" id="b615-7e06-f787-4b9a" sortIndex="19">
+                                <selectionEntry type="upgrade" import="true" name="Power fist" hidden="false" id="08ea-36b3-7c15-4763" sortIndex="19">
                                     <infoLinks>
-                                        <infoLink name="Power fist" id="b615-7e06-f787-4b9a1" hidden="false" type="profile" targetId="0f8b-1d6d-d0f1-4cf6"/>
+                                        <infoLink name="Power fist" id="08ea-36b3-7c15-47631" hidden="false" type="profile" targetId="0f8b-1d6d-d0f1-4cf6"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="9"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Power sword" hidden="false" id="c95b-9304-ffbb-4bfe" sortIndex="20">
+                                <selectionEntry type="upgrade" import="true" name="Power sword" hidden="false" id="e243-df58-a03e-4f9d" sortIndex="20">
                                     <infoLinks>
-                                        <infoLink name="Power sword" id="c95b-9304-ffbb-4bfe1" hidden="false" type="profile" targetId="e036-c920-af1d-499a"/>
+                                        <infoLink name="Power sword" id="e243-df58-a03e-4f9d1" hidden="false" type="profile" targetId="e036-c920-af1d-499a"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Reaper autocannon" hidden="false" id="0b6f-9517-326f-412d" sortIndex="21">
+                                <selectionEntry type="upgrade" import="true" name="Reaper autocannon" hidden="false" id="dd64-f7b7-463e-4234" sortIndex="21">
                                     <infoLinks>
-                                        <infoLink name="Reaper autocannon" id="0b6f-9517-326f-412d1" hidden="false" type="profile" targetId="f8d4-a1eb-a989-4329"/>
+                                        <infoLink name="Reaper autocannon" id="dd64-f7b7-463e-42341" hidden="false" type="profile" targetId="f8d4-a1eb-a989-4329"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="20"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Thunder hammer" hidden="false" id="eef5-3258-2299-416f" sortIndex="22">
+                                <selectionEntry type="upgrade" import="true" name="Thunder hammer" hidden="false" id="a292-09e1-9b68-4233" sortIndex="22">
                                     <infoLinks>
-                                        <infoLink name="Thunder hammer" id="eef5-3258-2299-416f1" hidden="false" type="profile" targetId="3945-c635-7107-4cf2"/>
+                                        <infoLink name="Thunder hammer" id="a292-09e1-9b68-42331" hidden="false" type="profile" targetId="3945-c635-7107-4cf2"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Volkite charger" hidden="false" id="484a-413e-a6cd-4906" sortIndex="23">
+                                <selectionEntry type="upgrade" import="true" name="Volkite charger" hidden="false" id="95a7-9ea7-0abb-4f9b" sortIndex="23">
                                     <infoLinks>
-                                        <infoLink name="Volkite charger" id="484a-413e-a6cd-49061" hidden="false" type="profile" targetId="ee3b-8cbd-aa13-4294"/>
+                                        <infoLink name="Volkite charger" id="95a7-9ea7-0abb-4f9b1" hidden="false" type="profile" targetId="ee3b-8cbd-aa13-4294"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="10"/>
@@ -435,159 +459,175 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="254b-f928-ddea-41a7" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e0cf-00ec-5a29-4e4b" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="729f-8b20-32b0-4b2b" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="3170-a291-17ea-4796" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Legion Cataphractii Sergeant" hidden="false" id="c520-9092-1636-426d" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="85"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f87-9a31-d5b6-473d" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="0fab-ff54-ab66-4db01" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="4457-0105-fad2-42ea" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="8867-982c-495f-4ab01" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="7851-4824-72f5-43a7" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Deep strike" id="b07a-f1d2-4f96-4d6a" hidden="false" type="rule" targetId="ea49-8f6d-64fe-e520"/>
-                <infoLink name="Massive(1)" id="99a7-c1b4-da7c-47be" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
-                <infoLink name="Unyielding" id="29a9-ae8c-3806-4d86" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
-                <infoLink name="Cataphractii Terminator armor" id="7af5-b74e-13bd-40e2" hidden="false" type="rule" targetId="e260-8d59-7591-4953"/>
+                <infoLink name="Deep strike" id="aed4-4644-f591-45ea" hidden="false" type="rule" targetId="ea49-8f6d-64fe-e520"/>
+                <infoLink name="Massive(1)" id="cbb7-09be-56f7-4107" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
+                <infoLink name="Unyielding" id="8bd1-6303-84cd-4115" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
+                <infoLink name="Cataphractii Terminator armor" id="3274-ece8-3077-465f" hidden="false" type="rule" targetId="e260-8d59-7591-4953"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Palatine Blade Squad" hidden="false" id="175e-76a7-699d-4bfd">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Palatine Blade Squad" hidden="false" id="2285-50ec-f775-4f5f4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Palatine Blade Squad" hidden="false" id="7369-9a6a-287d-4e564" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e046-da6b-1a2a-4ee4" includeChildSelections="false"/>
-                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="0d63-433d-79a5-4321" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="6137-56b6-3f7a-4d00" includeChildSelections="false"/>
+                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="44fc-1095-2437-41bb" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="45"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Palatine Blade Squad" id="7223-67f9-3192-41ae" hidden="false" type="profile" targetId="0f0d-4129-c2f5-470b"/>
+                        <infoLink name="Palatine Blade Squad" id="5de1-9511-c530-4390" hidden="false" type="profile" targetId="0f0d-4129-c2f5-470b"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="77f4-68e7-af9a-4413" hidden="false" defaultSelectionEntryId="b167-d710-0bcd-4177">
+                        <selectionEntryGroup name="Weapon Choice" id="95a4-70cc-ecdc-4348" hidden="false" defaultSelectionEntryId="ccf7-6498-1624-4472">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="08e1-67bf-cdca-4b2f" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="4584-873a-ff01-4c6e" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Bolt pistol" id="08e1-67bf-cdca-4b2f1" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
+                                        <infoLink name="Bolt pistol" id="4584-873a-ff01-4c6e1" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="be61-7d08-1107-4245" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="ab87-e65d-4039-4bec" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Frag grenade" id="be61-7d08-1107-42451" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
+                                        <infoLink name="Frag grenade" id="ab87-e65d-4039-4bec1" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="b515-c422-3329-44b0" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="2797-f3de-4def-4474" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Krak grenade" id="b515-c422-3329-44b01" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
+                                        <infoLink name="Krak grenade" id="2797-f3de-4def-44741" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="54d7-6073-3487-40df" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="189a-9d0b-9247-4548" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="d994-3ff2-cdd8-4d5c" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="f987-5427-0637-4c79" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Palatine Prefector" hidden="false" id="7d75-dc76-3b71-4f3b" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="45"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0a7-4d01-6af8-4257" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="b9a2-b1aa-13f3-4d991" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="6428-abe8-eb50-459b" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="2b41-2ea6-7760-4f301" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="9da7-9808-c713-4768" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="080d-2b90-39b2-4d0b" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
-                <infoLink name="Skill Unmatched" id="7a7b-9339-7afe-49d9" hidden="false" type="rule" targetId="f386-6685-5481-4e72"/>
+                <infoLink name="-" id="ddc1-eaf6-e1d6-469a" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="Skill Unmatched" id="574e-1200-27f2-4aa3" hidden="false" type="rule" targetId="f386-6685-5481-4e72"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Sky-hunter Squadron" hidden="false" id="dc8d-ebff-f0ad-4529">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Sky-hunter Squadron" hidden="false" id="06f4-70ff-bb33-41044" defaultAmount="2" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Sky-hunter Squadron" hidden="false" id="8062-0e91-eaf6-44184" defaultAmount="2" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="07d5-5d91-54a4-409b" includeChildSelections="false"/>
-                        <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="d30a-017e-ba18-4001" includeChildSelections="false"/>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0d81-f848-4ffd-4bd2" includeChildSelections="false"/>
+                        <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="3ded-a884-c26e-44ae" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="81"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Sky-hunter Squadron" id="7cbc-ef2a-a079-467f" hidden="false" type="profile" targetId="2a88-5924-0adf-46b0"/>
+                        <infoLink name="Legion Sky-hunter Squadron" id="a345-b5f0-3c8d-4cdd" hidden="false" type="profile" targetId="2a88-5924-0adf-46b0"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="1d87-e5d9-8045-4e40" hidden="false" defaultSelectionEntryId="f43d-f315-b26d-47db">
+                        <selectionEntryGroup name="Weapon Choice" id="18ca-79f2-9047-401f" hidden="false" defaultSelectionEntryId="afe1-fff4-b4bc-4f19">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Astartes chainsword" hidden="false" id="ac8f-679a-896b-47ad" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Astartes chainsword" hidden="false" id="331d-b0d2-f444-4ef1" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Astartes chainsword" id="ac8f-679a-896b-47ad1" hidden="false" type="profile" targetId="42bd-37c1-dcc6-4cde"/>
+                                        <infoLink name="Astartes chainsword" id="331d-b0d2-f444-4ef11" hidden="false" type="profile" targetId="42bd-37c1-dcc6-4cde"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="277f-bd05-434c-46e8" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="76f5-996a-be07-4c71" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Bolt pistol" id="277f-bd05-434c-46e81" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
+                                        <infoLink name="Bolt pistol" id="76f5-996a-be07-4c711" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="7cdc-8ff5-7e62-4dfc" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="e366-560a-a87c-4a56" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Frag grenade" id="7cdc-8ff5-7e62-4dfc1" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
+                                        <infoLink name="Frag grenade" id="e366-560a-a87c-4a561" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Hand flamer" hidden="false" id="c09e-b0df-6fa0-4abe" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Hand flamer" hidden="false" id="ef7e-f041-bcb6-483d" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Hand flamer" id="c09e-b0df-6fa0-4abe1" hidden="false" type="profile" targetId="2ed7-3924-d0f8-45b5"/>
+                                        <infoLink name="Hand flamer" id="ef7e-f041-bcb6-483d1" hidden="false" type="profile" targetId="2ed7-3924-d0f8-45b5"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="2"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="101d-be22-7b4b-45a1" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="52a7-89a0-37e2-49ec" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="Heavy bolter" id="101d-be22-7b4b-45a11" hidden="false" type="profile" targetId="a75a-aae2-90fa-4ef8"/>
+                                        <infoLink name="Heavy bolter" id="52a7-89a0-37e2-49ec1" hidden="false" type="profile" targetId="a75a-aae2-90fa-4ef8"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="5"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="62e8-f7b2-9e5b-44ab" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="3500-aa53-720c-4be9" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Krak grenade" id="62e8-f7b2-9e5b-44ab1" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
+                                        <infoLink name="Krak grenade" id="3500-aa53-720c-4be91" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="39a1-2d71-5bc2-477e" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="6e66-7140-9858-4007" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Multi-melta" id="39a1-2d71-5bc2-477e1" hidden="false" type="profile" targetId="87f7-cb63-1d55-4f67"/>
+                                        <infoLink name="Multi-melta" id="6e66-7140-9858-40071" hidden="false" type="profile" targetId="87f7-cb63-1d55-4f67"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="24"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma cannon *" hidden="false" id="7888-3beb-9456-461e" sortIndex="8">
+                                <selectionEntry type="upgrade" import="true" name="Plasma cannon *" hidden="false" id="ef2b-0c0f-b570-4088" sortIndex="8">
                                     <infoLinks>
-                                        <infoLink name="Plasma cannon *" id="7888-3beb-9456-461e1" hidden="false" type="profile" targetId="8ae0-7600-7a18-498c"/>
+                                        <infoLink name="Plasma cannon *" id="ef2b-0c0f-b570-40881" hidden="false" type="profile" targetId="8ae0-7600-7a18-498c"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="e622-bfb9-7eca-43b4" sortIndex="9">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="43ff-3d95-3dbf-410b" sortIndex="9">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="e622-bfb9-7eca-43b41" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="43ff-3d95-3dbf-410b1" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="ded5-7aba-c03f-4add" sortIndex="10">
+                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="cb6d-684e-1bc5-47e8" sortIndex="10">
                                     <infoLinks>
-                                        <infoLink name="- Overcharged" id="ded5-7aba-c03f-4add1" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
+                                        <infoLink name="- Overcharged" id="cb6d-684e-1bc5-47e81" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Volkite culverin" hidden="false" id="1a5d-a4c2-2472-4505" sortIndex="11">
+                                <selectionEntry type="upgrade" import="true" name="Volkite culverin" hidden="false" id="9564-c5e8-7337-4062" sortIndex="11">
                                     <infoLinks>
-                                        <infoLink name="Volkite culverin" id="1a5d-a4c2-2472-45051" hidden="false" type="profile" targetId="99d0-1abf-695a-48d6"/>
+                                        <infoLink name="Volkite culverin" id="9564-c5e8-7337-40621" hidden="false" type="profile" targetId="99d0-1abf-695a-48d6"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="16"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Volkite serpenta" hidden="false" id="327d-3b4d-0387-42b2" sortIndex="12">
+                                <selectionEntry type="upgrade" import="true" name="Volkite serpenta" hidden="false" id="87eb-70b1-6b57-4d80" sortIndex="12">
                                     <infoLinks>
-                                        <infoLink name="Volkite serpenta" id="327d-3b4d-0387-42b21" hidden="false" type="profile" targetId="2f75-f013-ece2-4deb"/>
+                                        <infoLink name="Volkite serpenta" id="87eb-70b1-6b57-4d801" hidden="false" type="profile" targetId="2f75-f013-ece2-4deb"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="2"/>
@@ -595,175 +635,191 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="63e3-368e-79bd-4ee5" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="75b2-9b00-8925-4a02" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="1af5-a774-a8a1-4869" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="c26b-985b-33b8-4fdb" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Legion Sky-hunter Sergeant" hidden="false" id="b83a-fe3b-6bab-4502" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="91"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15ff-0546-9475-4dd9" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Jet bike" hidden="false" id="e333-896a-cdfc-49601" targetId="9af1-fceb-bb5b-9c8e" primary="false"/>
-                <categoryLink name="Fast Attack" hidden="false" id="ba61-3819-2054-4336" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Jet bike" hidden="false" id="53a0-c261-5652-46f61" targetId="9af1-fceb-bb5b-9c8e" primary="false"/>
+                <categoryLink name="Fast Attack" hidden="false" id="c524-98c7-1508-4aeb" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="0da5-452a-2b81-48af" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="-" id="b347-86c3-0fa0-4df6" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Kakophoni Squad" hidden="false" id="b0cf-071d-758a-41a1">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Kakophoni Squad" hidden="false" id="309c-fd70-793c-4a7b4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Kakophoni Squad" hidden="false" id="61a3-8316-ebef-43b84" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="57c4-943b-4637-47d9" includeChildSelections="false"/>
-                        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="90ab-d80b-45c9-46c0" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="6019-137e-6879-4a24" includeChildSelections="false"/>
+                        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="070c-fb22-2343-450d" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="59"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Kakophoni Squad" id="ed1d-c707-4ca0-41e6" hidden="false" type="profile" targetId="11e7-5d5d-b5f8-4e24"/>
+                        <infoLink name="Kakophoni Squad" id="4629-774e-de31-474a" hidden="false" type="profile" targetId="11e7-5d5d-b5f8-4e24"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="41b2-9a61-d69e-45d5" hidden="false" defaultSelectionEntryId="6c0b-83f7-fa4b-43ec">
+                        <selectionEntryGroup name="Weapon Choice" id="212a-d913-4820-4c81" hidden="false" defaultSelectionEntryId="1904-d2fa-3d59-445c">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="a840-0a46-c043-408f" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="5092-3c41-b5de-444e" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Bolt pistol" id="a840-0a46-c043-408f1" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
+                                        <infoLink name="Bolt pistol" id="5092-3c41-b5de-444e1" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Cacophony" hidden="false" id="c9aa-b50b-3351-480d" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Cacophony" hidden="false" id="3dbc-1f01-5568-46ad" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Cacophony" id="c9aa-b50b-3351-480d1" hidden="false" type="profile" targetId="e65f-05b4-be85-4b91"/>
+                                        <infoLink name="Cacophony" id="3dbc-1f01-5568-46ad1" hidden="false" type="profile" targetId="e65f-05b4-be85-4b91"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="7aed-3905-6f5e-4f24" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="dd34-1211-84d1-4017" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Frag grenade" id="7aed-3905-6f5e-4f241" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
+                                        <infoLink name="Frag grenade" id="dd34-1211-84d1-40171" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="f3e2-395d-74f9-4db0" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="b760-73f9-5ca7-4421" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Krak grenade" id="f3e2-395d-74f9-4db01" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
+                                        <infoLink name="Krak grenade" id="b760-73f9-5ca7-44211" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="232d-ab65-7140-45d3" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="a678-f047-a432-4c89" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="702a-8568-686e-4bf4" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="a60b-9c32-e304-4327" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Orchestrator" hidden="false" id="a942-5284-2c95-4c67" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="69"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a428-a5b9-4768-4f1b" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="1afa-860f-ee0e-4f431" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Heavy Support" hidden="false" id="6d3a-a40e-83f7-4e18" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="e5be-0e4f-9e17-41841" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="feff-9d92-3836-447c" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="cdda-21ac-7ed0-4ce7" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="-" id="e6f5-876b-6cf3-4d4c" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Heavy Support Squad" hidden="false" id="9c6f-f382-11e7-466e">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Heavy Support Squad" hidden="false" id="f79b-24f1-40f1-426a4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Heavy Support Squad" hidden="false" id="ce49-ad73-3e73-46b04" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="75ce-3e05-0687-45d4" includeChildSelections="false"/>
-                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="ef6c-ba94-22f0-4542" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="c211-a5fe-1783-4c7d" includeChildSelections="false"/>
+                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="9b29-1309-b0bd-4907" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="45"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Heavy Support Squad" id="1ddd-f858-ab9d-4e82" hidden="false" type="profile" targetId="83ef-1e97-1d7d-4388"/>
+                        <infoLink name="Legion Heavy Support Squad" id="c89e-0ef5-1060-4ba4" hidden="false" type="profile" targetId="83ef-1e97-1d7d-4388"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="980c-27c1-747a-4ada" hidden="false" defaultSelectionEntryId="51e8-213f-8d9b-4459">
+                        <selectionEntryGroup name="Weapon Choice" id="a012-09e4-96d1-451a" hidden="false" defaultSelectionEntryId="c0be-a079-659b-47f8">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="e422-247e-2416-4268" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="c8be-9afb-a2f8-4f52" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Autocannon" id="e422-247e-2416-42681" hidden="false" type="profile" targetId="bed0-1e75-746b-4330"/>
+                                        <infoLink name="Autocannon" id="c8be-9afb-a2f8-4f521" hidden="false" type="profile" targetId="bed0-1e75-746b-4330"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="14"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="4804-6325-4e30-4c2c" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="b33c-ed1e-c45c-4aee" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Bolt pistol" id="4804-6325-4e30-4c2c1" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
+                                        <infoLink name="Bolt pistol" id="b33c-ed1e-c45c-4aee1" hidden="false" type="profile" targetId="6644-ce16-98d5-49a8"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="91a4-b35d-1057-4753" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Frag grenade" hidden="false" id="b52b-67a3-692b-43e9" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Frag grenade" id="91a4-b35d-1057-47531" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
+                                        <infoLink name="Frag grenade" id="b52b-67a3-692b-43e91" hidden="false" type="profile" targetId="3931-138b-3685-44ca"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="56a6-0b6b-5b9a-4d09" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="031f-203a-981c-4830" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Heavy bolter" id="56a6-0b6b-5b9a-4d091" hidden="false" type="profile" targetId="a75a-aae2-90fa-4ef8"/>
+                                        <infoLink name="Heavy bolter" id="031f-203a-981c-48301" hidden="false" type="profile" targetId="a75a-aae2-90fa-4ef8"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="5"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="d373-87e7-ea50-472e" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="9a52-9595-d6d4-41c4" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="Heavy flamer" id="d373-87e7-ea50-472e1" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
+                                        <infoLink name="Heavy flamer" id="9a52-9595-d6d4-41c41" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="13"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="247e-6094-cfd6-4463" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Krak grenade" hidden="false" id="b1f6-a7f9-7965-4319" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Krak grenade" id="247e-6094-cfd6-44631" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
+                                        <infoLink name="Krak grenade" id="b1f6-a7f9-7965-43191" hidden="false" type="profile" targetId="bc93-d30e-0576-4135"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Laserkanone" hidden="false" id="c238-4e3a-0e50-4822" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Laserkanone" hidden="false" id="9c08-68ca-cda6-4361" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Laserkanone" id="c238-4e3a-0e50-48221" hidden="false" type="profile" targetId="cc22-b3bd-f8ac-47d3"/>
+                                        <infoLink name="Laserkanone" id="9c08-68ca-cda6-43611" hidden="false" type="profile" targetId="cc22-b3bd-f8ac-47d3"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Missile launcher *" hidden="false" id="6797-5c0a-100a-45bc" sortIndex="8">
+                                <selectionEntry type="upgrade" import="true" name="Missile launcher *" hidden="false" id="7a39-a268-0b5d-4bf6" sortIndex="8">
                                     <infoLinks>
-                                        <infoLink name="Missile launcher *" id="6797-5c0a-100a-45bc1" hidden="false" type="profile" targetId="d468-6a59-3f37-4dae"/>
+                                        <infoLink name="Missile launcher *" id="7a39-a268-0b5d-4bf61" hidden="false" type="profile" targetId="d468-6a59-3f37-4dae"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Frag missile" hidden="false" id="c280-68ea-e332-4b62" sortIndex="9">
+                                <selectionEntry type="upgrade" import="true" name="- Frag missile" hidden="false" id="9ddb-d9fd-aa3d-46a1" sortIndex="9">
                                     <infoLinks>
-                                        <infoLink name="- Frag missile" id="c280-68ea-e332-4b621" hidden="false" type="profile" targetId="8e0a-b71e-5e9d-4249"/>
+                                        <infoLink name="- Frag missile" id="9ddb-d9fd-aa3d-46a11" hidden="false" type="profile" targetId="8e0a-b71e-5e9d-4249"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Krak missile" hidden="false" id="a41a-7f26-df77-43ee" sortIndex="10">
+                                <selectionEntry type="upgrade" import="true" name="- Krak missile" hidden="false" id="8e74-5450-61f5-4165" sortIndex="10">
                                     <infoLinks>
-                                        <infoLink name="- Krak missile" id="a41a-7f26-df77-43ee1" hidden="false" type="profile" targetId="5e83-2bb4-72f1-42b5"/>
+                                        <infoLink name="- Krak missile" id="8e74-5450-61f5-41651" hidden="false" type="profile" targetId="5e83-2bb4-72f1-42b5"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="111a-a20b-1bde-410b" sortIndex="11">
+                                <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="54f7-571a-4287-4c60" sortIndex="11">
                                     <infoLinks>
-                                        <infoLink name="Multi-melta" id="111a-a20b-1bde-410b1" hidden="false" type="profile" targetId="87f7-cb63-1d55-4f67"/>
+                                        <infoLink name="Multi-melta" id="54f7-571a-4287-4c601" hidden="false" type="profile" targetId="87f7-cb63-1d55-4f67"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="24"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma cannon *" hidden="false" id="a842-74d8-6f16-4cbe" sortIndex="12">
+                                <selectionEntry type="upgrade" import="true" name="Plasma cannon *" hidden="false" id="e1de-cc1c-9926-41b5" sortIndex="12">
                                     <infoLinks>
-                                        <infoLink name="Plasma cannon *" id="a842-74d8-6f16-4cbe1" hidden="false" type="profile" targetId="8ae0-7600-7a18-498c"/>
+                                        <infoLink name="Plasma cannon *" id="e1de-cc1c-9926-41b51" hidden="false" type="profile" targetId="8ae0-7600-7a18-498c"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="714c-986c-49a9-4a9b" sortIndex="13">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="34b2-5a57-41ab-4f99" sortIndex="13">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="714c-986c-49a9-4a9b1" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="34b2-5a57-41ab-4f991" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="8346-a160-351d-4616" sortIndex="14">
+                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="11e8-7939-e509-4554" sortIndex="14">
                                     <infoLinks>
-                                        <infoLink name="- Overcharged" id="8346-a160-351d-46161" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
+                                        <infoLink name="- Overcharged" id="11e8-7939-e509-45541" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Volkite caliver" hidden="false" id="0b43-3b3c-4e56-4e8a" sortIndex="15">
+                                <selectionEntry type="upgrade" import="true" name="Volkite caliver" hidden="false" id="bc70-78a8-0945-4271" sortIndex="15">
                                     <infoLinks>
-                                        <infoLink name="Volkite caliver" id="0b43-3b3c-4e56-4e8a1" hidden="false" type="profile" targetId="e491-fb4a-f752-4dfe"/>
+                                        <infoLink name="Volkite caliver" id="bc70-78a8-0945-42711" hidden="false" type="profile" targetId="e491-fb4a-f752-4dfe"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="12"/>
@@ -771,194 +827,202 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="8428-2485-27b0-43bf" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="6329-6662-0f4e-45f1" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="9da3-2e56-d812-4abd" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="77d0-103f-0ee7-44b8" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Legion Sergeant" hidden="false" id="b175-f865-ecda-45f3" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="45"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84a0-29ee-2454-41da" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="7ee4-58f9-3155-4e1f1" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Heavy Support" hidden="false" id="6945-7ba2-19cc-48ad" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="2d59-a041-dbd1-48041" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="863f-3170-58f6-44b1" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="07ab-0e20-2b41-4bee" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="-" id="1a29-3f10-a699-4360" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Contemptor Dreadnought" hidden="false" id="2729-cb53-7f97-4550">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Contemptor Dreadnought" hidden="false" id="cf44-68a6-70d9-46bc4" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Contemptor Dreadnought" hidden="false" id="d4ad-7421-a064-4d6f4" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1159-508f-4e4b-4587" includeChildSelections="false"/>
-                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="982a-2bb2-203b-484b" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="610d-d1d7-c933-4d54" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6db1-e377-7ab4-4c03" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="192"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Contemptor Dreadnought" id="1700-7f80-f5ae-4228" hidden="false" type="profile" targetId="2b8f-2f87-2db8-456e"/>
+                        <infoLink name="Legion Contemptor Dreadnought" id="cec8-cc8f-c9fb-4e87" hidden="false" type="profile" targetId="2b8f-2f87-2db8-456e"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="fa8b-e9bf-2d1f-4304" hidden="false" defaultSelectionEntryId="e31e-738e-5640-40f2">
+                        <selectionEntryGroup name="Weapon Choice" id="2bc1-213c-9649-4283" hidden="false" defaultSelectionEntryId="d1c9-74c4-3c65-4198">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Assault cannon" hidden="false" id="308a-392d-cdb3-4d68" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Assault cannon" hidden="false" id="8aac-6ea7-e1fd-4ea7" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Assault cannon" id="308a-392d-cdb3-4d681" hidden="false" type="profile" targetId="d8c7-6a65-5274-41ac"/>
+                                        <infoLink name="Assault cannon" id="8aac-6ea7-e1fd-4ea71" hidden="false" type="profile" targetId="d8c7-6a65-5274-41ac"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="32"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Conversion beamer *" hidden="false" id="0f65-9ed9-7538-48ce" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Conversion beamer *" hidden="false" id="8ee8-bad5-9dd2-4c69" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Conversion beamer *" id="0f65-9ed9-7538-48ce1" hidden="false" type="profile" targetId="6eae-89d7-8b28-427e"/>
+                                        <infoLink name="Conversion beamer *" id="8ee8-bad5-9dd2-4c691" hidden="false" type="profile" targetId="6eae-89d7-8b28-427e"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Short range" hidden="false" id="eb2b-9d25-8d02-4b44" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="- Short range" hidden="false" id="cb3f-7b27-ea2d-4bca" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="- Short range" id="eb2b-9d25-8d02-4b441" hidden="false" type="profile" targetId="982d-e7c5-070e-448e"/>
+                                        <infoLink name="- Short range" id="cb3f-7b27-ea2d-4bca1" hidden="false" type="profile" targetId="982d-e7c5-070e-448e"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Mid range" hidden="false" id="376b-ddb2-5aac-4c3e" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="- Mid range" hidden="false" id="81cf-3563-aa7e-470b" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="- Mid range" id="376b-ddb2-5aac-4c3e1" hidden="false" type="profile" targetId="594b-333e-5f32-4981"/>
+                                        <infoLink name="- Mid range" id="81cf-3563-aa7e-470b1" hidden="false" type="profile" targetId="594b-333e-5f32-4981"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Long range" hidden="false" id="f6ba-45aa-ec36-4e48" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="- Long range" hidden="false" id="12d4-7635-6541-45ac" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="- Long range" id="f6ba-45aa-ec36-4e481" hidden="false" type="profile" targetId="c83b-a1de-ea0d-4e1d"/>
+                                        <infoLink name="- Long range" id="12d4-7635-6541-45ac1" hidden="false" type="profile" targetId="c83b-a1de-ea0d-4e1d"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Cyclone missile launcher *" hidden="false" id="e6ef-8ff4-7a7a-4acf" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Cyclone missile launcher *" hidden="false" id="5592-780b-fb1f-4d59" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Cyclone missile launcher *" id="e6ef-8ff4-7a7a-4acf1" hidden="false" type="profile" targetId="f24b-579d-eca6-4c15"/>
+                                        <infoLink name="Cyclone missile launcher *" id="5592-780b-fb1f-4d591" hidden="false" type="profile" targetId="f24b-579d-eca6-4c15"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Frag missile" hidden="false" id="62a7-9882-88eb-4c14" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="- Frag missile" hidden="false" id="d7b3-9664-825a-4e58" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="- Frag missile" id="62a7-9882-88eb-4c141" hidden="false" type="profile" targetId="8e0a-b71e-5e9d-4249"/>
+                                        <infoLink name="- Frag missile" id="d7b3-9664-825a-4e581" hidden="false" type="profile" targetId="8e0a-b71e-5e9d-4249"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Krak missile" hidden="false" id="9fb1-d42f-d23b-40ad" sortIndex="8">
+                                <selectionEntry type="upgrade" import="true" name="- Krak missile" hidden="false" id="142a-7b47-bc51-48ab" sortIndex="8">
                                     <infoLinks>
-                                        <infoLink name="- Krak missile" id="9fb1-d42f-d23b-40ad1" hidden="false" type="profile" targetId="5e83-2bb4-72f1-42b5"/>
+                                        <infoLink name="- Krak missile" id="142a-7b47-bc51-48ab1" hidden="false" type="profile" targetId="5e83-2bb4-72f1-42b5"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Dreadnought close combat weapon" hidden="false" id="3c5a-cc88-a920-41bc" sortIndex="9">
+                                <selectionEntry type="upgrade" import="true" name="Dreadnought close combat weapon" hidden="false" id="d66b-2c56-ff07-4685" sortIndex="9">
                                     <infoLinks>
-                                        <infoLink name="Dreadnought close combat weapon" id="3c5a-cc88-a920-41bc1" hidden="false" type="profile" targetId="8da5-5ca0-19dc-4a5a"/>
+                                        <infoLink name="Dreadnought close combat weapon" id="d66b-2c56-ff07-46851" hidden="false" type="profile" targetId="8da5-5ca0-19dc-4a5a"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Graviton blaster" hidden="false" id="0ff3-e566-a8c4-48b9" sortIndex="10">
+                                <selectionEntry type="upgrade" import="true" name="Graviton blaster" hidden="false" id="ba9d-eac6-81fc-4110" sortIndex="10">
                                     <infoLinks>
-                                        <infoLink name="Graviton blaster" id="0ff3-e566-a8c4-48b91" hidden="false" type="profile" targetId="ba91-04f7-ea67-4a98"/>
+                                        <infoLink name="Graviton blaster" id="ba9d-eac6-81fc-41101" hidden="false" type="profile" targetId="ba91-04f7-ea67-4a98"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="5"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="64c6-0e5c-5f4d-4ab1" sortIndex="11">
+                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="7ae7-0469-2f39-4bdf" sortIndex="11">
                                     <infoLinks>
-                                        <infoLink name="Heavy flamer" id="64c6-0e5c-5f4d-4ab11" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
+                                        <infoLink name="Heavy flamer" id="7ae7-0469-2f39-4bdf1" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="13"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Kheres-pattern assault cannon" hidden="false" id="b51e-641d-aea9-445f" sortIndex="12">
+                                <selectionEntry type="upgrade" import="true" name="Kheres-pattern assault cannon" hidden="false" id="c769-0a58-b6c7-448b" sortIndex="12">
                                     <infoLinks>
-                                        <infoLink name="Kheres-pattern assault cannon" id="b51e-641d-aea9-445f1" hidden="false" type="profile" targetId="9775-e48b-d5c9-44e6"/>
+                                        <infoLink name="Kheres-pattern assault cannon" id="c769-0a58-b6c7-448b1" hidden="false" type="profile" targetId="9775-e48b-d5c9-44e6"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="40"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Missile launcher *" hidden="false" id="5a12-1cf2-15b5-491c" sortIndex="13">
+                                <selectionEntry type="upgrade" import="true" name="Missile launcher *" hidden="false" id="7abf-625d-5711-4ec7" sortIndex="13">
                                     <infoLinks>
-                                        <infoLink name="Missile launcher *" id="5a12-1cf2-15b5-491c1" hidden="false" type="profile" targetId="d468-6a59-3f37-4dae"/>
+                                        <infoLink name="Missile launcher *" id="7abf-625d-5711-4ec71" hidden="false" type="profile" targetId="d468-6a59-3f37-4dae"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Frag missile" hidden="false" id="c160-9a37-dd26-4f04" sortIndex="14">
+                                <selectionEntry type="upgrade" import="true" name="- Frag missile" hidden="false" id="bc86-b339-756d-4c04" sortIndex="14">
                                     <infoLinks>
-                                        <infoLink name="- Frag missile" id="c160-9a37-dd26-4f041" hidden="false" type="profile" targetId="8e0a-b71e-5e9d-4249"/>
+                                        <infoLink name="- Frag missile" id="bc86-b339-756d-4c041" hidden="false" type="profile" targetId="8e0a-b71e-5e9d-4249"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Krak missile" hidden="false" id="b124-e65c-2981-4a98" sortIndex="15">
+                                <selectionEntry type="upgrade" import="true" name="- Krak missile" hidden="false" id="3388-c39e-627a-46a1" sortIndex="15">
                                     <infoLinks>
-                                        <infoLink name="- Krak missile" id="b124-e65c-2981-4a981" hidden="false" type="profile" targetId="5e83-2bb4-72f1-42b5"/>
+                                        <infoLink name="- Krak missile" id="3388-c39e-627a-46a11" hidden="false" type="profile" targetId="5e83-2bb4-72f1-42b5"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="f084-eef8-acec-4f01" sortIndex="16">
+                                <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="dcf1-98e7-f9a0-4e88" sortIndex="16">
                                     <infoLinks>
-                                        <infoLink name="Multi-melta" id="f084-eef8-acec-4f011" hidden="false" type="profile" targetId="87f7-cb63-1d55-4f67"/>
+                                        <infoLink name="Multi-melta" id="dcf1-98e7-f9a0-4e881" hidden="false" type="profile" targetId="87f7-cb63-1d55-4f67"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="24"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma blaster *" hidden="false" id="fe17-6cbf-91c4-404f" sortIndex="17">
+                                <selectionEntry type="upgrade" import="true" name="Plasma blaster *" hidden="false" id="3d74-7bb9-3506-43ec" sortIndex="17">
                                     <infoLinks>
-                                        <infoLink name="Plasma blaster *" id="fe17-6cbf-91c4-404f1" hidden="false" type="profile" targetId="c4ba-2a02-bdc6-4390"/>
+                                        <infoLink name="Plasma blaster *" id="3d74-7bb9-3506-43ec1" hidden="false" type="profile" targetId="c4ba-2a02-bdc6-4390"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="4ae4-a7f3-60cc-4af2" sortIndex="18">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="104a-2df7-b41b-4d25" sortIndex="18">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="4ae4-a7f3-60cc-4af21" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="104a-2df7-b41b-4d251" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="5014-63a1-d302-44d1" sortIndex="19">
+                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="ea9d-f9bc-3bd4-4661" sortIndex="19">
                                     <infoLinks>
-                                        <infoLink name="- Overcharged" id="5014-63a1-d302-44d11" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
+                                        <infoLink name="- Overcharged" id="ea9d-f9bc-3bd4-46611" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma cannon *" hidden="false" id="c543-5b9a-9a06-4a52" sortIndex="20">
+                                <selectionEntry type="upgrade" import="true" name="Plasma cannon *" hidden="false" id="ea70-49c5-c4a5-4e58" sortIndex="20">
                                     <infoLinks>
-                                        <infoLink name="Plasma cannon *" id="c543-5b9a-9a06-4a521" hidden="false" type="profile" targetId="8ae0-7600-7a18-498c"/>
+                                        <infoLink name="Plasma cannon *" id="ea70-49c5-c4a5-4e581" hidden="false" type="profile" targetId="8ae0-7600-7a18-498c"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="8ad3-3a0a-af9d-4303" sortIndex="21">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="a105-251c-2c4b-4cf0" sortIndex="21">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="8ad3-3a0a-af9d-43031" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="a105-251c-2c4b-4cf01" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="96eb-5c07-e63e-4970" sortIndex="22">
+                                <selectionEntry type="upgrade" import="true" name="- Overcharged" hidden="false" id="3993-8c32-ff02-48a1" sortIndex="22">
                                     <infoLinks>
-                                        <infoLink name="- Overcharged" id="96eb-5c07-e63e-49701" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
+                                        <infoLink name="- Overcharged" id="3993-8c32-ff02-48a11" hidden="false" type="profile" targetId="86ac-d3c8-ca1e-4f18"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Storm bolter" hidden="false" id="09a4-3606-1102-485d" sortIndex="23">
+                                <selectionEntry type="upgrade" import="true" name="Storm bolter" hidden="false" id="0bcb-ea8e-91ff-47f7" sortIndex="23">
                                     <infoLinks>
-                                        <infoLink name="Storm bolter" id="09a4-3606-1102-485d1" hidden="false" type="profile" targetId="7af7-0ccb-a9bb-45fd"/>
+                                        <infoLink name="Storm bolter" id="0bcb-ea8e-91ff-47f71" hidden="false" type="profile" targetId="7af7-0ccb-a9bb-45fd"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin autocannon" hidden="false" id="a92f-e45c-e498-4295" sortIndex="24">
+                                <selectionEntry type="upgrade" import="true" name="Twin autocannon" hidden="false" id="e785-d2d6-1d52-4ef5" sortIndex="24">
                                     <infoLinks>
-                                        <infoLink name="Twin autocannon" id="a92f-e45c-e498-42951" hidden="false" type="profile" targetId="9715-e20c-3e80-4b1e"/>
+                                        <infoLink name="Twin autocannon" id="e785-d2d6-1d52-4ef51" hidden="false" type="profile" targetId="9715-e20c-3e80-4b1e"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="53"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin heavy bolter" hidden="false" id="a202-1d08-0756-48ac" sortIndex="25">
+                                <selectionEntry type="upgrade" import="true" name="Twin heavy bolter" hidden="false" id="086e-350d-c1f8-49cb" sortIndex="25">
                                     <infoLinks>
-                                        <infoLink name="Twin heavy bolter" id="a202-1d08-0756-48ac1" hidden="false" type="profile" targetId="b5c0-4e9c-d738-44a9"/>
+                                        <infoLink name="Twin heavy bolter" id="086e-350d-c1f8-49cb1" hidden="false" type="profile" targetId="b5c0-4e9c-d738-44a9"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="36"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin lascannon" hidden="false" id="16d9-307a-6746-4bb6" sortIndex="26">
+                                <selectionEntry type="upgrade" import="true" name="Twin lascannon" hidden="false" id="519f-741b-9afb-48da" sortIndex="26">
                                     <infoLinks>
-                                        <infoLink name="Twin lascannon" id="16d9-307a-6746-4bb61" hidden="false" type="profile" targetId="1d4c-4926-1ddb-4808"/>
+                                        <infoLink name="Twin lascannon" id="519f-741b-9afb-48da1" hidden="false" type="profile" targetId="1d4c-4926-1ddb-4808"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="138"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin volkite culverin" hidden="false" id="4a72-9280-72ac-432b" sortIndex="27">
+                                <selectionEntry type="upgrade" import="true" name="Twin volkite culverin" hidden="false" id="dc8a-a40c-87ff-4e40" sortIndex="27">
                                     <infoLinks>
-                                        <infoLink name="Twin volkite culverin" id="4a72-9280-72ac-432b1" hidden="false" type="profile" targetId="5274-a176-f609-4551"/>
+                                        <infoLink name="Twin volkite culverin" id="dc8a-a40c-87ff-4e401" hidden="false" type="profile" targetId="5274-a176-f609-4551"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="68"/>
@@ -966,90 +1030,90 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="be0a-5a08-750c-49dd" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="626c-904c-3730-4a06" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="c0cb-5410-b5e0-43ef" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="59cd-2bf6-b187-4296" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Vehicle" hidden="false" id="b1b1-d121-fa97-431f1" targetId="243a-2cd5-61a0-1b44" primary="false"/>
-                <categoryLink name="Walker" hidden="false" id="f531-d3a9-f25e-4b8d1" targetId="4007-5578-8d8c-a21e" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="47eb-6fec-3688-4f0c" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Vehicle" hidden="false" id="0880-1112-8c95-473b1" targetId="243a-2cd5-61a0-1b44" primary="false"/>
+                <categoryLink name="Walker" hidden="false" id="801a-6bed-b702-40bd1" targetId="4007-5578-8d8c-a21e" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="a95c-7f97-ba69-421d" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Squadron" id="aaad-623e-0821-4760" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
-                <infoLink name="Atomantic Shielding" id="7c77-0a39-05df-4e92" hidden="false" type="rule" targetId="8ecd-eda4-5fdd-4b10"/>
-                <infoLink name="Furioso" id="89b3-a960-860d-48c4" hidden="false" type="rule" targetId="5844-224d-39c3-451e"/>
+                <infoLink name="Squadron" id="d65d-3edf-1a82-4978" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="Atomantic Shielding" id="749b-91db-5710-4d7f" hidden="false" type="rule" targetId="8ecd-eda4-5fdd-4b10"/>
+                <infoLink name="Furioso" id="3921-e094-42e8-43ea" hidden="false" type="rule" targetId="5844-224d-39c3-451e"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Leviathan Dreadnought" hidden="false" id="a0a9-187b-3aa1-4f77">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Leviathan Dreadnought" hidden="false" id="ad7f-6be8-3ffa-4a9a4" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Leviathan Dreadnought" hidden="false" id="62fe-8f12-c4b7-4dbb4" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="67a8-04f7-c2ab-4c6f" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ae3-9cd4-7ac3-44ab" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46c5-5c4e-8847-4fa4" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8aeb-cb5e-4902-4dc5" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="208"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Leviathan Dreadnought" id="e145-a33e-e7b9-4cc8" hidden="false" type="profile" targetId="97d2-befa-e9f2-49f8"/>
+                        <infoLink name="Legion Leviathan Dreadnought" id="a96c-adb4-5541-452e" hidden="false" type="profile" targetId="97d2-befa-e9f2-49f8"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="e756-c4ff-a3bf-4f25" hidden="false" defaultSelectionEntryId="7779-a9b1-6a79-4acd">
+                        <selectionEntryGroup name="Weapon Choice" id="dbfe-cc06-893c-418a" hidden="false" defaultSelectionEntryId="c27b-6bfa-3081-4ee3">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Cyclonic melta lance" hidden="false" id="8bec-595b-9432-4d07" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Cyclonic melta lance" hidden="false" id="9fde-f609-bf3b-4334" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Cyclonic melta lance" id="8bec-595b-9432-4d071" hidden="false" type="profile" targetId="715e-72b8-0766-4a88"/>
+                                        <infoLink name="Cyclonic melta lance" id="9fde-f609-bf3b-43341" hidden="false" type="profile" targetId="715e-72b8-0766-4a88"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="141"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Grav-flux bombard" hidden="false" id="ec67-0383-281b-4844" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Grav-flux bombard" hidden="false" id="1eb9-95fe-9351-4c13" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Grav-flux bombard" id="ec67-0383-281b-48441" hidden="false" type="profile" targetId="d648-2b8a-877c-4d13"/>
+                                        <infoLink name="Grav-flux bombard" id="1eb9-95fe-9351-4c131" hidden="false" type="profile" targetId="d648-2b8a-877c-4d13"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="31"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="8866-6983-dbfd-43e1" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="5b3a-183e-4afb-4fee" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Heavy flamer" id="8866-6983-dbfd-43e11" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
+                                        <infoLink name="Heavy flamer" id="5b3a-183e-4afb-4fee1" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="13"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Leviathan siege claws" hidden="false" id="294a-ab6b-99dc-4f65" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Leviathan siege claws" hidden="false" id="2d36-391f-86e5-4fa0" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Leviathan siege claws" id="294a-ab6b-99dc-4f651" hidden="false" type="profile" targetId="b5b8-3612-2b2f-4c87"/>
+                                        <infoLink name="Leviathan siege claws" id="2d36-391f-86e5-4fa01" hidden="false" type="profile" targetId="b5b8-3612-2b2f-4c87"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Leviathan siege drill" hidden="false" id="a13c-01c5-062a-4c66" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="Leviathan siege drill" hidden="false" id="c13c-151f-a1bd-4634" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="Leviathan siege drill" id="a13c-01c5-062a-4c661" hidden="false" type="profile" targetId="4177-e359-d0d9-4ae7"/>
+                                        <infoLink name="Leviathan siege drill" id="c13c-151f-a1bd-46341" hidden="false" type="profile" targetId="4177-e359-d0d9-4ae7"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Melta" hidden="false" id="b6db-6969-42ea-466e" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Melta" hidden="false" id="0999-13e9-10ae-429a" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Melta" id="b6db-6969-42ea-466e1" hidden="false" type="profile" targetId="bbe1-fa8e-676a-4bda"/>
+                                        <infoLink name="Melta" id="0999-13e9-10ae-429a1" hidden="false" type="profile" targetId="bbe1-fa8e-676a-4bda"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="12"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Quad autocannon" hidden="false" id="f24e-ee9f-ddc6-407a" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Quad autocannon" hidden="false" id="5c17-c911-370b-489e" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Quad autocannon" id="f24e-ee9f-ddc6-407a1" hidden="false" type="profile" targetId="7935-c578-9f2c-4ab4"/>
+                                        <infoLink name="Quad autocannon" id="5c17-c911-370b-489e1" hidden="false" type="profile" targetId="7935-c578-9f2c-4ab4"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin volkite culverin" hidden="false" id="cd6d-ced7-540a-427a" sortIndex="8">
+                                <selectionEntry type="upgrade" import="true" name="Twin volkite culverin" hidden="false" id="d68a-4d36-9738-4e48" sortIndex="8">
                                     <infoLinks>
-                                        <infoLink name="Twin volkite culverin" id="cd6d-ced7-540a-427a1" hidden="false" type="profile" targetId="5274-a176-f609-4551"/>
+                                        <infoLink name="Twin volkite culverin" id="d68a-4d36-9738-4e481" hidden="false" type="profile" targetId="5274-a176-f609-4551"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="68"/>
@@ -1057,89 +1121,89 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="9a26-162c-9566-41f4" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="33a3-04f7-b712-4d39" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="de50-eaee-57da-4e81" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="7860-dd5a-7a88-40b6" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Vehicle" hidden="false" id="328f-0e89-39ef-4bc51" targetId="243a-2cd5-61a0-1b44" primary="false"/>
-                <categoryLink name="Walker" hidden="false" id="5678-360b-1599-488f1" targetId="4007-5578-8d8c-a21e" primary="false"/>
-                <categoryLink name="Heavy Support" hidden="false" id="454a-f511-80c7-482a" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Vehicle" hidden="false" id="41a2-4a8e-74aa-4bf51" targetId="243a-2cd5-61a0-1b44" primary="false"/>
+                <categoryLink name="Walker" hidden="false" id="a4d3-ea64-d31c-4c801" targetId="4007-5578-8d8c-a21e" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="7429-4e9e-77c3-46c4" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="86e6-7d72-deee-4acc" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
-                <infoLink name="Atomantic Shielding" id="4eee-7167-255b-4dad" hidden="false" type="rule" targetId="8ecd-eda4-5fdd-4b10"/>
-                <infoLink name="Furioso" id="6a63-e467-be4b-47b5" hidden="false" type="rule" targetId="5844-224d-39c3-451e"/>
+                <infoLink name="-" id="a1bf-113a-54bf-4532" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="Atomantic Shielding" id="b258-76e1-ce75-493c" hidden="false" type="rule" targetId="8ecd-eda4-5fdd-4b10"/>
+                <infoLink name="Furioso" id="73dd-f748-2c5f-47ae" hidden="false" type="rule" targetId="5844-224d-39c3-451e"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Legion Sicaran Battle Tank" hidden="false" id="d505-aacc-d2e6-4835">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Legion Sicaran Battle Tank" hidden="false" id="685b-b520-618e-4a0e4" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Legion Sicaran Battle Tank" hidden="false" id="d4a0-0760-22ac-4e6f4" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a316-3caf-fb1b-4dd8" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c19a-3991-6b89-4011" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6722-37fe-3f56-482b" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4873-1556-5d90-4beb" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="305"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Legion Sicaran Battle Tank" id="e73e-20ee-3aaa-4d4a" hidden="false" type="profile" targetId="82c8-5bf3-cb5c-44b7"/>
+                        <infoLink name="Legion Sicaran Battle Tank" id="0b5e-5d53-36a3-4602" hidden="false" type="profile" targetId="82c8-5bf3-cb5c-44b7"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="e914-042b-b04d-4863" hidden="false" defaultSelectionEntryId="48d8-b1ce-1452-44ab">
+                        <selectionEntryGroup name="Weapon Choice" id="2af6-8b55-b78f-4906" hidden="false" defaultSelectionEntryId="2b22-0184-3071-403f">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="2924-a60c-e42c-4c40" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="2e3a-e527-001d-43c2" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Heavy bolter" id="2924-a60c-e42c-4c401" hidden="false" type="profile" targetId="a75a-aae2-90fa-4ef8"/>
+                                        <infoLink name="Heavy bolter" id="2e3a-e527-001d-43c21" hidden="false" type="profile" targetId="a75a-aae2-90fa-4ef8"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="5"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="b451-1179-5101-4f8d" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="badd-dba3-d5ec-48dc" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Heavy flamer" id="b451-1179-5101-4f8d1" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
+                                        <infoLink name="Heavy flamer" id="badd-dba3-d5ec-48dc1" hidden="false" type="profile" targetId="fa84-b5db-973d-4e64"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="13"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heracles autocannon" hidden="false" id="e01c-433d-f8fd-4949" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Heracles autocannon" hidden="false" id="2fa1-d9a2-c29d-44e3" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Heracles autocannon" id="e01c-433d-f8fd-49491" hidden="false" type="profile" targetId="25b7-c04a-5a86-4b2b"/>
+                                        <infoLink name="Heracles autocannon" id="2fa1-d9a2-c29d-44e31" hidden="false" type="profile" targetId="25b7-c04a-5a86-4b2b"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="c360-c87f-8fb5-4d85" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="b2d9-2368-a56b-4caa" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Lascannon" id="c360-c87f-8fb5-4d851" hidden="false" type="profile" targetId="b287-564a-727e-4cfc"/>
+                                        <infoLink name="Lascannon" id="b2d9-2368-a56b-4caa1" hidden="false" type="profile" targetId="b287-564a-727e-4cfc"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="56"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Storm bolter" hidden="false" id="35c3-8786-86be-480d" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="Storm bolter" hidden="false" id="1cdc-b1ff-61c2-4134" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="Storm bolter" id="35c3-8786-86be-480d1" hidden="false" type="profile" targetId="7af7-0ccb-a9bb-45fd"/>
+                                        <infoLink name="Storm bolter" id="1cdc-b1ff-61c2-41341" hidden="false" type="profile" targetId="7af7-0ccb-a9bb-45fd"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="b652-8794-ed75-40ed" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="5ec1-035c-7aa8-4291" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="53b3-b99d-15ce-44f7" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="8556-665c-ccce-492d" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Vehicle" hidden="false" id="4725-3105-0dbe-40cb1" targetId="243a-2cd5-61a0-1b44" primary="false"/>
-                <categoryLink name="Heavy Support" hidden="false" id="ad59-4096-39a9-40a5" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Vehicle" hidden="false" id="4539-9477-7b75-4c581" targetId="243a-2cd5-61a0-1b44" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="b3ae-95c8-3e73-420f" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="d656-d99c-c283-45cd" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="-" id="0884-6132-d5e2-47ba" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
             </infoLinks>
         </selectionEntry>
     </sharedSelectionEntries>
@@ -2730,59 +2794,59 @@
         </profile>
     </sharedProfiles>
     <entryLinks>
-        <entryLink import="true" name="Legion Breacher Squad" hidden="false" id="473e-073d-783d-493c" type="selectionEntry" targetId="b002-96a3-6326-449d">
+        <entryLink import="true" name="Legion Breacher Squad" hidden="false" id="2e8a-21f8-ebff-41c4" type="selectionEntry" targetId="b002-96a3-6326-449d">
             <categoryLinks>
-                <categoryLink name="Troops" hidden="false" id="11f2-e249-90f4-459c" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Troops" hidden="false" id="5a9a-8737-4075-442b" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Legion Tactical Squad" hidden="false" id="6213-f0e6-5a3e-4328" type="selectionEntry" targetId="5107-72fe-40a1-4d97">
+        <entryLink import="true" name="Legion Tactical Squad" hidden="false" id="8064-98c1-7007-4b36" type="selectionEntry" targetId="5107-72fe-40a1-4d97">
             <categoryLinks>
-                <categoryLink name="Troops" hidden="false" id="79b1-27de-7356-49fc" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Troops" hidden="false" id="64df-9700-77f8-4bef" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Legion Tactical Support Squad" hidden="false" id="5145-f279-2905-49aa" type="selectionEntry" targetId="2a9c-bb3b-db3b-4722">
+        <entryLink import="true" name="Legion Tactical Support Squad" hidden="false" id="8dea-a6ca-87c6-4ec6" type="selectionEntry" targetId="2a9c-bb3b-db3b-4722">
             <categoryLinks>
-                <categoryLink name="Troops" hidden="false" id="7e9d-1652-1531-45bf" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Troops" hidden="false" id="20d9-640a-c841-4702" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Legion Terminator Cataphractii Squad" hidden="false" id="9a62-d4cd-faed-48fd" type="selectionEntry" targetId="2949-f532-7b49-4e12">
+        <entryLink import="true" name="Legion Terminator Cataphractii Squad" hidden="false" id="7444-c3de-1836-4761" type="selectionEntry" targetId="2949-f532-7b49-4e12">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="ac6e-e865-6117-47da" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="52c1-424d-0e85-49ab" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Palatine Blade Squad" hidden="false" id="7ce1-3fcb-3839-4271" type="selectionEntry" targetId="175e-76a7-699d-4bfd">
+        <entryLink import="true" name="Palatine Blade Squad" hidden="false" id="fd98-24a9-7831-4f2c" type="selectionEntry" targetId="175e-76a7-699d-4bfd">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="7849-28bf-4d1e-4842" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="fe8e-5831-ca96-4cbb" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Legion Sky-hunter Squadron" hidden="false" id="1b6a-cefa-22af-46c1" type="selectionEntry" targetId="dc8d-ebff-f0ad-4529">
+        <entryLink import="true" name="Legion Sky-hunter Squadron" hidden="false" id="4e4c-9cd4-4104-42f4" type="selectionEntry" targetId="dc8d-ebff-f0ad-4529">
             <categoryLinks>
-                <categoryLink name="Fast Attack" hidden="false" id="d511-2871-6232-4caf" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="6c91-7f47-5bb9-4f64" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Kakophoni Squad" hidden="false" id="861b-48e9-1ed6-4d3a" type="selectionEntry" targetId="b0cf-071d-758a-41a1">
+        <entryLink import="true" name="Kakophoni Squad" hidden="false" id="ab0a-48ce-b6b6-4948" type="selectionEntry" targetId="b0cf-071d-758a-41a1">
             <categoryLinks>
-                <categoryLink name="Heavy Support" hidden="false" id="fcc1-2fd6-d8bb-498b" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="8678-197e-907f-415c" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Legion Heavy Support Squad" hidden="false" id="43fb-4bd6-a9df-4d13" type="selectionEntry" targetId="9c6f-f382-11e7-466e">
+        <entryLink import="true" name="Legion Heavy Support Squad" hidden="false" id="5eac-6753-a363-4510" type="selectionEntry" targetId="9c6f-f382-11e7-466e">
             <categoryLinks>
-                <categoryLink name="Heavy Support" hidden="false" id="d2c8-0690-49ec-4ee9" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="3cf3-2fed-2057-495d" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Legion Contemptor Dreadnought" hidden="false" id="a86c-bc85-247f-4276" type="selectionEntry" targetId="2729-cb53-7f97-4550">
+        <entryLink import="true" name="Legion Contemptor Dreadnought" hidden="false" id="48ec-d44c-107d-48e6" type="selectionEntry" targetId="2729-cb53-7f97-4550">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="5c2c-cb99-d397-4c1b" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="d2e2-2061-ce88-461e" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Legion Leviathan Dreadnought" hidden="false" id="8f7f-673e-4299-417f" type="selectionEntry" targetId="a0a9-187b-3aa1-4f77">
+        <entryLink import="true" name="Legion Leviathan Dreadnought" hidden="false" id="3b48-80d3-5578-494b" type="selectionEntry" targetId="a0a9-187b-3aa1-4f77">
             <categoryLinks>
-                <categoryLink name="Heavy Support" hidden="false" id="614d-9e38-39f6-44b0" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="7cfd-6cc1-83fb-45f9" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Legion Sicaran Battle Tank" hidden="false" id="b6f6-548e-a0c2-49a8" type="selectionEntry" targetId="d505-aacc-d2e6-4835">
+        <entryLink import="true" name="Legion Sicaran Battle Tank" hidden="false" id="8a05-788b-846b-42d3" type="selectionEntry" targetId="d505-aacc-d2e6-4835">
             <categoryLinks>
-                <categoryLink name="Heavy Support" hidden="false" id="0a88-7766-83e3-4196" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="5610-63d2-b882-4970" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
         </entryLink>
     </entryLinks>

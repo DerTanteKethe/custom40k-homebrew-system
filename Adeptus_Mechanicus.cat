@@ -3,106 +3,106 @@
     <sharedSelectionEntries>
         <selectionEntry type="unit" import="true" name="Skitarii Marshal" hidden="false" id="43e3-d023-bb7d-4ae9">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Skitarii Marshal" hidden="false" id="c60e-4058-d688-46d04" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Skitarii Marshal" hidden="false" id="f9e1-484a-7b3c-40314" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54f4-18dd-282e-4d03" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f387-33ea-7dbf-4575" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d79d-e97d-debc-4047" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1b1-86a6-d530-4b63" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="35"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Skitarii Marshal" id="257d-3ec0-4f7f-43a7" hidden="false" type="profile" targetId="8c21-a79b-0970-421d"/>
+                        <infoLink name="Skitarii Marshal" id="e2c5-d67e-46bf-4de9" hidden="false" type="profile" targetId="8c21-a79b-0970-421d"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="8c27-f344-2b52-4a92" hidden="false" defaultSelectionEntryId="9a22-c8d7-bfdd-44d5">
+                        <selectionEntryGroup name="Weapon Choice" id="cf7c-5be2-939b-4c47" hidden="false" defaultSelectionEntryId="23b8-3395-7248-470b">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="-" hidden="false" id="891d-4fdf-d229-4b70" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="-" hidden="false" id="552f-7813-6efa-47f2" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="-" id="891d-4fdf-d229-4b701" hidden="false" type="profile" targetId="387a-0ddd-7e11-48a9"/>
+                                        <infoLink name="-" id="552f-7813-6efa-47f21" hidden="false" type="profile" targetId="387a-0ddd-7e11-48a9"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="3d84-f050-e6a3-4363" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="4706-de96-7cd8-4e47" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="b841-2158-8db5-4e86" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="23e0-912a-bc74-4c0b" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Character model" hidden="false" id="29cb-fb02-0c6d-47cd1" targetId="8005-00e1-1066-035d" primary="false"/>
-                <categoryLink name="Infantry" hidden="false" id="1fdf-8131-8115-40fe1" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="HQ" hidden="false" id="c79d-8cf2-bd07-4796" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
+                <categoryLink name="Character model" hidden="false" id="6641-a4ae-9df9-4ec11" targetId="8005-00e1-1066-035d" primary="false"/>
+                <categoryLink name="Infantry" hidden="false" id="b8bb-029e-bede-406c1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="HQ" hidden="false" id="3435-4964-b4ca-41bc" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Command squad" id="ad9b-09c9-dc44-4bcc" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
-                <infoLink name="Advisor" id="8a18-ca3b-5aa3-40f1" hidden="false" type="rule" targetId="400a-74e8-a20d-4b3e"/>
-                <infoLink name="Servo-skull Uplink" id="45c4-8b4b-99bb-4736" hidden="false" type="rule" targetId="cb7e-9d5c-666d-4598"/>
+                <infoLink name="Command squad" id="b292-c889-dc47-4869" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
+                <infoLink name="Advisor" id="f23e-48c1-e3f0-4208" hidden="false" type="rule" targetId="400a-74e8-a20d-4b3e"/>
+                <infoLink name="Servo-skull Uplink" id="c7c4-8aa7-b243-43f7" hidden="false" type="rule" targetId="cb7e-9d5c-666d-4598"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Tech-Priest" hidden="false" id="9e5f-e9de-bcce-45ac">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Tech-Priest" hidden="false" id="17f7-0dbe-8a14-46e54" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Tech-Priest" hidden="false" id="8cd8-d13b-fe2e-46c64" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f53-0a8e-4917-4f84" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35f9-1af7-bfa3-4f6b" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e74a-bc6e-0fa0-427a" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5231-982b-fa1c-430e" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="90"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Tech-Priest" id="e8a5-0e69-11ff-41ab" hidden="false" type="profile" targetId="0183-a909-5057-4300"/>
+                        <infoLink name="Tech-Priest" id="455e-bb45-4d73-4483" hidden="false" type="profile" targetId="0183-a909-5057-4300"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="aeb2-2cd9-185a-4376" hidden="false" defaultSelectionEntryId="4125-81f6-ae4b-4197">
+                        <selectionEntryGroup name="Weapon Choice" id="ef67-090b-badd-4107" hidden="false" defaultSelectionEntryId="b890-c691-5a1e-4d8b">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Eradication ray" hidden="false" id="db29-0eb6-a977-4174" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Eradication ray" hidden="false" id="2165-ca7c-77e2-47b9" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Eradication ray" id="db29-0eb6-a977-41741" hidden="false" type="profile" targetId="7668-e706-c1a1-4547"/>
+                                        <infoLink name="Eradication ray" id="2165-ca7c-77e2-47b91" hidden="false" type="profile" targetId="7668-e706-c1a1-4547"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="64"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Short range" hidden="false" id="e520-00db-d78f-4225" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="- Short range" hidden="false" id="ea09-4323-ebc7-429b" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="- Short range" id="e520-00db-d78f-42251" hidden="false" type="profile" targetId="982d-e7c5-070e-448e"/>
+                                        <infoLink name="- Short range" id="ea09-4323-ebc7-429b1" hidden="false" type="profile" targetId="982d-e7c5-070e-448e"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Mid range" hidden="false" id="5119-4765-7e64-4939" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="- Mid range" hidden="false" id="a3af-37d5-cf85-4a02" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="- Mid range" id="5119-4765-7e64-49391" hidden="false" type="profile" targetId="594b-333e-5f32-4981"/>
+                                        <infoLink name="- Mid range" id="a3af-37d5-cf85-4a021" hidden="false" type="profile" targetId="594b-333e-5f32-4981"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Magnarail lance" hidden="false" id="c243-927e-676e-45e9" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Magnarail lance" hidden="false" id="6313-ebfb-8ae7-45c8" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Magnarail lance" id="c243-927e-676e-45e91" hidden="false" type="profile" targetId="356f-f0dd-97a0-4a5f"/>
+                                        <infoLink name="Magnarail lance" id="6313-ebfb-8ae7-45c81" hidden="false" type="profile" targetId="356f-f0dd-97a0-4a5f"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="29"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Servo-arc claw" hidden="false" id="09bf-3460-6ad8-4e25" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="Servo-arc claw" hidden="false" id="ccb9-6941-b98f-4d7a" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="Servo-arc claw" id="09bf-3460-6ad8-4e251" hidden="false" type="profile" targetId="9d57-8240-c08c-4250"/>
+                                        <infoLink name="Servo-arc claw" id="ccb9-6941-b98f-4d7a1" hidden="false" type="profile" targetId="9d57-8240-c08c-4250"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="13"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Transonic cannon" hidden="false" id="f187-9008-8313-4907" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Transonic cannon" hidden="false" id="e965-70fc-8149-4edc" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Transonic cannon" id="f187-9008-8313-49071" hidden="false" type="profile" targetId="afe8-7d8b-3076-4c81"/>
+                                        <infoLink name="Transonic cannon" id="e965-70fc-8149-4edc1" hidden="false" type="profile" targetId="afe8-7d8b-3076-4c81"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="8"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Volkite blaster" hidden="false" id="d30f-2955-ace4-4be3" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Volkite blaster" hidden="false" id="966f-62af-4970-42ff" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Volkite blaster" id="d30f-2955-ace4-4be31" hidden="false" type="profile" targetId="4928-98e6-2289-43cb"/>
+                                        <infoLink name="Volkite blaster" id="966f-62af-4970-42ff1" hidden="false" type="profile" targetId="4928-98e6-2289-43cb"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="25"/>
@@ -110,88 +110,96 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="62c7-e35c-4b4e-464c" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="f689-91ae-c9d0-4cb2" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="afa3-e056-86f2-4e5e" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="b6b6-75d5-f250-41da" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Venerated Tech-Priest" hidden="false" id="8525-2b8c-b33f-4992" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="105"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f541-76af-3659-4cf2" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Character model" hidden="false" id="87f3-2eff-998e-48a91" targetId="8005-00e1-1066-035d" primary="false"/>
-                <categoryLink name="Infantry" hidden="false" id="1dd1-d83b-eea6-44b41" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="HQ" hidden="false" id="788a-11fd-04f1-425d" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
+                <categoryLink name="Character model" hidden="false" id="ebeb-7d83-eb39-43271" targetId="8005-00e1-1066-035d" primary="false"/>
+                <categoryLink name="Infantry" hidden="false" id="e9ea-7c2d-2949-47521" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="HQ" hidden="false" id="d797-42a7-b90d-4f40" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Unyielding" id="8dac-2510-b480-4b63" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
-                <infoLink name="Blessing of the Omnissiah" id="fe4e-7195-a43c-4c4b" hidden="false" type="rule" targetId="daee-0a90-e491-4172"/>
-                <infoLink name="Blessing of the Omnissiah" id="1465-9eb8-8c56-420e" hidden="false" type="rule" targetId="daee-0a90-e491-4172"/>
-                <infoLink name="Master of the Machines" id="d525-31a6-466d-4a71" hidden="false" type="rule" targetId="7509-f6f5-3b21-44f0"/>
-                <infoLink name="Master of the Machines" id="2717-17f2-9999-490f" hidden="false" type="rule" targetId="7509-f6f5-3b21-44f0"/>
-                <infoLink name="Mechandrite harness" id="b4ba-9f2f-89bd-40fa" hidden="false" type="rule" targetId="d001-d7c7-40c0-4487"/>
-                <infoLink name="Improved Battle Protocols" id="381b-6bd3-076f-4f87" hidden="false" type="rule" targetId="beb2-5692-5c22-4156"/>
-                <infoLink name="Improved Master of the Machines" id="a8f8-444d-ddae-4f20" hidden="false" type="rule" targetId="26dc-1ef5-a53c-405b"/>
-                <infoLink name="Improved Blessing of the Omnissiah" id="4f28-6d30-846e-4072" hidden="false" type="rule" targetId="86d8-1028-bf09-4307"/>
-                <infoLink name="Galvanic Field" id="fc16-3abb-f80f-43db" hidden="false" type="rule" targetId="e490-6347-c79b-4f2f"/>
-                <infoLink name="Seekers of Divine Arcana" id="cc36-41f8-7df7-4420" hidden="false" type="rule" targetId="44ef-e78d-f09e-4f93"/>
-                <infoLink name="Battle Protocols" id="4401-b806-45ad-4571" hidden="false" type="rule" targetId="ce94-fb26-de49-458f"/>
+                <infoLink name="Unyielding" id="c9fc-c650-f94b-4f03" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
+                <infoLink name="Blessing of the Omnissiah" id="8d60-0e15-999e-4e22" hidden="false" type="rule" targetId="daee-0a90-e491-4172"/>
+                <infoLink name="Blessing of the Omnissiah" id="1990-ff72-c90b-4f6b" hidden="false" type="rule" targetId="daee-0a90-e491-4172"/>
+                <infoLink name="Master of the Machines" id="6ff7-a74a-6d26-43ab" hidden="false" type="rule" targetId="7509-f6f5-3b21-44f0"/>
+                <infoLink name="Master of the Machines" id="3676-b21d-a8a8-4218" hidden="false" type="rule" targetId="7509-f6f5-3b21-44f0"/>
+                <infoLink name="Mechandrite harness" id="d2ed-199a-be0c-4783" hidden="false" type="rule" targetId="d001-d7c7-40c0-4487"/>
+                <infoLink name="Improved Battle Protocols" id="adc7-02a3-a989-4fc7" hidden="false" type="rule" targetId="beb2-5692-5c22-4156"/>
+                <infoLink name="Improved Master of the Machines" id="2998-84a3-1158-4e2d" hidden="false" type="rule" targetId="26dc-1ef5-a53c-405b"/>
+                <infoLink name="Improved Blessing of the Omnissiah" id="5b24-bfea-5ca9-47d7" hidden="false" type="rule" targetId="86d8-1028-bf09-4307"/>
+                <infoLink name="Galvanic Field" id="a817-f44d-603b-4957" hidden="false" type="rule" targetId="e490-6347-c79b-4f2f"/>
+                <infoLink name="Seekers of Divine Arcana" id="5f57-4c53-5f3c-4579" hidden="false" type="rule" targetId="44ef-e78d-f09e-4f93"/>
+                <infoLink name="Battle Protocols" id="eca9-25c5-629f-45b0" hidden="false" type="rule" targetId="ce94-fb26-de49-458f"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Skitarii Rangers" hidden="false" id="e288-25e6-8aab-4162">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Skitarii Rangers" hidden="false" id="cc1e-7fe4-085d-41cd4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Skitarii Rangers" hidden="false" id="2d18-1c76-7e13-4b534" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8860-f441-ed1d-4d8c" includeChildSelections="false"/>
-                        <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="c2b3-f47a-3370-430b" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="dd1e-7ee9-a241-4e82" includeChildSelections="false"/>
+                        <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="9147-2f8d-b249-4ade" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="17"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Skitarii Rangers" id="2412-dbb8-495a-452d" hidden="false" type="profile" targetId="e428-2e08-10f4-4341"/>
+                        <infoLink name="Skitarii Rangers" id="808e-b5c9-ce3e-4690" hidden="false" type="profile" targetId="e428-2e08-10f4-4341"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="90cd-70d5-c5e9-4c2c" hidden="false" defaultSelectionEntryId="a79b-e995-511b-4414">
+                        <selectionEntryGroup name="Weapon Choice" id="0b86-13d1-bd81-4f4d" hidden="false" defaultSelectionEntryId="5292-de2a-6f83-4f46">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Arc rifle" hidden="false" id="fda2-e953-036e-43a2" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Arc rifle" hidden="false" id="aa73-df7a-3214-4770" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Arc rifle" id="fda2-e953-036e-43a21" hidden="false" type="profile" targetId="eabc-a26c-cab8-4dae"/>
+                                        <infoLink name="Arc rifle" id="aa73-df7a-3214-47701" hidden="false" type="profile" targetId="eabc-a26c-cab8-4dae"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="8"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Galvanic rifle" hidden="false" id="10b7-37f5-d036-4ade" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Galvanic rifle" hidden="false" id="a879-36da-d4ff-4180" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Galvanic rifle" id="10b7-37f5-d036-4ade1" hidden="false" type="profile" targetId="c011-1ad9-44e9-4aae"/>
+                                        <infoLink name="Galvanic rifle" id="a879-36da-d4ff-41801" hidden="false" type="profile" targetId="c011-1ad9-44e9-4aae"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Grav serpenta" hidden="false" id="3df6-97d0-7aec-4c83" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Grav serpenta" hidden="false" id="9097-3f59-d53a-43ba" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Grav serpenta" id="3df6-97d0-7aec-4c831" hidden="false" type="profile" targetId="30eb-564d-44b2-452e"/>
+                                        <infoLink name="Grav serpenta" id="9097-3f59-d53a-43ba1" hidden="false" type="profile" targetId="30eb-564d-44b2-452e"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="16"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma caliver *" hidden="false" id="7ae9-8168-7707-4343" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Plasma caliver *" hidden="false" id="cc25-d1c3-be47-4719" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Plasma caliver *" id="7ae9-8168-7707-43431" hidden="false" type="profile" targetId="192f-35f0-8f96-4a85"/>
+                                        <infoLink name="Plasma caliver *" id="cc25-d1c3-be47-47191" hidden="false" type="profile" targetId="192f-35f0-8f96-4a85"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="3636-0edc-23ae-4599" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="27d7-901b-c14a-4210" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="3636-0edc-23ae-45991" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="27d7-901b-c14a-42101" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overheating" hidden="false" id="04e1-401a-ed6b-4403" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="- Overheating" hidden="false" id="8fb4-6e68-c42b-4bee" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="- Overheating" id="04e1-401a-ed6b-44031" hidden="false" type="profile" targetId="2625-3368-3b2b-4b22"/>
+                                        <infoLink name="- Overheating" id="8fb4-6e68-c42b-4bee1" hidden="false" type="profile" targetId="2625-3368-3b2b-4b22"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Transuranic arquebus" hidden="false" id="89f7-aef6-4776-4490" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Transuranic arquebus" hidden="false" id="b559-4462-2b11-4adb" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Transuranic arquebus" id="89f7-aef6-4776-44901" hidden="false" type="profile" targetId="0788-bb92-18e2-4254"/>
+                                        <infoLink name="Transuranic arquebus" id="b559-4462-2b11-4adb1" hidden="false" type="profile" targetId="0788-bb92-18e2-4254"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="44"/>
@@ -199,78 +207,86 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="b1fd-53f5-7e79-424b" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="93a0-69bb-6678-42ec" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="5c19-9a90-1cce-44bf" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="dfae-3e95-08e3-48c4" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Ranger Alpha" hidden="false" id="d2d3-965b-0209-43e2" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="22"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d44-fb78-7d8b-4e0a" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="0ef0-67c0-5f63-424f1" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="cead-134e-4c40-46ea" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="aa11-34ea-5467-47bd1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Troops" hidden="false" id="0973-7340-2de7-4db1" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Vanguard" id="b2e2-5f30-f776-4fd2" hidden="false" type="rule" targetId="6c3f-5e3c-878b-41f9"/>
-                <infoLink name="Bionics" id="14c3-c2d4-5b30-4123" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
-                <infoLink name="Sniper" id="0e86-b81d-c893-483a" hidden="false" type="rule" targetId="34f3-b13b-c76e-4a7e"/>
+                <infoLink name="Vanguard" id="5f56-d944-e9d3-4cdd" hidden="false" type="rule" targetId="6c3f-5e3c-878b-41f9"/>
+                <infoLink name="Bionics" id="fc7b-c170-ff36-441e" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
+                <infoLink name="Sniper" id="3a2a-0212-2441-4888" hidden="false" type="rule" targetId="34f3-b13b-c76e-4a7e"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Skitarii Vanguard" hidden="false" id="772c-d0a7-f349-4b7c">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Skitarii Vanguard" hidden="false" id="08c3-0d4b-9740-40de4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Skitarii Vanguard" hidden="false" id="1731-2be9-e7fa-48c04" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1f5c-fd47-ce68-4705" includeChildSelections="false"/>
-                        <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="642b-57ad-eaf6-4e9e" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5ca3-650b-6b0f-46b1" includeChildSelections="false"/>
+                        <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="4159-4085-eac3-4ddd" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="17"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Skitarii Vanguard" id="6e4e-e00b-d90c-4040" hidden="false" type="profile" targetId="f6cc-119e-9f74-43f3"/>
+                        <infoLink name="Skitarii Vanguard" id="0bf7-4bf0-744a-444e" hidden="false" type="profile" targetId="f6cc-119e-9f74-43f3"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="99c4-f1de-d376-479d" hidden="false" defaultSelectionEntryId="7390-89ae-0ab1-48a2">
+                        <selectionEntryGroup name="Weapon Choice" id="99e3-28cd-32c4-492f" hidden="false" defaultSelectionEntryId="2118-6e05-3af6-4bda">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Arc rifle" hidden="false" id="8278-8bf2-7ea7-4b4b" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Arc rifle" hidden="false" id="0d80-bcf9-0a81-49e7" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Arc rifle" id="8278-8bf2-7ea7-4b4b1" hidden="false" type="profile" targetId="eabc-a26c-cab8-4dae"/>
+                                        <infoLink name="Arc rifle" id="0d80-bcf9-0a81-49e71" hidden="false" type="profile" targetId="eabc-a26c-cab8-4dae"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="8"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Grav serpenta" hidden="false" id="6257-ab12-dc75-4704" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Grav serpenta" hidden="false" id="e7e0-2d55-82d0-45f8" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Grav serpenta" id="6257-ab12-dc75-47041" hidden="false" type="profile" targetId="30eb-564d-44b2-452e"/>
+                                        <infoLink name="Grav serpenta" id="e7e0-2d55-82d0-45f81" hidden="false" type="profile" targetId="30eb-564d-44b2-452e"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="16"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma caliver *" hidden="false" id="3140-83ae-3b6d-46b5" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Plasma caliver *" hidden="false" id="f624-1c6d-369d-4597" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Plasma caliver *" id="3140-83ae-3b6d-46b51" hidden="false" type="profile" targetId="192f-35f0-8f96-4a85"/>
+                                        <infoLink name="Plasma caliver *" id="f624-1c6d-369d-45971" hidden="false" type="profile" targetId="192f-35f0-8f96-4a85"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="da9d-7230-18c5-4f11" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="a93a-5120-5a4c-4ca9" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="da9d-7230-18c5-4f111" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="a93a-5120-5a4c-4ca91" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overheating" hidden="false" id="f023-314c-6a4a-402d" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="- Overheating" hidden="false" id="fc78-da89-4c2e-4a0d" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="- Overheating" id="f023-314c-6a4a-402d1" hidden="false" type="profile" targetId="2625-3368-3b2b-4b22"/>
+                                        <infoLink name="- Overheating" id="fc78-da89-4c2e-4a0d1" hidden="false" type="profile" targetId="2625-3368-3b2b-4b22"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Radium carbine" hidden="false" id="0e8e-c547-d55b-4d2f" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Radium carbine" hidden="false" id="dc49-134b-7464-44ca" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Radium carbine" id="0e8e-c547-d55b-4d2f1" hidden="false" type="profile" targetId="ba81-3b67-2d77-4143"/>
+                                        <infoLink name="Radium carbine" id="dc49-134b-7464-44ca1" hidden="false" type="profile" targetId="ba81-3b67-2d77-4143"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Transuranic arquebus" hidden="false" id="3ac3-4f42-fd68-4b72" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="Transuranic arquebus" hidden="false" id="6ee9-0c33-33bb-4ed9" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="Transuranic arquebus" id="3ac3-4f42-fd68-4b721" hidden="false" type="profile" targetId="0788-bb92-18e2-4254"/>
+                                        <infoLink name="Transuranic arquebus" id="6ee9-0c33-33bb-4ed91" hidden="false" type="profile" targetId="0788-bb92-18e2-4254"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="44"/>
@@ -278,147 +294,155 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="51fd-9c33-b88c-4606" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="616f-8949-47f8-49b9" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="fcd3-9cbb-1721-4f40" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="f7ab-b414-a123-421b" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Vanguard Alpha" hidden="false" id="18e5-4899-66c2-4a6b" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="22"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54c2-7413-e4fc-4d13" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="f904-46b9-3eb7-49861" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="8810-cdff-9fbd-4dfd" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="b30d-9318-7815-45611" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Troops" hidden="false" id="fa74-2d4a-e98d-45d6" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="47fd-2f23-5c7b-4119" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
-                <infoLink name="Bionics" id="a1a3-ef1b-f0fa-43a7" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
-                <infoLink name="Sniper" id="9aad-48ac-667f-4b4c" hidden="false" type="rule" targetId="34f3-b13b-c76e-4a7e"/>
-                <infoLink name="Rad-saturation" id="2393-26d6-9e18-47a0" hidden="false" type="rule" targetId="d3bb-47c2-e594-4ea3"/>
+                <infoLink name="-" id="c6ca-39d7-e87a-4ad4" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="Bionics" id="7ac4-5516-8a1d-4dbc" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
+                <infoLink name="Sniper" id="4bce-ee36-37be-48c8" hidden="false" type="rule" targetId="34f3-b13b-c76e-4a7e"/>
+                <infoLink name="Rad-saturation" id="eb2b-a735-dea5-4076" hidden="false" type="rule" targetId="d3bb-47c2-e594-4ea3"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Corpuscarii Electro-Priests" hidden="false" id="426c-b755-8934-4938">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Corpuscarii Electro-Priests" hidden="false" id="7d10-171f-4a18-4fdb4" defaultAmount="5" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Corpuscarii Electro-Priests" hidden="false" id="2613-6128-5b97-425e4" defaultAmount="5" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="fa27-329f-dc27-428e" includeChildSelections="false"/>
-                        <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="ab37-f77c-9837-4cd8" includeChildSelections="false"/>
+                        <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="1a86-c102-8fea-4057" includeChildSelections="false"/>
+                        <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="8405-866e-5f40-454b" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="20"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Corpuscarii Electro-Priests" id="c2c8-74c4-7828-4c03" hidden="false" type="profile" targetId="66e4-346d-9630-4940"/>
+                        <infoLink name="Corpuscarii Electro-Priests" id="fa8b-8d13-b027-43dc" hidden="false" type="profile" targetId="66e4-346d-9630-4940"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="51c1-5391-4d00-4931" hidden="false" defaultSelectionEntryId="8669-016d-98c8-4e0e">
+                        <selectionEntryGroup name="Weapon Choice" id="56d8-0a39-0e35-4ae4" hidden="false" defaultSelectionEntryId="ad51-3321-68c7-4539">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Electrostatic gauntlets" hidden="false" id="03e4-39f2-9143-4f23" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Electrostatic gauntlets" hidden="false" id="522f-a559-e9a8-4c69" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Electrostatic gauntlets" id="03e4-39f2-9143-4f231" hidden="false" type="profile" targetId="d594-78cb-ca1a-4a2e"/>
+                                        <infoLink name="Electrostatic gauntlets" id="522f-a559-e9a8-4c691" hidden="false" type="profile" targetId="d594-78cb-ca1a-4a2e"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Ranged" hidden="false" id="5053-b675-4283-41be" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="- Ranged" hidden="false" id="24c2-3f8a-9420-4200" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="- Ranged" id="5053-b675-4283-41be1" hidden="false" type="profile" targetId="8268-66df-67d0-42a1"/>
+                                        <infoLink name="- Ranged" id="24c2-3f8a-9420-42001" hidden="false" type="profile" targetId="8268-66df-67d0-42a1"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="d6bc-aa91-0088-4d78" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="0001-c223-90a1-4c51" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="eef3-65b5-ed1b-45b8" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="6580-4650-83b1-4ec0" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="7e6d-335f-4755-49c21" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="241b-c13d-2909-45dd" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="9851-33cc-9fb4-4f1f1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="271e-47ce-c3bc-4761" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Blind rage" id="bcc7-e897-4819-4d4c" hidden="false" type="rule" targetId="1c9e-1655-4bb8-4abc"/>
-                <infoLink name="Furious charge" id="9e2b-277e-eaec-46b8" hidden="false" type="rule" targetId="7e8b-e1fa-9a0a-412a"/>
-                <infoLink name="Voltagheist Field" id="04c5-f533-42d5-4f0a" hidden="false" type="rule" targetId="ca23-c578-74e5-42f3"/>
+                <infoLink name="Blind rage" id="9f65-911a-c373-47e9" hidden="false" type="rule" targetId="1c9e-1655-4bb8-4abc"/>
+                <infoLink name="Furious charge" id="8336-0146-7b63-42ec" hidden="false" type="rule" targetId="7e8b-e1fa-9a0a-412a"/>
+                <infoLink name="Voltagheist Field" id="fd04-2489-651b-4424" hidden="false" type="rule" targetId="ca23-c578-74e5-42f3"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Fulgurite Electro-Priests" hidden="false" id="8e74-2863-fb5f-4596">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Fulgurite Electro-Priests" hidden="false" id="9e62-b708-88be-4adc4" defaultAmount="5" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Fulgurite Electro-Priests" hidden="false" id="1a49-b2d0-1ca2-456a4" defaultAmount="5" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="7484-169b-aa20-429a" includeChildSelections="false"/>
-                        <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="ce2f-d1e0-f7bc-4aae" includeChildSelections="false"/>
+                        <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="fd80-b3f8-5d07-413d" includeChildSelections="false"/>
+                        <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="cdc9-dba0-6664-407b" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="20"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Fulgurite Electro-Priests" id="4225-dc7d-94e8-4031" hidden="false" type="profile" targetId="2c3e-4a42-48c1-42f7"/>
+                        <infoLink name="Fulgurite Electro-Priests" id="a4a8-d63d-d2e1-4244" hidden="false" type="profile" targetId="2c3e-4a42-48c1-42f7"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="c0a9-afbe-85bf-41a6" hidden="false" defaultSelectionEntryId="f788-e016-2744-4be3">
+                        <selectionEntryGroup name="Weapon Choice" id="6901-56ba-084b-4791" hidden="false" defaultSelectionEntryId="ad54-37d8-588f-43dc">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Electroleech stave" hidden="false" id="b3d8-6748-e148-413b" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Electroleech stave" hidden="false" id="0bb9-6df7-2f3c-4eaf" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Electroleech stave" id="b3d8-6748-e148-413b1" hidden="false" type="profile" targetId="d338-0f04-647c-4041"/>
+                                        <infoLink name="Electroleech stave" id="0bb9-6df7-2f3c-4eaf1" hidden="false" type="profile" targetId="d338-0f04-647c-4041"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="8c03-83d1-8eab-43f4" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="3bd1-b0ba-0862-435d" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="df85-2bfc-7b76-4f80" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="ef28-a9bf-df7e-4941" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="f279-e917-e593-4bf41" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="f28b-f58b-d37a-4b2d" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="cf90-cabd-66f2-445e1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="2f3a-9d13-71db-4fcd" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Blind rage" id="daee-864f-2e31-498b" hidden="false" type="rule" targetId="1c9e-1655-4bb8-4abc"/>
-                <infoLink name="Furious charge" id="21ab-ff09-782b-480f" hidden="false" type="rule" targetId="7e8b-e1fa-9a0a-412a"/>
-                <infoLink name="Voltagheist Field" id="81b2-2f9e-da26-4ebc" hidden="false" type="rule" targetId="ca23-c578-74e5-42f3"/>
-                <infoLink name="Siphoned Vigour" id="c0e2-50dd-e288-4ac9" hidden="false" type="rule" targetId="d501-98db-6cba-4561"/>
+                <infoLink name="Blind rage" id="ae02-9386-4957-4bd5" hidden="false" type="rule" targetId="1c9e-1655-4bb8-4abc"/>
+                <infoLink name="Furious charge" id="2a6c-1062-155f-441e" hidden="false" type="rule" targetId="7e8b-e1fa-9a0a-412a"/>
+                <infoLink name="Voltagheist Field" id="d874-a192-67d9-4fa1" hidden="false" type="rule" targetId="ca23-c578-74e5-42f3"/>
+                <infoLink name="Siphoned Vigour" id="b4e7-0796-025c-4f3f" hidden="false" type="rule" targetId="d501-98db-6cba-4561"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Kataphron Breachers" hidden="false" id="cce7-58d0-2d32-4f9c">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Kataphron Breachers" hidden="false" id="50c0-f76c-be7d-4ec24" defaultAmount="3" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Kataphron Breachers" hidden="false" id="bdcd-2321-19dc-471a4" defaultAmount="3" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="0d26-263f-74dc-41ee" includeChildSelections="false"/>
-                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="6a86-5505-27b5-4a6a" includeChildSelections="false"/>
+                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="560b-86e1-4538-42ef" includeChildSelections="false"/>
+                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="0b7f-e28b-78de-46c0" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="64"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Kataphron Breachers" id="d13c-bfff-09eb-4e9a" hidden="false" type="profile" targetId="1335-a1b4-99c9-4c75"/>
+                        <infoLink name="Kataphron Breachers" id="a54b-f684-d064-4d48" hidden="false" type="profile" targetId="1335-a1b4-99c9-4c75"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="9a8c-72f2-fedb-4b5f" hidden="false" defaultSelectionEntryId="ad6b-00e6-13dc-4727">
+                        <selectionEntryGroup name="Weapon Choice" id="c0ae-a62f-11d6-4061" hidden="false" defaultSelectionEntryId="3485-73e3-5d77-472a">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Arc claw" hidden="false" id="72a9-51aa-9db4-4ae0" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Arc claw" hidden="false" id="99c7-421c-5c92-4836" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Arc claw" id="72a9-51aa-9db4-4ae01" hidden="false" type="profile" targetId="2130-0198-2dee-4184"/>
+                                        <infoLink name="Arc claw" id="99c7-421c-5c92-48361" hidden="false" type="profile" targetId="2130-0198-2dee-4184"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy arc rifle" hidden="false" id="1f14-af70-b4b9-4c7b" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Heavy arc rifle" hidden="false" id="c56d-4cb3-8f12-4ae3" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Heavy arc rifle" id="1f14-af70-b4b9-4c7b1" hidden="false" type="profile" targetId="7c3c-d25e-1d7f-4e90"/>
+                                        <infoLink name="Heavy arc rifle" id="c56d-4cb3-8f12-4ae31" hidden="false" type="profile" targetId="7c3c-d25e-1d7f-4e90"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Hydraulic claw" hidden="false" id="83e5-0c48-eddf-46c9" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Hydraulic claw" hidden="false" id="e70f-0b9c-a1a1-427a" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Hydraulic claw" id="83e5-0c48-eddf-46c91" hidden="false" type="profile" targetId="7c6c-bb73-1a1f-4ad5"/>
+                                        <infoLink name="Hydraulic claw" id="e70f-0b9c-a1a1-427a1" hidden="false" type="profile" targetId="7c6c-bb73-1a1f-4ad5"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="9"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Torsion cannon" hidden="false" id="bfdc-da7a-ccfc-45a4" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Torsion cannon" hidden="false" id="f151-1077-4851-430f" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Torsion cannon" id="bfdc-da7a-ccfc-45a41" hidden="false" type="profile" targetId="5c9a-eab3-6372-476c"/>
+                                        <infoLink name="Torsion cannon" id="f151-1077-4851-430f1" hidden="false" type="profile" targetId="5c9a-eab3-6372-476c"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="42"/>
@@ -426,500 +450,548 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="4bea-ce5d-babc-480c" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e1ff-45b3-1270-4053" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="18b8-2719-e019-4469" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="5bd1-347a-6c88-449d" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="40e5-de4f-fbf0-457e1" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="7f50-cbcd-a357-4169" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="d933-db8c-3723-49f51" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="f0ef-de16-2fb2-4356" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Massive(1)" id="9406-e536-c5b4-4f01" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
-                <infoLink name="Unyielding" id="0d75-b6b7-1f90-4747" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
+                <infoLink name="Massive(1)" id="6fc5-6c4f-145e-4eac" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
+                <infoLink name="Unyielding" id="a1ad-2665-eba7-4503" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Kataphron Destroyers" hidden="false" id="c72c-16df-2c14-4ea4">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Kataphron Destroyers" hidden="false" id="556f-e477-3504-4baa4" defaultAmount="3" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Kataphron Destroyers" hidden="false" id="7cd4-57fd-bd1f-4a264" defaultAmount="3" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="4767-8de6-0810-4c36" includeChildSelections="false"/>
-                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="5c0d-d88f-3af4-487d" includeChildSelections="false"/>
+                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="3d57-8a5e-2b8d-4daf" includeChildSelections="false"/>
+                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="7a7b-e2df-f443-4449" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="79"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Kataphron Destroyers" id="4507-7276-1edf-4c64" hidden="false" type="profile" targetId="ac24-ecd2-0139-4332"/>
+                        <infoLink name="Kataphron Destroyers" id="201a-a1d0-2d57-402d" hidden="false" type="profile" targetId="ac24-ecd2-0139-4332"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="c8fd-07c8-1b23-4e14" hidden="false" defaultSelectionEntryId="8e4f-77ee-cbd8-4566">
+                        <selectionEntryGroup name="Weapon Choice" id="8f3e-8e9c-7103-4c5b" hidden="false" defaultSelectionEntryId="902a-8a2a-95b4-4289">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Cognis flamer" hidden="false" id="5e14-6259-75dc-44f3" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Cognis flamer" hidden="false" id="fd24-8064-53b8-42ff" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Cognis flamer" id="5e14-6259-75dc-44f31" hidden="false" type="profile" targetId="77ce-3b1c-ed5e-4863"/>
+                                        <infoLink name="Cognis flamer" id="fd24-8064-53b8-42ff1" hidden="false" type="profile" targetId="77ce-3b1c-ed5e-4863"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Heavy grav-cannon" hidden="false" id="e82c-1cbb-84c4-4e31" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Heavy grav-cannon" hidden="false" id="63e5-ef4f-82df-4ff2" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Heavy grav-cannon" id="e82c-1cbb-84c4-4e311" hidden="false" type="profile" targetId="aa2a-a115-0c0c-4759"/>
+                                        <infoLink name="Heavy grav-cannon" id="63e5-ef4f-82df-4ff21" hidden="false" type="profile" targetId="aa2a-a115-0c0c-4759"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Phosphor blaster" hidden="false" id="f7ba-b25a-020c-4c13" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Phosphor blaster" hidden="false" id="9b56-ff25-aebe-4937" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Phosphor blaster" id="f7ba-b25a-020c-4c131" hidden="false" type="profile" targetId="e008-5c47-4593-4b5c"/>
+                                        <infoLink name="Phosphor blaster" id="9b56-ff25-aebe-49371" hidden="false" type="profile" targetId="e008-5c47-4593-4b5c"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="1"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Plasma culverin *" hidden="false" id="1052-c594-d7de-4cc6" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Plasma culverin *" hidden="false" id="1fe8-4507-238d-4815" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Plasma culverin *" id="1052-c594-d7de-4cc61" hidden="false" type="profile" targetId="6959-1b62-da2c-42eb"/>
+                                        <infoLink name="Plasma culverin *" id="1fe8-4507-238d-48151" hidden="false" type="profile" targetId="6959-1b62-da2c-42eb"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="eaf1-bdeb-0b00-4f6c" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="- Standard" hidden="false" id="f1ac-d81e-4d81-4f12" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="- Standard" id="eaf1-bdeb-0b00-4f6c1" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
+                                        <infoLink name="- Standard" id="f1ac-d81e-4d81-4f121" hidden="false" type="profile" targetId="e408-26df-de1f-4725"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Overheating" hidden="false" id="8e41-3f71-034e-42e1" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="- Overheating" hidden="false" id="5323-926a-2bd6-414b" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="- Overheating" id="8e41-3f71-034e-42e11" hidden="false" type="profile" targetId="2625-3368-3b2b-4b22"/>
+                                        <infoLink name="- Overheating" id="5323-926a-2bd6-414b1" hidden="false" type="profile" targetId="2625-3368-3b2b-4b22"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="3c52-0fab-149d-4be5" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="06b3-21b4-bac9-496f" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="f4a9-13a2-d155-46dc" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="4cab-fe67-5e53-487a" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="5bb0-7441-df59-40b01" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="a332-8d06-41d5-42c7" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="fd6c-a8b7-b248-448e1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="1eba-a661-d5b8-4090" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Massive(1)" id="0e95-7cae-9697-4b0c" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
-                <infoLink name="Unyielding" id="bc65-dab5-f06d-4a04" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
+                <infoLink name="Massive(1)" id="0201-1c8e-ba6a-4024" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
+                <infoLink name="Unyielding" id="6cfd-8363-8021-4bce" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Sicaran Infiltrators" hidden="false" id="8a8e-acef-bf68-4e0a">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Sicaran Infiltrators" hidden="false" id="754d-103f-5917-4c9f4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Sicaran Infiltrators" hidden="false" id="7a6e-624e-ab35-4c244" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="c613-87d8-6332-4bf1" includeChildSelections="false"/>
-                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="2bd5-f5c3-3bf7-4d76" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1fd1-4164-934c-4088" includeChildSelections="false"/>
+                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="b94f-3040-4fe9-4884" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="37"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Sicaran Infiltrators" id="9c78-3999-073d-46d7" hidden="false" type="profile" targetId="3901-ca83-78e0-4837"/>
+                        <infoLink name="Sicaran Infiltrators" id="6e4d-8be5-6026-48eb" hidden="false" type="profile" targetId="3901-ca83-78e0-4837"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="a2f1-b49f-83ea-4a7c" hidden="false" defaultSelectionEntryId="54dd-74b9-5f6a-4310">
+                        <selectionEntryGroup name="Weapon Choice" id="10f1-9d82-2cf5-4ae9" hidden="false" defaultSelectionEntryId="5dd7-fef4-d78f-450a">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Flechette blaster" hidden="false" id="e8a7-c166-86e2-4315" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Flechette blaster" hidden="false" id="3cf3-6989-d6a1-4b33" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Flechette blaster" id="e8a7-c166-86e2-43151" hidden="false" type="profile" targetId="7737-4643-9f75-4560"/>
+                                        <infoLink name="Flechette blaster" id="3cf3-6989-d6a1-4b331" hidden="false" type="profile" targetId="7737-4643-9f75-4560"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Power sword" hidden="false" id="416f-41c4-b33c-4af7" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Power sword" hidden="false" id="d859-0d59-1d74-4ac0" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Power sword" id="416f-41c4-b33c-4af71" hidden="false" type="profile" targetId="e036-c920-af1d-499a"/>
+                                        <infoLink name="Power sword" id="d859-0d59-1d74-4ac01" hidden="false" type="profile" targetId="e036-c920-af1d-499a"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Stubcarbine" hidden="false" id="f631-41d4-17e2-4b36" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Stubcarbine" hidden="false" id="335e-20fd-eee1-4d7b" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Stubcarbine" id="f631-41d4-17e2-4b361" hidden="false" type="profile" targetId="8840-810e-2f78-48b9"/>
+                                        <infoLink name="Stubcarbine" id="335e-20fd-eee1-4d7b1" hidden="false" type="profile" targetId="8840-810e-2f78-48b9"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Taser goad" hidden="false" id="edff-4bd9-55dc-435a" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Taser goad" hidden="false" id="0dae-c326-f8d8-4538" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Taser goad" id="edff-4bd9-55dc-435a1" hidden="false" type="profile" targetId="e596-3e89-439c-491b"/>
+                                        <infoLink name="Taser goad" id="0dae-c326-f8d8-45381" hidden="false" type="profile" targetId="e596-3e89-439c-491b"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="123c-dd71-e392-4614" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="6226-2cce-157e-4d14" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="c6da-a396-1f98-4eac" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="073d-236f-8463-4cfc" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Infiltrator Princeps" hidden="false" id="61bb-253a-941b-4d8d" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="37"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b508-0cec-4f52-448c" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="88dd-63a6-c53e-4a9f1" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="f621-9030-9c29-4d01" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="5017-c3cc-bedf-4ddb1" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="d1f9-5112-5166-4df0" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Deflect" id="db57-6c7e-5242-4e4c" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
-                <infoLink name="Infiltrator" id="a452-8ecb-2779-4135" hidden="false" type="rule" targetId="276b-ef81-2a62-da70"/>
-                <infoLink name="Massive(1)" id="abfd-d898-4972-4b6d" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
-                <infoLink name="Move through cover" id="27a2-09e5-95c8-460f" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
-                <infoLink name="Parry" id="2d22-c1de-90cd-4d2a" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
-                <infoLink name="Bionics" id="0613-0345-5ad9-4815" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
-                <infoLink name="Enhanced Bionics" id="c45e-238b-6daf-4f92" hidden="false" type="rule" targetId="e37d-ea88-d281-410f"/>
+                <infoLink name="Deflect" id="07fb-8462-5243-4d9c" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Infiltrator" id="1f17-c786-b050-477b" hidden="false" type="rule" targetId="276b-ef81-2a62-da70"/>
+                <infoLink name="Massive(1)" id="3290-cde2-5d4d-4d71" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
+                <infoLink name="Move through cover" id="c091-1155-d4a2-4f2f" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+                <infoLink name="Parry" id="50eb-80ed-d381-4189" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Bionics" id="b563-ab27-9ab2-4571" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
+                <infoLink name="Enhanced Bionics" id="fa4d-3d0c-46f7-4a27" hidden="false" type="rule" targetId="e37d-ea88-d281-410f"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Sicaran Ruststalkers" hidden="false" id="5f49-e651-7380-4d71">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Sicaran Ruststalkers" hidden="false" id="13ee-d38a-3917-44c34" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Sicaran Ruststalkers" hidden="false" id="c4af-d4cf-cafe-4afb4" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5148-aa2d-dc33-4fef" includeChildSelections="false"/>
-                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="b076-afdd-7091-4462" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="99ae-b265-f0d3-428f" includeChildSelections="false"/>
+                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="5b95-32bf-a848-4993" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="32"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Sicaran Ruststalkers" id="e79a-7a0a-1fd6-4966" hidden="false" type="profile" targetId="8b51-b4fe-f5ed-4ac6"/>
+                        <infoLink name="Sicaran Ruststalkers" id="dbae-99d4-ae27-4821" hidden="false" type="profile" targetId="8b51-b4fe-f5ed-4ac6"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="3f43-5090-d43e-4e42" hidden="false" defaultSelectionEntryId="340b-83b0-1c54-4200">
+                        <selectionEntryGroup name="Weapon Choice" id="82e3-8fe6-e662-4202" hidden="false" defaultSelectionEntryId="7b35-de71-c40a-40eb">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Chordclaw" hidden="false" id="81ae-8292-a822-4309" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Chordclaw" hidden="false" id="95f1-6b63-8aa8-45bc" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Chordclaw" id="81ae-8292-a822-43091" hidden="false" type="profile" targetId="7ec3-c4a4-d212-43a7"/>
+                                        <infoLink name="Chordclaw" id="95f1-6b63-8aa8-45bc1" hidden="false" type="profile" targetId="7ec3-c4a4-d212-43a7"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Mindscrambler grenade" hidden="false" id="9af9-e302-176c-4997" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Mindscrambler grenade" hidden="false" id="3825-598a-e58c-4d47" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Mindscrambler grenade" id="9af9-e302-176c-49971" hidden="false" type="profile" targetId="13b8-d496-d4c2-47e9"/>
+                                        <infoLink name="Mindscrambler grenade" id="3825-598a-e58c-4d471" hidden="false" type="profile" targetId="13b8-d496-d4c2-47e9"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Transonic blades" hidden="false" id="cb5d-4c96-4d4a-4643" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Transonic blades" hidden="false" id="b17e-7599-0079-4ef3" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Transonic blades" id="cb5d-4c96-4d4a-46431" hidden="false" type="profile" targetId="d8d6-4435-0ead-43e9"/>
+                                        <infoLink name="Transonic blades" id="b17e-7599-0079-4ef31" hidden="false" type="profile" targetId="d8d6-4435-0ead-43e9"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Transonic razor" hidden="false" id="1931-2b61-468c-44fb" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Transonic razor" hidden="false" id="1607-f7ae-f2dd-46a2" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Transonic razor" id="1931-2b61-468c-44fb1" hidden="false" type="profile" targetId="47f2-1104-0c4d-47f8"/>
+                                        <infoLink name="Transonic razor" id="1607-f7ae-f2dd-46a21" hidden="false" type="profile" targetId="47f2-1104-0c4d-47f8"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="def2-918d-801c-4126" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="8376-6894-1a84-4fcd" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="4d68-e4c0-b26e-43ca" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="42a1-b107-55e3-4c42" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Ruststalker Princeps" hidden="false" id="a678-6d56-247f-4f99" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="32"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bca-e4b0-6828-4805" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="26cd-ba22-8783-4cc21" targetId="79f3-f25d-2e24-7130" primary="false"/>
-                <categoryLink name="Elite" hidden="false" id="be18-2def-d3e0-4975" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Infantry" hidden="false" id="ca30-a5b7-a8e7-48441" targetId="79f3-f25d-2e24-7130" primary="false"/>
+                <categoryLink name="Elite" hidden="false" id="8b82-f46a-5ecf-403c" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Massive(1)" id="b0ba-2db3-689c-400f" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
-                <infoLink name="Move through cover" id="ec86-36bb-d5a8-40e8" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
-                <infoLink name="Use cover" id="4f16-2471-ae1d-48f8" hidden="false" type="rule" targetId="7a04-95b4-d929-fe4e"/>
-                <infoLink name="Bionics" id="6cc3-525e-b0a9-465c" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
-                <infoLink name="Enhanced Bionics" id="468e-2823-f123-4bf2" hidden="false" type="rule" targetId="e37d-ea88-d281-410f"/>
+                <infoLink name="Massive(1)" id="cbb2-ddc5-0735-493c" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
+                <infoLink name="Move through cover" id="8162-a211-7059-467d" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+                <infoLink name="Use cover" id="08e5-a3b7-b82c-456c" hidden="false" type="rule" targetId="7a04-95b4-d929-fe4e"/>
+                <infoLink name="Bionics" id="ed7b-9a45-550c-495b" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
+                <infoLink name="Enhanced Bionics" id="8711-17ff-339f-46f1" hidden="false" type="rule" targetId="e37d-ea88-d281-410f"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Pteraxii Skystalkers" hidden="false" id="45d8-f201-94e2-4770">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Pteraxii Skystalkers" hidden="false" id="67c1-ecf6-3f3d-49ea4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Pteraxii Skystalkers" hidden="false" id="43c2-7792-3c0e-44c64" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="c541-a158-4d68-47f7" includeChildSelections="false"/>
-                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="cd26-e117-895f-4aeb" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="473f-e503-7cb2-45be" includeChildSelections="false"/>
+                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="c671-2801-4865-4ef2" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="39"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Pteraxii Skystalkers" id="4b3f-505d-45b5-4a55" hidden="false" type="profile" targetId="0d11-19d9-30cb-4f4b"/>
+                        <infoLink name="Pteraxii Skystalkers" id="69d4-3725-f8cf-47a9" hidden="false" type="profile" targetId="0d11-19d9-30cb-4f4b"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="5eba-79a2-448d-4d60" hidden="false" defaultSelectionEntryId="9218-be9c-6f7f-490d">
+                        <selectionEntryGroup name="Weapon Choice" id="3846-968d-5667-469f" hidden="false" defaultSelectionEntryId="8f98-618e-3196-4aa0">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Arc grenade" hidden="false" id="5379-5a48-16de-446f" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Arc grenade" hidden="false" id="1a9a-39a8-ac3f-488b" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Arc grenade" id="5379-5a48-16de-446f1" hidden="false" type="profile" targetId="46cc-7f69-a176-4f92"/>
+                                        <infoLink name="Arc grenade" id="1a9a-39a8-ac3f-488b1" hidden="false" type="profile" targetId="46cc-7f69-a176-4f92"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Flechette carbine" hidden="false" id="e779-beed-7d33-4f89" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Flechette carbine" hidden="false" id="b3d2-6cbc-2120-47eb" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Flechette carbine" id="e779-beed-7d33-4f891" hidden="false" type="profile" targetId="ca6c-67d0-4c20-4874"/>
+                                        <infoLink name="Flechette carbine" id="b3d2-6cbc-2120-47eb1" hidden="false" type="profile" targetId="ca6c-67d0-4c20-4874"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Pteraxii talons" hidden="false" id="c0ce-aa2f-807a-41f4" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Pteraxii talons" hidden="false" id="461c-5d01-5b45-4045" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Pteraxii talons" id="c0ce-aa2f-807a-41f41" hidden="false" type="profile" targetId="f388-d523-8925-4a2c"/>
+                                        <infoLink name="Pteraxii talons" id="461c-5d01-5b45-40451" hidden="false" type="profile" targetId="f388-d523-8925-4a2c"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="15bb-cab1-f547-4f7d" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="99a7-7d78-c640-4ee4" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="c5e1-9ec7-7829-4a73" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="b099-3360-75b2-4c09" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Skystalker Alpha" hidden="false" id="aee5-8805-b9c0-4f2e" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="44"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="979e-7c43-f103-43e1" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Jump pack infantry" hidden="false" id="50bc-2988-a8a4-4c1c1" targetId="6158-e098-2d8e-cf43" primary="false"/>
-                <categoryLink name="Fast Attack" hidden="false" id="4fa9-2648-1d60-4070" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Jump pack infantry" hidden="false" id="3767-9200-c3ab-4f561" targetId="6158-e098-2d8e-cf43" primary="false"/>
+                <categoryLink name="Fast Attack" hidden="false" id="8981-43de-ec15-455b" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="6905-47c4-682d-4be8" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
-                <infoLink name="Sky Dive" id="cba7-6deb-1679-4b60" hidden="false" type="rule" targetId="ec03-77c2-80d7-4330"/>
+                <infoLink name="-" id="f81c-5051-ce04-46af" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="Sky Dive" id="6036-d24c-734b-43d6" hidden="false" type="rule" targetId="ec03-77c2-80d7-4330"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Pteraxii Sterylizors" hidden="false" id="36ff-fc96-a286-45dd">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Pteraxii Sterylizors" hidden="false" id="31df-5234-2b46-4f0d4" defaultAmount="4" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Pteraxii Sterylizors" hidden="false" id="9c68-0f61-5830-40e94" defaultAmount="4" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="9005-927d-c501-47e8" includeChildSelections="false"/>
-                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="fd89-86dd-9d20-4be7" includeChildSelections="false"/>
+                        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5cde-2aaf-f00c-47fd" includeChildSelections="false"/>
+                        <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="c7ab-6127-829f-473e" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="40"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Pteraxii Sterylizors" id="67f7-f69c-d8a3-48d6" hidden="false" type="profile" targetId="a933-9429-3ed7-496d"/>
+                        <infoLink name="Pteraxii Sterylizors" id="23fe-71af-d7e3-4474" hidden="false" type="profile" targetId="a933-9429-3ed7-496d"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="c12c-1257-959d-4dd3" hidden="false" defaultSelectionEntryId="f3e7-46b9-ae2e-47a9">
+                        <selectionEntryGroup name="Weapon Choice" id="56ef-432b-239a-48c0" hidden="false" defaultSelectionEntryId="8e4b-07ec-0751-4e21">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Arc grenade" hidden="false" id="0e80-aefe-09d6-44e3" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Arc grenade" hidden="false" id="0a9b-abec-9aad-495f" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Arc grenade" id="0e80-aefe-09d6-44e31" hidden="false" type="profile" targetId="46cc-7f69-a176-4f92"/>
+                                        <infoLink name="Arc grenade" id="0a9b-abec-9aad-495f1" hidden="false" type="profile" targetId="46cc-7f69-a176-4f92"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Phosphor torch" hidden="false" id="0591-fe26-f303-4621" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Phosphor torch" hidden="false" id="2162-d50a-6c11-4e0f" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Phosphor torch" id="0591-fe26-f303-46211" hidden="false" type="profile" targetId="e3c3-7bda-76e3-4845"/>
+                                        <infoLink name="Phosphor torch" id="2162-d50a-6c11-4e0f1" hidden="false" type="profile" targetId="e3c3-7bda-76e3-4845"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Pteraxii talons" hidden="false" id="a725-6a02-988b-4067" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Pteraxii talons" hidden="false" id="0d29-0b57-583e-48f4" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Pteraxii talons" id="a725-6a02-988b-40671" hidden="false" type="profile" targetId="f388-d523-8925-4a2c"/>
+                                        <infoLink name="Pteraxii talons" id="0d29-0b57-583e-48f41" hidden="false" type="profile" targetId="f388-d523-8925-4a2c"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="eca4-b5f1-a76c-403d" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="ba99-c53c-fe46-4f0d" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="0107-5116-c71f-4df1" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="df11-4480-f5fd-4be9" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Sterylizor Alpha" hidden="false" id="e198-9b94-bfee-4744" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="45"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1215-f842-5bf0-427f" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Jump pack infantry" hidden="false" id="a523-588d-b01d-4fb51" targetId="6158-e098-2d8e-cf43" primary="false"/>
-                <categoryLink name="Fast Attack" hidden="false" id="3454-2bc6-b71a-4297" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Jump pack infantry" hidden="false" id="1189-cd4d-a844-456f1" targetId="6158-e098-2d8e-cf43" primary="false"/>
+                <categoryLink name="Fast Attack" hidden="false" id="f409-01a9-f267-475e" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="c873-14ed-c621-4684" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
-                <infoLink name="Sky Dive" id="b274-055a-7895-4ba9" hidden="false" type="rule" targetId="ec03-77c2-80d7-4330"/>
+                <infoLink name="-" id="32cc-c079-a761-4626" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="Sky Dive" id="e044-0a2f-d607-4695" hidden="false" type="rule" targetId="ec03-77c2-80d7-4330"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Serberys Raiders" hidden="false" id="97a0-283e-a63a-4867">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Serberys Raiders" hidden="false" id="1254-796a-d4bc-4b8c4" defaultAmount="2" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Serberys Raiders" hidden="false" id="264a-fbca-a9e3-468d4" defaultAmount="2" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b50b-cec6-3c37-4122" includeChildSelections="false"/>
-                        <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="a3a3-195a-07d9-4823" includeChildSelections="false"/>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ca34-9d03-1566-4ad1" includeChildSelections="false"/>
+                        <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="4b6e-44cf-2e4b-4ebd" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="32"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Serberys Raiders" id="7cdf-2e0f-0fda-43cd" hidden="false" type="profile" targetId="ee0d-4c56-efd9-4556"/>
+                        <infoLink name="Serberys Raiders" id="37d9-60fb-ca91-49ef" hidden="false" type="profile" targetId="ee0d-4c56-efd9-4556"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="4209-2ea3-d6ac-4351" hidden="false" defaultSelectionEntryId="8a35-5e44-8542-4077">
+                        <selectionEntryGroup name="Weapon Choice" id="933c-e04f-d63b-4a5e" hidden="false" defaultSelectionEntryId="2f02-fa09-ef5b-4673">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Galvanic carbine" hidden="false" id="112e-8b90-1ea9-4cb1" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Galvanic carbine" hidden="false" id="7406-6470-495d-40be" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Galvanic carbine" id="112e-8b90-1ea9-4cb11" hidden="false" type="profile" targetId="ef58-e810-7293-47d4"/>
+                                        <infoLink name="Galvanic carbine" id="7406-6470-495d-40be1" hidden="false" type="profile" targetId="ef58-e810-7293-47d4"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Power sword" hidden="false" id="3da8-b88c-e6ea-4de1" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Power sword" hidden="false" id="350b-d08f-9231-40b7" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Power sword" id="3da8-b88c-e6ea-4de11" hidden="false" type="profile" targetId="e036-c920-af1d-499a"/>
+                                        <infoLink name="Power sword" id="350b-d08f-9231-40b71" hidden="false" type="profile" targetId="e036-c920-af1d-499a"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="aa97-927b-8b4b-4c40" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="834d-b39f-386d-4423" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="49e0-c211-c5df-4b56" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="c9f2-1e30-ee89-4650" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Raider Alpha" hidden="false" id="3fcc-e4fd-896c-46f9" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="37"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f37-2b04-8c05-4d4f" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Bike" hidden="false" id="414b-8e91-448b-45731" targetId="bdc9-df1b-c504-4299" primary="false"/>
-                <categoryLink name="Fast Attack" hidden="false" id="d7f4-c855-93bd-400d" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Bike" hidden="false" id="bc59-2dd0-25f6-46441" targetId="bdc9-df1b-c504-4299" primary="false"/>
+                <categoryLink name="Fast Attack" hidden="false" id="3e8c-e3c4-6923-4f12" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Move through cover" id="5d27-19e8-0c9d-40cb" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
-                <infoLink name="Outflank" id="30c9-fa8f-b482-4aa6" hidden="false" type="rule" targetId="86eb-75ae-42b3-43f7"/>
-                <infoLink name="Vanguard" id="e277-d84e-ea86-44bd" hidden="false" type="rule" targetId="6c3f-5e3c-878b-41f9"/>
-                <infoLink name="Target aquired" id="3f5a-3a04-90f8-431a" hidden="false" type="rule" targetId="7bcf-8c18-9099-460e"/>
+                <infoLink name="Move through cover" id="8c12-e5f3-35d0-474b" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+                <infoLink name="Outflank" id="18a6-f27b-d9a1-4adc" hidden="false" type="rule" targetId="86eb-75ae-42b3-43f7"/>
+                <infoLink name="Vanguard" id="3a2e-05a5-fc45-4391" hidden="false" type="rule" targetId="6c3f-5e3c-878b-41f9"/>
+                <infoLink name="Target aquired" id="7aa3-b181-aee3-4cc7" hidden="false" type="rule" targetId="7bcf-8c18-9099-460e"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Serberys Sulphurhounds" hidden="false" id="407d-9564-57b5-45f9">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Serberys Sulphurhounds" hidden="false" id="b6a8-760c-cf45-48f74" defaultAmount="2" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Serberys Sulphurhounds" hidden="false" id="4800-05da-6069-4cfa4" defaultAmount="2" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d4ec-0ba2-87a0-4fba" includeChildSelections="false"/>
-                        <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="a142-9a6f-f15e-441d" includeChildSelections="false"/>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="04bf-adc1-d801-4b2f" includeChildSelections="false"/>
+                        <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="1cf1-a099-69d8-4a61" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="32"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Serberys Sulphurhounds" id="0eac-40d2-b128-4718" hidden="false" type="profile" targetId="5ccd-41e8-ae50-4229"/>
+                        <infoLink name="Serberys Sulphurhounds" id="257e-cd87-0e56-45ce" hidden="false" type="profile" targetId="5ccd-41e8-ae50-4229"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="8e27-f282-f9b1-458f" hidden="false" defaultSelectionEntryId="3373-6b85-ac38-4324">
+                        <selectionEntryGroup name="Weapon Choice" id="47f6-4edc-0100-4b92" hidden="false" defaultSelectionEntryId="f54a-34d6-82f0-484e">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Phosphor blast carbine" hidden="false" id="6a86-90af-eab6-469b" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Phosphor blast carbine" hidden="false" id="3502-4502-8490-45c1" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Phosphor blast carbine" id="6a86-90af-eab6-469b1" hidden="false" type="profile" targetId="5244-e49f-7b18-4db3"/>
+                                        <infoLink name="Phosphor blast carbine" id="3502-4502-8490-45c11" hidden="false" type="profile" targetId="5244-e49f-7b18-4db3"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="9"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Phosphor pistol" hidden="false" id="1d81-d396-6f93-459e" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Phosphor pistol" hidden="false" id="f4dd-2d1c-dba1-4092" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Phosphor pistol" id="1d81-d396-6f93-459e1" hidden="false" type="profile" targetId="6cf0-1596-8447-4e62"/>
+                                        <infoLink name="Phosphor pistol" id="f4dd-2d1c-dba1-40921" hidden="false" type="profile" targetId="6cf0-1596-8447-4e62"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Sulphur breath" hidden="false" id="55d1-5d63-883c-4bec" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Sulphur breath" hidden="false" id="ca85-03a7-993b-44ee" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Sulphur breath" id="55d1-5d63-883c-4bec1" hidden="false" type="profile" targetId="bc61-6dcc-1aa9-40a3"/>
+                                        <infoLink name="Sulphur breath" id="ca85-03a7-993b-44ee1" hidden="false" type="profile" targetId="bc61-6dcc-1aa9-40a3"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="0c22-61be-686d-4a0f" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="ae9f-c986-1fb3-4c75" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="aadd-1430-0d00-4d84" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="6be9-9556-8bf4-49e3" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="model" import="true" name="Sulphurhound Alpha" hidden="false" id="6e7c-ed6a-ca5d-424a" defaultAmount="1" sortIndex="1">
+                    <costs>
+                        <cost name="pts" typeId="40d8-7900-73a1-1378" value="37"/>
+                    </costs>
+                    <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de4a-c0a0-3c33-468d" includeChildSelections="false"/>
+                    </constraints>
+                </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Bike" hidden="false" id="6590-49fb-3e29-48f71" targetId="bdc9-df1b-c504-4299" primary="false"/>
-                <categoryLink name="Fast Attack" hidden="false" id="21a5-fbd2-622c-43e0" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Bike" hidden="false" id="7667-7df9-add2-4b1e1" targetId="bdc9-df1b-c504-4299" primary="false"/>
+                <categoryLink name="Fast Attack" hidden="false" id="ff67-6356-9d00-4896" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Move through cover" id="6462-f0a3-b157-4eda" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
-                <infoLink name="Rad-saturation" id="e305-1981-747c-410a" hidden="false" type="rule" targetId="d3bb-47c2-e594-4ea3"/>
+                <infoLink name="Move through cover" id="d177-c1f6-9eac-44ff" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+                <infoLink name="Rad-saturation" id="199c-ce22-f7ea-4c38" hidden="false" type="rule" targetId="d3bb-47c2-e594-4ea3"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Sydonian Dragoons" hidden="false" id="e2d6-93f4-2bfc-4df7">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Sydonian Dragoons" hidden="false" id="4288-bc34-6587-42084" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Sydonian Dragoons" hidden="false" id="e5a3-c843-d94f-4c1c4" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c3f1-d7b7-ca16-4f9b" includeChildSelections="false"/>
-                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="d66b-aaf3-0cca-4663" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b526-90c0-ada2-4f28" includeChildSelections="false"/>
+                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="ec53-789a-9a2b-4396" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="107"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Sydonian Dragoons" id="f5fb-3424-63ed-4d3f" hidden="false" type="profile" targetId="9e45-3c4a-d7e7-477a"/>
+                        <infoLink name="Sydonian Dragoons" id="c6e2-b7c2-670b-44c2" hidden="false" type="profile" targetId="9e45-3c4a-d7e7-477a"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="6fe1-8fc3-14da-460d" hidden="false" defaultSelectionEntryId="88bc-1e7b-d439-41d4">
+                        <selectionEntryGroup name="Weapon Choice" id="c4c5-a0cc-640a-45d6" hidden="false" defaultSelectionEntryId="b566-fff3-9a94-4199">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Phosphor serpenta" hidden="false" id="638a-bd12-ed1a-4b76" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Phosphor serpenta" hidden="false" id="0762-e103-02ad-4664" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Phosphor serpenta" id="638a-bd12-ed1a-4b761" hidden="false" type="profile" targetId="0618-db4a-2765-4259"/>
+                                        <infoLink name="Phosphor serpenta" id="0762-e103-02ad-46641" hidden="false" type="profile" targetId="0618-db4a-2765-4259"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="5"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Radium jezzail" hidden="false" id="0516-3d63-1bea-4850" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Radium jezzail" hidden="false" id="f81d-bcf7-63d5-4716" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Radium jezzail" id="0516-3d63-1bea-48501" hidden="false" type="profile" targetId="3182-74f7-7891-4104"/>
+                                        <infoLink name="Radium jezzail" id="f81d-bcf7-63d5-47161" hidden="false" type="profile" targetId="3182-74f7-7891-4104"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="32"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Taser lance" hidden="false" id="a7d6-afe7-495e-4291" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Taser lance" hidden="false" id="bfab-b67b-be0b-4f32" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Taser lance" id="a7d6-afe7-495e-42911" hidden="false" type="profile" targetId="4ea2-39bb-0897-4af0"/>
+                                        <infoLink name="Taser lance" id="bfab-b67b-be0b-4f321" hidden="false" type="profile" targetId="4ea2-39bb-0897-4af0"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Charge" hidden="false" id="0d2f-37e9-c8d2-49d1" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="- Charge" hidden="false" id="8b6b-5316-e81f-45f2" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="- Charge" id="0d2f-37e9-c8d2-49d11" hidden="false" type="profile" targetId="f13a-2b33-9290-4bf9"/>
+                                        <infoLink name="- Charge" id="8b6b-5316-e81f-45f21" hidden="false" type="profile" targetId="f13a-2b33-9290-4bf9"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="3513-2832-bf18-4932" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="a610-ca65-2c5b-4cbc" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="7a3d-3356-bb2f-4b60" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="01ad-162b-3ae4-4c52" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Bike" hidden="false" id="9495-1c8f-7128-4bea1" targetId="bdc9-df1b-c504-4299" primary="false"/>
-                <categoryLink name="Monstrous creature" hidden="false" id="420f-d4ea-fc35-496c1" targetId="efc0-368c-ccad-42a3" primary="false"/>
-                <categoryLink name="Fast Attack" hidden="false" id="e243-5ab2-eee2-416a" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Bike" hidden="false" id="1669-d31b-fd6b-4e671" targetId="bdc9-df1b-c504-4299" primary="false"/>
+                <categoryLink name="Monstrous creature" hidden="false" id="80d1-03bf-4f62-4eb31" targetId="efc0-368c-ccad-42a3" primary="false"/>
+                <categoryLink name="Fast Attack" hidden="false" id="e019-d188-7f59-4a42" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Deflect" id="97cc-3000-cd3c-4aa8" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
-                <infoLink name="Squadron" id="5ee3-5d03-7bec-4b77" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
-                <infoLink name="Bionics" id="9f94-31f5-cb1a-4445" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
+                <infoLink name="Deflect" id="5eb6-3d6b-8026-449f" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Squadron" id="2e1a-30a6-6537-4793" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="Bionics" id="309d-05ba-2c1f-44f3" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Kastelan Robots" hidden="false" id="a730-6bcc-72c9-4d0a">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Kastelan Robots" hidden="false" id="21ac-31d6-9f8d-47bb4" defaultAmount="2" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Kastelan Robots" hidden="false" id="d18a-e816-d4ad-4f104" defaultAmount="2" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4522-1002-c8c9-45d2" includeChildSelections="false"/>
-                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="a0be-2e1c-c6a5-4c3b" includeChildSelections="false"/>
+                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8f5f-3af3-b38a-41df" includeChildSelections="false"/>
+                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="7daa-5a85-b1cd-45e8" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="90"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Kastelan Robots" id="ea3a-7356-4d4c-4624" hidden="false" type="profile" targetId="d7f7-42ad-6996-431d"/>
+                        <infoLink name="Kastelan Robots" id="e9ff-49f7-166e-4de4" hidden="false" type="profile" targetId="d7f7-42ad-6996-431d"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="a829-c56c-8f64-46d4" hidden="false" defaultSelectionEntryId="907e-8d87-f8c1-4037">
+                        <selectionEntryGroup name="Weapon Choice" id="5d66-1ca1-15e9-4ba4" hidden="false" defaultSelectionEntryId="7618-98a0-ca99-4894">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Heavy phosphor blaster" hidden="false" id="8b09-fe8c-7c5b-4a9e" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Heavy phosphor blaster" hidden="false" id="2335-5b8e-5d83-49fb" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Heavy phosphor blaster" id="8b09-fe8c-7c5b-4a9e1" hidden="false" type="profile" targetId="319e-0649-6887-48d7"/>
+                                        <infoLink name="Heavy phosphor blaster" id="2335-5b8e-5d83-49fb1" hidden="false" type="profile" targetId="319e-0649-6887-48d7"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="6"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Incendine combustor" hidden="false" id="8e8c-fa6a-902b-491a" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Incendine combustor" hidden="false" id="0a11-4d38-1df8-4388" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Incendine combustor" id="8e8c-fa6a-902b-491a1" hidden="false" type="profile" targetId="d2c2-89e9-d875-4a98"/>
+                                        <infoLink name="Incendine combustor" id="0a11-4d38-1df8-43881" hidden="false" type="profile" targetId="d2c2-89e9-d875-4a98"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Power fist" hidden="false" id="2641-0726-56c2-4357" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Power fist" hidden="false" id="529d-c308-0e40-4783" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Power fist" id="2641-0726-56c2-43571" hidden="false" type="profile" targetId="0f8b-1d6d-d0f1-4cf6"/>
+                                        <infoLink name="Power fist" id="529d-c308-0e40-47831" hidden="false" type="profile" targetId="0f8b-1d6d-d0f1-4cf6"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin heavy phosphor blaster" hidden="false" id="e365-829c-ce54-4ba1" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Twin heavy phosphor blaster" hidden="false" id="340f-3af9-a1fb-43a4" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Twin heavy phosphor blaster" id="e365-829c-ce54-4ba11" hidden="false" type="profile" targetId="8832-3da7-c89b-4e50"/>
+                                        <infoLink name="Twin heavy phosphor blaster" id="340f-3af9-a1fb-43a41" hidden="false" type="profile" targetId="8832-3da7-c89b-4e50"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="26"/>
@@ -927,47 +999,47 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="585c-bfc2-b924-4cf7" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="2e00-02ef-e816-4307" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="c05f-f058-0e92-4d4d" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="4d77-6681-3551-45ec" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Monstrous infantry" hidden="false" id="b032-6129-2772-4d811" targetId="54bd-64b9-7aa3-e612" primary="false"/>
-                <categoryLink name="Heavy Support" hidden="false" id="754f-09dd-e0b7-4317" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Monstrous infantry" hidden="false" id="402e-884f-ee1d-4b181" targetId="54bd-64b9-7aa3-e612" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="dd70-fb94-5a6b-4f8c" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Unyielding" id="0996-5d7e-ccac-443a" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
-                <infoLink name="Repulsor Grid" id="0e89-fc95-82ef-4396" hidden="false" type="rule" targetId="a26b-f46c-e3e4-4f36"/>
-                <infoLink name="Battle Protocols" id="4166-0c5f-92cd-47a6" hidden="false" type="rule" targetId="ce94-fb26-de49-458f"/>
+                <infoLink name="Unyielding" id="4470-de83-8cdb-481b" hidden="false" type="rule" targetId="45a5-c7f0-fc2d-425f"/>
+                <infoLink name="Repulsor Grid" id="2633-4b74-9635-4d5c" hidden="false" type="rule" targetId="a26b-f46c-e3e4-4f36"/>
+                <infoLink name="Battle Protocols" id="1935-af19-7962-490d" hidden="false" type="rule" targetId="ce94-fb26-de49-458f"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Ironstrider Ballistarii" hidden="false" id="ea0e-8f11-ffd7-4d4e">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Ironstrider Ballistarii" hidden="false" id="ecfa-189b-b6f1-4a9b4" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Ironstrider Ballistarii" hidden="false" id="e813-6151-9e7b-47dc4" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0f4-b6ad-8409-4c90" includeChildSelections="false"/>
-                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="2cfa-e6f3-ae24-4e08" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c4f-4702-6b9f-489d" includeChildSelections="false"/>
+                        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="90d1-360d-8cc0-4641" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="151"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Ironstrider Ballistarii" id="b808-e2fb-e61a-4d70" hidden="false" type="profile" targetId="a7ed-adad-60cd-48e4"/>
+                        <infoLink name="Ironstrider Ballistarii" id="eb57-766d-cb4f-47ac" hidden="false" type="profile" targetId="a7ed-adad-60cd-48e4"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="6ac1-70de-ee45-4788" hidden="false" defaultSelectionEntryId="692a-bc08-a51b-43d0">
+                        <selectionEntryGroup name="Weapon Choice" id="0e21-7369-64fb-4bf1" hidden="false" defaultSelectionEntryId="d9cd-37cf-aedd-4b35">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Twin cognis autocannon" hidden="false" id="a424-0edf-a43f-4438" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Twin cognis autocannon" hidden="false" id="5c65-52be-6471-4d25" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Twin cognis autocannon" id="a424-0edf-a43f-44381" hidden="false" type="profile" targetId="b015-43bd-636f-4ed0"/>
+                                        <infoLink name="Twin cognis autocannon" id="5c65-52be-6471-4d251" hidden="false" type="profile" targetId="b015-43bd-636f-4ed0"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin cognis lascannon" hidden="false" id="448d-d510-097c-4d86" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Twin cognis lascannon" hidden="false" id="d823-31a3-834f-4625" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Twin cognis lascannon" id="448d-d510-097c-4d861" hidden="false" type="profile" targetId="00db-2103-e892-486e"/>
+                                        <infoLink name="Twin cognis lascannon" id="d823-31a3-834f-46251" hidden="false" type="profile" targetId="00db-2103-e892-486e"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="85"/>
@@ -975,99 +1047,99 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="e8ed-cbfc-3441-4703" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="6e7b-aad6-5979-4c22" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="1b5a-335a-9abe-49a9" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="cc6c-69f5-c23f-4378" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Bike" hidden="false" id="11fa-dbef-ae0e-42d11" targetId="bdc9-df1b-c504-4299" primary="false"/>
-                <categoryLink name="Monstrous creature" hidden="false" id="fde0-57cb-3a7b-4b891" targetId="efc0-368c-ccad-42a3" primary="false"/>
-                <categoryLink name="Heavy Support" hidden="false" id="4545-ed58-c9d1-44e2" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Bike" hidden="false" id="b996-c13d-4cf6-4c2f1" targetId="bdc9-df1b-c504-4299" primary="false"/>
+                <categoryLink name="Monstrous creature" hidden="false" id="a5b1-479d-b758-41de1" targetId="efc0-368c-ccad-42a3" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="aa88-b4de-7f03-4ab8" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Deflect" id="1e58-b8f3-1334-4b80" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
-                <infoLink name="Squadron" id="90e1-5ba9-6759-4183" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
-                <infoLink name="Bionics" id="2d26-0979-02d9-4dc4" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
+                <infoLink name="Deflect" id="e956-b276-6dc1-439b" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Squadron" id="6527-c8bc-6fb4-4edc" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="Bionics" id="d895-adb8-4b60-448f" hidden="false" type="rule" targetId="74ad-7d8a-27f8-4aac"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Onager Dunecrawler" hidden="false" id="9dad-0fdf-48d8-4d52">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Onager Dunecrawler" hidden="false" id="ffe2-fdd4-c3ef-49d74" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Onager Dunecrawler" hidden="false" id="92b2-bc02-76bf-414a4" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa5d-23ce-f3c3-46f5" includeChildSelections="false"/>
-                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="744f-bcb6-3844-4df3" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5317-c0fe-2cee-436b" includeChildSelections="false"/>
+                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9419-003a-0d0e-467f" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="236"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Onager Dunecrawler" id="9f7a-2c2f-f20c-4a89" hidden="false" type="profile" targetId="8ffa-6db5-f305-42dc"/>
+                        <infoLink name="Onager Dunecrawler" id="80ce-513d-5957-46b6" hidden="false" type="profile" targetId="8ffa-6db5-f305-42dc"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="6d41-dfa0-ef82-41d5" hidden="false" defaultSelectionEntryId="00b2-45d0-b59b-4272">
+                        <selectionEntryGroup name="Weapon Choice" id="0229-47c6-e80d-4544" hidden="false" defaultSelectionEntryId="16cf-fc0d-6df2-44c4">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Cognis heavy stubber" hidden="false" id="cd19-a25d-407d-40af" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Cognis heavy stubber" hidden="false" id="8dca-42e7-712c-4512" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Cognis heavy stubber" id="cd19-a25d-407d-40af1" hidden="false" type="profile" targetId="0d0c-c91f-6bcb-4ef7"/>
+                                        <infoLink name="Cognis heavy stubber" id="8dca-42e7-712c-45121" hidden="false" type="profile" targetId="0d0c-c91f-6bcb-4ef7"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Eradication beamer" hidden="false" id="600c-4b45-2ea8-43b8" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Eradication beamer" hidden="false" id="9972-82b3-161a-4b63" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Eradication beamer" id="600c-4b45-2ea8-43b81" hidden="false" type="profile" targetId="56f6-e158-b132-4bcb"/>
+                                        <infoLink name="Eradication beamer" id="9972-82b3-161a-4b631" hidden="false" type="profile" targetId="56f6-e158-b132-4bcb"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="26"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Short range" hidden="false" id="1451-ec40-e090-4a79" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="- Short range" hidden="false" id="1581-2dae-0941-484d" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="- Short range" id="1451-ec40-e090-4a791" hidden="false" type="profile" targetId="982d-e7c5-070e-448e"/>
+                                        <infoLink name="- Short range" id="1581-2dae-0941-484d1" hidden="false" type="profile" targetId="982d-e7c5-070e-448e"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Mid range" hidden="false" id="1c93-e175-99bf-41cc" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="- Mid range" hidden="false" id="3b1b-1721-3975-4f72" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="- Mid range" id="1c93-e175-99bf-41cc1" hidden="false" type="profile" targetId="594b-333e-5f32-4981"/>
+                                        <infoLink name="- Mid range" id="3b1b-1721-3975-4f721" hidden="false" type="profile" targetId="594b-333e-5f32-4981"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Long range" hidden="false" id="c85a-7130-e2db-43a3" sortIndex="5">
+                                <selectionEntry type="upgrade" import="true" name="- Long range" hidden="false" id="fcae-5831-b6c0-40e2" sortIndex="5">
                                     <infoLinks>
-                                        <infoLink name="- Long range" id="c85a-7130-e2db-43a31" hidden="false" type="profile" targetId="c83b-a1de-ea0d-4e1d"/>
+                                        <infoLink name="- Long range" id="fcae-5831-b6c0-40e21" hidden="false" type="profile" targetId="c83b-a1de-ea0d-4e1d"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Icarus array" hidden="false" id="b417-cee3-8e05-4563" sortIndex="6">
+                                <selectionEntry type="upgrade" import="true" name="Icarus array" hidden="false" id="6c8b-4855-91d0-4286" sortIndex="6">
                                     <infoLinks>
-                                        <infoLink name="Icarus array" id="b417-cee3-8e05-45631" hidden="false" type="profile" targetId="1a00-e276-a5a0-412b"/>
+                                        <infoLink name="Icarus array" id="6c8b-4855-91d0-42861" hidden="false" type="profile" targetId="1a00-e276-a5a0-412b"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="95"/>
                                     </costs>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Daedalus missile launcher" hidden="false" id="5bf9-ecd0-2c57-42c9" sortIndex="7">
+                                <selectionEntry type="upgrade" import="true" name="- Daedalus missile launcher" hidden="false" id="2ae8-40e7-a988-4532" sortIndex="7">
                                     <infoLinks>
-                                        <infoLink name="- Daedalus missile launcher" id="5bf9-ecd0-2c57-42c91" hidden="false" type="profile" targetId="e424-e859-214f-4e7e"/>
+                                        <infoLink name="- Daedalus missile launcher" id="2ae8-40e7-a988-45321" hidden="false" type="profile" targetId="e424-e859-214f-4e7e"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Gatling rocket launcher" hidden="false" id="66ee-2965-ef5f-43d7" sortIndex="8">
+                                <selectionEntry type="upgrade" import="true" name="- Gatling rocket launcher" hidden="false" id="867f-759e-0374-485a" sortIndex="8">
                                     <infoLinks>
-                                        <infoLink name="- Gatling rocket launcher" id="66ee-2965-ef5f-43d71" hidden="false" type="profile" targetId="88db-21d8-258e-4e3c"/>
+                                        <infoLink name="- Gatling rocket launcher" id="867f-759e-0374-485a1" hidden="false" type="profile" targetId="88db-21d8-258e-4e3c"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="- Twin icarus autocannon" hidden="false" id="6ca3-dd06-2cff-4ea3" sortIndex="9">
+                                <selectionEntry type="upgrade" import="true" name="- Twin icarus autocannon" hidden="false" id="3c2c-a807-93f6-48c9" sortIndex="9">
                                     <infoLinks>
-                                        <infoLink name="- Twin icarus autocannon" id="6ca3-dd06-2cff-4ea31" hidden="false" type="profile" targetId="ec0b-ae0a-82b8-42b0"/>
+                                        <infoLink name="- Twin icarus autocannon" id="3c2c-a807-93f6-48c91" hidden="false" type="profile" targetId="ec0b-ae0a-82b8-42b0"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Neutron laser" hidden="false" id="40f2-0a7b-2bb0-4bba" sortIndex="10">
+                                <selectionEntry type="upgrade" import="true" name="Neutron laser" hidden="false" id="2fd2-d853-859f-4a27" sortIndex="10">
                                     <infoLinks>
-                                        <infoLink name="Neutron laser" id="40f2-0a7b-2bb0-4bba1" hidden="false" type="profile" targetId="61d9-d6f5-fc18-4c1e"/>
+                                        <infoLink name="Neutron laser" id="2fd2-d853-859f-4a271" hidden="false" type="profile" targetId="61d9-d6f5-fc18-4c1e"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin heavy phosphor blaster" hidden="false" id="65ad-dab6-679c-433c" sortIndex="11">
+                                <selectionEntry type="upgrade" import="true" name="Twin heavy phosphor blaster" hidden="false" id="3daf-1e9d-10dc-449f" sortIndex="11">
                                     <infoLinks>
-                                        <infoLink name="Twin heavy phosphor blaster" id="65ad-dab6-679c-433c1" hidden="false" type="profile" targetId="8832-3da7-c89b-4e50"/>
+                                        <infoLink name="Twin heavy phosphor blaster" id="3daf-1e9d-10dc-449f1" hidden="false" type="profile" targetId="8832-3da7-c89b-4e50"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="26"/>
@@ -1075,58 +1147,58 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="b907-0d23-b9ff-468c" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="b00d-a553-9b1c-4993" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="122f-bde3-6511-40e7" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="cedb-e56c-ead9-43ca" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Vehicle" hidden="false" id="f6be-f310-17a6-482d1" targetId="243a-2cd5-61a0-1b44" primary="false"/>
-                <categoryLink name="Heavy Support" hidden="false" id="ada6-e516-1a4b-4083" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Vehicle" hidden="false" id="de55-e89e-fc26-43e11" targetId="243a-2cd5-61a0-1b44" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="c08c-ed3d-f80d-4a59" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Move through cover" id="f559-04ab-5024-42e2" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
-                <infoLink name="Squadron" id="8dac-2d12-7bd1-4904" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
-                <infoLink name="Emanatus force field" id="51a6-b3e3-f4ff-4944" hidden="false" type="rule" targetId="b998-5715-d52b-4d58"/>
-                <infoLink name="Icarus array" id="d0c9-b3a5-7c0b-46cd" hidden="false" type="rule" targetId="254b-56b1-7a4f-4bb9"/>
+                <infoLink name="Move through cover" id="a838-9518-f3d1-46bb" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+                <infoLink name="Squadron" id="2bd0-7168-94c8-4a99" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="Emanatus force field" id="2018-0294-7459-4df1" hidden="false" type="rule" targetId="b998-5715-d52b-4d58"/>
+                <infoLink name="Icarus array" id="4964-50f5-79b5-4136" hidden="false" type="rule" targetId="254b-56b1-7a4f-4bb9"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Skorpius Disintegrator" hidden="false" id="7f63-c8b8-c5cb-47be">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Skorpius Disintegrator" hidden="false" id="db93-faa2-0c67-432e4" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Skorpius Disintegrator" hidden="false" id="5471-8444-9fe1-41b54" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f86-7f18-9951-4154" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="469e-f483-ee1d-400c" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63f7-918b-4866-488c" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7ce-d8f9-2ff6-43ab" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="309"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Skorpius Disintegrator" id="3042-c02b-2ce6-40d7" hidden="false" type="profile" targetId="d256-eadb-be4d-473c"/>
+                        <infoLink name="Skorpius Disintegrator" id="7f68-ae66-ca08-436e" hidden="false" type="profile" targetId="d256-eadb-be4d-473c"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="7b70-5d85-e9e6-4149" hidden="false" defaultSelectionEntryId="c0e9-e101-0f69-4843">
+                        <selectionEntryGroup name="Weapon Choice" id="446e-d102-c754-4b2d" hidden="false" defaultSelectionEntryId="94f5-7595-4725-4054">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Belleros energy cannon" hidden="false" id="604d-dc2c-2605-448a" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Belleros energy cannon" hidden="false" id="f7d8-5ebd-5189-4ae3" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Belleros energy cannon" id="604d-dc2c-2605-448a1" hidden="false" type="profile" targetId="ecb9-a171-baa4-4660"/>
+                                        <infoLink name="Belleros energy cannon" id="f7d8-5ebd-5189-4ae31" hidden="false" type="profile" targetId="ecb9-a171-baa4-4660"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Cognis heavy stubber" hidden="false" id="6940-e117-e835-4858" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Cognis heavy stubber" hidden="false" id="25e0-4e00-3be3-454e" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Cognis heavy stubber" id="6940-e117-e835-48581" hidden="false" type="profile" targetId="0d0c-c91f-6bcb-4ef7"/>
+                                        <infoLink name="Cognis heavy stubber" id="25e0-4e00-3be3-454e1" hidden="false" type="profile" targetId="0d0c-c91f-6bcb-4ef7"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Disruptor missile launcher" hidden="false" id="44d9-fd7a-207f-4c30" sortIndex="3">
+                                <selectionEntry type="upgrade" import="true" name="Disruptor missile launcher" hidden="false" id="3a63-fcbb-8fd3-445d" sortIndex="3">
                                     <infoLinks>
-                                        <infoLink name="Disruptor missile launcher" id="44d9-fd7a-207f-4c301" hidden="false" type="profile" targetId="25cf-4251-60a8-40c9"/>
+                                        <infoLink name="Disruptor missile launcher" id="3a63-fcbb-8fd3-445d1" hidden="false" type="profile" targetId="25cf-4251-60a8-40c9"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Ferrumite cannon" hidden="false" id="bbd0-2e72-f2f6-430a" sortIndex="4">
+                                <selectionEntry type="upgrade" import="true" name="Ferrumite cannon" hidden="false" id="9f8f-8370-fe91-4f5b" sortIndex="4">
                                     <infoLinks>
-                                        <infoLink name="Ferrumite cannon" id="bbd0-2e72-f2f6-430a1" hidden="false" type="profile" targetId="81c0-6f50-86ae-441b"/>
+                                        <infoLink name="Ferrumite cannon" id="9f8f-8370-fe91-4f5b1" hidden="false" type="profile" targetId="81c0-6f50-86ae-441b"/>
                                     </infoLinks>
                                     <costs>
                                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="59"/>
@@ -1134,63 +1206,63 @@
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="1f49-b853-c760-44f7" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="6d78-500a-a736-4be8" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="1635-7391-609d-473f" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="3a09-e2db-42f3-4df2" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Vehicle" hidden="false" id="d711-e2de-b77f-49941" targetId="243a-2cd5-61a0-1b44" primary="false"/>
-                <categoryLink name="Heavy Support" hidden="false" id="3cf3-00f0-bf8d-4dec" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Vehicle" hidden="false" id="f6eb-b6d2-081e-461a1" targetId="243a-2cd5-61a0-1b44" primary="false"/>
+                <categoryLink name="Heavy Support" hidden="false" id="ab63-e04d-d388-4789" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="7500-b573-bf18-4e82" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="-" id="04b0-c322-d9c3-4eb0" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
             </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Skorpius Dunerider" hidden="false" id="677a-cb99-8e61-4c09">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Skorpius Dunerider" hidden="false" id="2d62-a7c7-e257-41594" defaultAmount="1" sortIndex="2">
+                <selectionEntry type="model" import="true" name="Skorpius Dunerider" hidden="false" id="804f-3248-4064-4a734" defaultAmount="1" sortIndex="2">
                     <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="60b6-ade6-d583-452e" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb8a-0c33-5e22-48cf" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc6a-6585-cdd6-44aa" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e777-353e-5345-44e9" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="160"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Skorpius Dunerider" id="9d1f-ad8c-bbbf-45f9" hidden="false" type="profile" targetId="f07b-b4ab-70c7-4d8a"/>
+                        <infoLink name="Skorpius Dunerider" id="44e1-9bc1-07ed-442c" hidden="false" type="profile" targetId="f07b-b4ab-70c7-4d8a"/>
                     </infoLinks>
                     <selectionEntryGroups>
-                        <selectionEntryGroup name="Weapon Choice" id="1b67-40f8-0233-4dea" hidden="false" defaultSelectionEntryId="2887-89df-5a32-4fac">
+                        <selectionEntryGroup name="Weapon Choice" id="d372-9396-02b7-4526" hidden="false" defaultSelectionEntryId="2a96-eb1f-f902-475a">
                             <selectionEntries>
-                                <selectionEntry type="upgrade" import="true" name="Cognis heavy stubber" hidden="false" id="e6d0-9860-7f09-4ef6" sortIndex="1">
+                                <selectionEntry type="upgrade" import="true" name="Cognis heavy stubber" hidden="false" id="9df2-32e3-a73d-40cd" sortIndex="1">
                                     <infoLinks>
-                                        <infoLink name="Cognis heavy stubber" id="e6d0-9860-7f09-4ef61" hidden="false" type="profile" targetId="0d0c-c91f-6bcb-4ef7"/>
+                                        <infoLink name="Cognis heavy stubber" id="9df2-32e3-a73d-40cd1" hidden="false" type="profile" targetId="0d0c-c91f-6bcb-4ef7"/>
                                     </infoLinks>
                                 </selectionEntry>
-                                <selectionEntry type="upgrade" import="true" name="Twin cognis heavy stubber" hidden="false" id="aa6c-9dae-c154-4410" sortIndex="2">
+                                <selectionEntry type="upgrade" import="true" name="Twin cognis heavy stubber" hidden="false" id="0b45-f7d7-e673-4c08" sortIndex="2">
                                     <infoLinks>
-                                        <infoLink name="Twin cognis heavy stubber" id="aa6c-9dae-c154-44101" hidden="false" type="profile" targetId="36f5-6e4a-444f-4444"/>
+                                        <infoLink name="Twin cognis heavy stubber" id="0b45-f7d7-e673-4c081" hidden="false" type="profile" targetId="36f5-6e4a-444f-4444"/>
                                     </infoLinks>
                                 </selectionEntry>
                             </selectionEntries>
                             <constraints>
-                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="8c48-70b3-f07d-4993" includeChildSelections="false"/>
-                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="f5bb-9cdb-6076-463e" includeChildSelections="false"/>
+                                <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="ff3f-717d-a5a9-4c0f" includeChildSelections="false"/>
+                                <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="7957-8863-71c0-465a" includeChildSelections="false"/>
                             </constraints>
                         </selectionEntryGroup>
                     </selectionEntryGroups>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Vehicle" hidden="false" id="feb9-9fa3-75e2-44ae1" targetId="243a-2cd5-61a0-1b44" primary="false"/>
-                <categoryLink name="Transports" hidden="false" id="ec76-7a14-d6d8-44dd" targetId="8046-e26a-aa36-3308" primary="true"/>
+                <categoryLink name="Vehicle" hidden="false" id="1f6b-a42f-aed7-427d1" targetId="243a-2cd5-61a0-1b44" primary="false"/>
+                <categoryLink name="Transports" hidden="false" id="7065-26a1-8b71-4f09" targetId="8046-e26a-aa36-3308" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="-" id="d136-89d0-e50e-488f" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
-                <infoLink name="Transport" id="4f02-c50e-9a28-4be8" hidden="false" type="rule" targetId="02d1-9e4a-7267-467e"/>
+                <infoLink name="-" id="a36b-f840-9922-4021" hidden="false" type="rule" targetId="3b1d-0d22-4aa0-4d19"/>
+                <infoLink name="Transport" id="eb54-9697-386c-457d" hidden="false" type="rule" targetId="02d1-9e4a-7267-467e"/>
             </infoLinks>
         </selectionEntry>
     </sharedSelectionEntries>
@@ -2467,104 +2539,104 @@
         </profile>
     </sharedProfiles>
     <entryLinks>
-        <entryLink import="true" name="Skitarii Marshal" hidden="false" id="4821-0d12-ec80-4ed2" type="selectionEntry" targetId="43e3-d023-bb7d-4ae9">
+        <entryLink import="true" name="Skitarii Marshal" hidden="false" id="b06d-ad3c-1f54-4cc5" type="selectionEntry" targetId="43e3-d023-bb7d-4ae9">
             <categoryLinks>
-                <categoryLink name="HQ" hidden="false" id="7486-6e9a-6401-40c0" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
+                <categoryLink name="HQ" hidden="false" id="6526-e3a6-47b5-4b3e" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Tech-Priest" hidden="false" id="f5e4-ed56-86b7-4dd8" type="selectionEntry" targetId="9e5f-e9de-bcce-45ac">
+        <entryLink import="true" name="Tech-Priest" hidden="false" id="780e-7f3d-e113-4902" type="selectionEntry" targetId="9e5f-e9de-bcce-45ac">
             <categoryLinks>
-                <categoryLink name="HQ" hidden="false" id="1da1-5b02-596f-4e89" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
+                <categoryLink name="HQ" hidden="false" id="a1cf-afaf-1cdc-407f" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Skitarii Rangers" hidden="false" id="d78f-31eb-002c-4e52" type="selectionEntry" targetId="e288-25e6-8aab-4162">
+        <entryLink import="true" name="Skitarii Rangers" hidden="false" id="fa47-0e86-8393-4c1a" type="selectionEntry" targetId="e288-25e6-8aab-4162">
             <categoryLinks>
-                <categoryLink name="Troops" hidden="false" id="4a6b-411d-f055-4ac7" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Troops" hidden="false" id="7712-c11f-6ce9-4246" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Skitarii Vanguard" hidden="false" id="0f5a-2fb9-eefe-4647" type="selectionEntry" targetId="772c-d0a7-f349-4b7c">
+        <entryLink import="true" name="Skitarii Vanguard" hidden="false" id="1f14-e878-62b5-4fc0" type="selectionEntry" targetId="772c-d0a7-f349-4b7c">
             <categoryLinks>
-                <categoryLink name="Troops" hidden="false" id="8e95-7055-fd15-4d11" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+                <categoryLink name="Troops" hidden="false" id="f8b9-08e6-2faa-4bcc" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Corpuscarii Electro-Priests" hidden="false" id="2046-8927-2ef4-4ae5" type="selectionEntry" targetId="426c-b755-8934-4938">
+        <entryLink import="true" name="Corpuscarii Electro-Priests" hidden="false" id="05fb-fa99-c377-44b6" type="selectionEntry" targetId="426c-b755-8934-4938">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="e667-c2e7-d098-4783" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="3e45-9648-41c8-492a" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Fulgurite Electro-Priests" hidden="false" id="b295-7d8e-b27f-4e6a" type="selectionEntry" targetId="8e74-2863-fb5f-4596">
+        <entryLink import="true" name="Fulgurite Electro-Priests" hidden="false" id="d66c-f617-6971-488c" type="selectionEntry" targetId="8e74-2863-fb5f-4596">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="33cf-4bb9-54b3-466d" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="b605-5b34-1e4c-488b" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Kataphron Breachers" hidden="false" id="8a36-ffee-bed7-4473" type="selectionEntry" targetId="cce7-58d0-2d32-4f9c">
+        <entryLink import="true" name="Kataphron Breachers" hidden="false" id="3f92-241a-bdf7-4ed2" type="selectionEntry" targetId="cce7-58d0-2d32-4f9c">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="3904-1f35-fec0-46c4" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="a638-8edc-7dbd-4844" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Kataphron Destroyers" hidden="false" id="528b-17b2-7ba1-4f48" type="selectionEntry" targetId="c72c-16df-2c14-4ea4">
+        <entryLink import="true" name="Kataphron Destroyers" hidden="false" id="7a17-9e29-29e9-49ca" type="selectionEntry" targetId="c72c-16df-2c14-4ea4">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="5006-461a-c5b9-42ff" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="f3d9-d763-49b6-4be9" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Sicaran Infiltrators" hidden="false" id="114f-0e7a-19f5-407e" type="selectionEntry" targetId="8a8e-acef-bf68-4e0a">
+        <entryLink import="true" name="Sicaran Infiltrators" hidden="false" id="422e-5cc1-9859-4b98" type="selectionEntry" targetId="8a8e-acef-bf68-4e0a">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="5f31-defc-9a57-4e52" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="1e22-a595-ca52-4ef7" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Sicaran Ruststalkers" hidden="false" id="6511-d7d0-a41b-4820" type="selectionEntry" targetId="5f49-e651-7380-4d71">
+        <entryLink import="true" name="Sicaran Ruststalkers" hidden="false" id="bddb-3a8d-1f04-4757" type="selectionEntry" targetId="5f49-e651-7380-4d71">
             <categoryLinks>
-                <categoryLink name="Elite" hidden="false" id="fd2c-6c50-adbf-47cd" targetId="e998-b6e1-9f43-6739" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="e65f-3d31-9ef7-4a4e" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Pteraxii Skystalkers" hidden="false" id="736b-60dc-4853-4a29" type="selectionEntry" targetId="45d8-f201-94e2-4770">
+        <entryLink import="true" name="Pteraxii Skystalkers" hidden="false" id="89cf-82e5-0169-4a23" type="selectionEntry" targetId="45d8-f201-94e2-4770">
             <categoryLinks>
-                <categoryLink name="Fast Attack" hidden="false" id="40e3-5ba8-7c21-4e60" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="d9ef-2f98-6758-41c7" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Pteraxii Sterylizors" hidden="false" id="f929-1ea8-9df6-4a85" type="selectionEntry" targetId="36ff-fc96-a286-45dd">
+        <entryLink import="true" name="Pteraxii Sterylizors" hidden="false" id="a867-b373-327b-4192" type="selectionEntry" targetId="36ff-fc96-a286-45dd">
             <categoryLinks>
-                <categoryLink name="Fast Attack" hidden="false" id="c7c0-2e23-c93b-4557" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="5282-3b85-c379-4643" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Serberys Raiders" hidden="false" id="8371-8829-9aed-423a" type="selectionEntry" targetId="97a0-283e-a63a-4867">
+        <entryLink import="true" name="Serberys Raiders" hidden="false" id="e45b-47e7-8507-48bf" type="selectionEntry" targetId="97a0-283e-a63a-4867">
             <categoryLinks>
-                <categoryLink name="Fast Attack" hidden="false" id="a906-cc71-583b-4187" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="9949-94bf-84bc-4556" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Serberys Sulphurhounds" hidden="false" id="68e4-975e-8c6a-4710" type="selectionEntry" targetId="407d-9564-57b5-45f9">
+        <entryLink import="true" name="Serberys Sulphurhounds" hidden="false" id="07a9-c181-6863-4f15" type="selectionEntry" targetId="407d-9564-57b5-45f9">
             <categoryLinks>
-                <categoryLink name="Fast Attack" hidden="false" id="ea01-9bb3-0c8b-4355" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="92a3-cfdb-9e5c-4a9b" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Sydonian Dragoons" hidden="false" id="a289-c00f-e2bd-4017" type="selectionEntry" targetId="e2d6-93f4-2bfc-4df7">
+        <entryLink import="true" name="Sydonian Dragoons" hidden="false" id="d118-fe12-df3d-4fd2" type="selectionEntry" targetId="e2d6-93f4-2bfc-4df7">
             <categoryLinks>
-                <categoryLink name="Fast Attack" hidden="false" id="079f-66a1-0f5d-457f" targetId="8ba0-ef12-9165-c50c" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="087e-b909-13ca-4f6c" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Kastelan Robots" hidden="false" id="76f7-57e3-d61e-4ef1" type="selectionEntry" targetId="a730-6bcc-72c9-4d0a">
+        <entryLink import="true" name="Kastelan Robots" hidden="false" id="d50f-f01e-cc42-4e86" type="selectionEntry" targetId="a730-6bcc-72c9-4d0a">
             <categoryLinks>
-                <categoryLink name="Heavy Support" hidden="false" id="6617-66ba-8ca0-457d" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="86bd-89da-8e5b-4d89" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Ironstrider Ballistarii" hidden="false" id="a7d1-6b07-014b-4bd9" type="selectionEntry" targetId="ea0e-8f11-ffd7-4d4e">
+        <entryLink import="true" name="Ironstrider Ballistarii" hidden="false" id="7c60-f24e-8781-4581" type="selectionEntry" targetId="ea0e-8f11-ffd7-4d4e">
             <categoryLinks>
-                <categoryLink name="Heavy Support" hidden="false" id="184d-c72c-61db-493f" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="0285-f898-ab91-4fb8" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Onager Dunecrawler" hidden="false" id="cfa9-2e1b-e318-4f1c" type="selectionEntry" targetId="9dad-0fdf-48d8-4d52">
+        <entryLink import="true" name="Onager Dunecrawler" hidden="false" id="48c7-73ee-1acd-45d3" type="selectionEntry" targetId="9dad-0fdf-48d8-4d52">
             <categoryLinks>
-                <categoryLink name="Heavy Support" hidden="false" id="fa20-45cd-40aa-4324" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="bff5-1964-ec12-41e2" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Skorpius Disintegrator" hidden="false" id="7a31-e1bc-31b4-4a03" type="selectionEntry" targetId="7f63-c8b8-c5cb-47be">
+        <entryLink import="true" name="Skorpius Disintegrator" hidden="false" id="083d-9d1d-85a7-4531" type="selectionEntry" targetId="7f63-c8b8-c5cb-47be">
             <categoryLinks>
-                <categoryLink name="Heavy Support" hidden="false" id="5671-1055-d192-4c7a" targetId="3aa5-2835-2e04-82bb" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="1309-9c24-3b0b-47de" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Skorpius Dunerider" hidden="false" id="f83c-ab97-a587-4978" type="selectionEntry" targetId="677a-cb99-8e61-4c09">
+        <entryLink import="true" name="Skorpius Dunerider" hidden="false" id="bff0-4802-47a2-499f" type="selectionEntry" targetId="677a-cb99-8e61-4c09">
             <categoryLinks>
-                <categoryLink name="Transports" hidden="false" id="411b-90c9-3e49-4815" targetId="8046-e26a-aa36-3308" primary="true"/>
+                <categoryLink name="Transports" hidden="false" id="1888-5614-8209-4afe" targetId="8046-e26a-aa36-3308" primary="true"/>
             </categoryLinks>
         </entryLink>
     </entryLinks>
