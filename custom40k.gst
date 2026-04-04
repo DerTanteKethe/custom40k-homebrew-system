@@ -57,9 +57,12 @@
     <categoryEntry name="Advisor" id="187a-b1be-ad57-93fd" hidden="true">
       <comment>Chaos Space Marine Ability</comment>
     </categoryEntry>
+    <categoryEntry name="No Battlefield Role" id="41ed-bf57-7d27-9690" hidden="false">
+      <description>For units in force creation that do not use a slot.</description>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry name="Army" id="59f5-9244-6426-aff0" hidden="false">
+    <forceEntry name="No Archetype" id="59f5-9244-6426-aff0" hidden="false" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="5ede-ce99-1dfe-da5f" targetId="251a-e788-36d5-a036"/>
         <categoryLink name="HQ" hidden="false" id="ffd8-43c9-3bf7-4c6c" targetId="681b-82fd-7cc4-8ef8">
@@ -180,8 +183,15 @@
         </categoryLink>
         <categoryLink name="Transports" hidden="false" id="7190-6a67-d821-1c2d" targetId="8046-e26a-aa36-3308">
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="56c3-5761-aede-0220"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="56c3-5761-aede-0220"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="56c3-5761-aede-0220">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="roster" childId="79f3-f25d-2e24-7130" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Fortification" hidden="false" id="90e3-b264-453a-b9b7" targetId="21aa-fe1b-91db-f8a1">
           <constraints>
@@ -195,9 +205,10 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d7e2-81b8-ddb8-b15c"/>
           </constraints>
         </categoryLink>
+        <categoryLink name="No Battlefield Role" hidden="false" id="dbb3-5877-0069-1710" targetId="41ed-bf57-7d27-9690"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="Free Army" id="c934-704f-061c-2efe" hidden="false">
+    <forceEntry name="Free Army" id="c934-704f-061c-2efe" hidden="false" sortIndex="99">
       <categoryLinks>
         <categoryLink name="HQ" hidden="false" id="3949-7bc1-cbe4-9000" targetId="681b-82fd-7cc4-8ef8"/>
         <categoryLink name="Transports" hidden="false" id="836a-bb2a-2af1-e63a" targetId="8046-e26a-aa36-3308"/>
@@ -283,9 +294,15 @@
         <characteristicType name="Keywords" id="0207-88db-7926-4ba6"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Ability Choice" id="df71-6064-b08f-42cb" hidden="false">
+    <profileType name="Psychic Powers" id="be7d-d5d5-f5cf-be4f" hidden="false">
       <characteristicTypes>
-        <characteristicType name="Keywords" id="0207-88db-7926-4ba6"/>
+        <characteristicType name="Type" id="e004-51ac-9b24-2946"/>
+        <characteristicType name="Range" id="ec7e-be8e-1543-3942"/>
+        <characteristicType name="Target" id="4d02-1799-54fd-bbff"/>
+        <characteristicType name="Cast value" id="931b-9d36-5e7f-f4df"/>
+        <characteristicType name="Effect" id="f342-212f-7d7a-d01c" kind="longText"/>
+        <characteristicType name="Duration" id="6dd7-21f2-42b3-4e1d"/>
+        <characteristicType name="Complexity" id="8ee5-1aad-da49-39b2"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -778,7 +795,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Plasma Gun - Supercharge" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="a3bb-87d2-d176-7e16">
+    <profile name="Plasma Gun - Supercharge" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="a3bb-87d2-d176-7e16">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -788,7 +805,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(2), Overheating</characteristic>
       </characteristics>
     </profile>
-    <profile name="Absolvor Bolt Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="cc69-7977-3e35-208b">
+    <profile name="Absolvor Bolt Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="cc69-7977-3e35-208b">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -798,7 +815,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Apothecary and Chaplain only</characteristic>
       </characteristics>
     </profile>
-    <profile name="Angelus Boltgun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="f87d-f22b-2f08-14c6">
+    <profile name="Angelus Boltgun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="f87d-f22b-2f08-14c6">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
@@ -808,7 +825,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Assault-Flamer - Assault ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="d000-fe8e-fe2a-868f">
+    <profile name="Assault-Flamer - Assault ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="d000-fe8e-fe2a-868f">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -818,7 +835,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Assault-Flamer - Pyre blaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="2b7d-bbfb-2a1a-6009">
+    <profile name="Assault-Flamer - Pyre blaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="2b7d-bbfb-2a1a-6009">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4</characteristic>
@@ -828,7 +845,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flames</characteristic>
       </characteristics>
     </profile>
-    <profile name="Assault-Plasma - Assault ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="b430-a52d-8ec1-f43e">
+    <profile name="Assault-Plasma - Assault ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="b430-a52d-8ec1-f43e">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -838,7 +855,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Assault-Plasma - Plasma (Overcharged)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="bf3e-02e4-f747-dc0f">
+    <profile name="Assault-Plasma - Plasma (Overcharged)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="bf3e-02e4-f747-dc0f">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -848,7 +865,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(2), Overheating</characteristic>
       </characteristics>
     </profile>
-    <profile name="Assault-Plasma - Plasma (Standard)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="5799-989c-6361-4ecc">
+    <profile name="Assault-Plasma - Plasma (Standard)" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="5799-989c-6361-4ecc">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -858,7 +875,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Auto boltstorm gauntlet - Melee" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="5ffa-a52c-d87a-0275">
+    <profile name="Auto boltstorm gauntlet - Melee" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="5ffa-a52c-d87a-0275">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -868,7 +885,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1), Slow(-2)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Auto boltstorm gauntlet - Ranged" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="8f40-d4c5-4d19-049f">
+    <profile name="Auto boltstorm gauntlet - Ranged" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8f40-d4c5-4d19-049f">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
@@ -888,7 +905,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Bolt Rifle - Assault ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="54c1-8671-508f-fe61">
+    <profile name="Bolt Rifle - Assault ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="54c1-8671-508f-fe61">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -898,7 +915,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Bolt Rifle - Bolt ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="b88a-5c23-b8ae-47b2">
+    <profile name="Bolt Rifle - Bolt ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="b88a-5c23-b8ae-47b2">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -908,7 +925,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Bolt Rifle - Stalker ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="6fda-104a-d961-74e4">
+    <profile name="Bolt Rifle - Stalker ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="6fda-104a-d961-74e4">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
@@ -918,7 +935,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Boltgun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="a262-8588-1d2a-5a0e">
+    <profile name="Boltgun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="a262-8588-1d2a-5a0e">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -928,7 +945,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Caliban Greatsword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="1b57-ead2-a362-9753">
+    <profile name="Caliban Greatsword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="1b57-ead2-a362-9753">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -938,7 +955,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Slow(-1), Unwieldy</characteristic>
       </characteristics>
     </profile>
-    <profile name="Combat Knife" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="822b-ce92-e13a-8bea">
+    <profile name="Combat Knife" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="822b-ce92-e13a-8bea">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1018,7 +1035,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Conversion Beamer - Long range" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="8309-47c5-c2d7-bc27">
+    <profile name="Conversion Beamer - Long range" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8309-47c5-c2d7-bc27">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48-72&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
@@ -1028,7 +1045,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(2), Barrage</characteristic>
       </characteristics>
     </profile>
-    <profile name="Conversion Beamer - Mid range" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="635a-3bf3-2683-5e4d">
+    <profile name="Conversion Beamer - Mid range" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="635a-3bf3-2683-5e4d">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24-48&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
@@ -1038,7 +1055,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1), Explosive</characteristic>
       </characteristics>
     </profile>
-    <profile name="Conversion Beamer - Short range" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="f086-24dd-3452-4682">
+    <profile name="Conversion Beamer - Short range" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="f086-24dd-3452-4682">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">0-24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
@@ -1048,7 +1065,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Force Axe" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="1a2b-d518-5338-72e1">
+    <profile name="Force Axe" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="1a2b-d518-5338-72e1">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1068,7 +1085,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Force weapon</characteristic>
       </characteristics>
     </profile>
-    <profile name="Force Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="8be6-2c37-3db4-0cdd">
+    <profile name="Force Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8be6-2c37-3db4-0cdd">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1078,7 +1095,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Force weapon</characteristic>
       </characteristics>
     </profile>
-    <profile name="Frag Cannon - Frag Round" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="4a0c-bafd-d6d9-0d1a">
+    <profile name="Frag Cannon - Frag Round" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="4a0c-bafd-d6d9-0d1a">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
@@ -1088,7 +1105,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Armor piercing(5+), Explosive</characteristic>
       </characteristics>
     </profile>
-    <profile name="Frag Cannon - Solid Round" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="b230-6a95-2744-ddde">
+    <profile name="Frag Cannon - Solid Round" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="b230-6a95-2744-ddde">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -1098,7 +1115,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Grav Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="0f0e-04a3-da19-bb26">
+    <profile name="Grav Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="0f0e-04a3-da19-bb26">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -1108,7 +1125,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Grav</characteristic>
       </characteristics>
     </profile>
-    <profile name="Grav Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="e8f3-26e3-0616-0489">
+    <profile name="Grav Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="e8f3-26e3-0616-0489">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -1118,7 +1135,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Grav</characteristic>
       </characteristics>
     </profile>
-    <profile name="Hand Flamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="68ce-9092-d802-60a4">
+    <profile name="Hand Flamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="68ce-9092-d802-60a4">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 4</characteristic>
@@ -1128,7 +1145,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flames</characteristic>
       </characteristics>
     </profile>
-    <profile name="Heavy bolt pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="ac80-a65e-4629-a57c">
+    <profile name="Heavy bolt pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="ac80-a65e-4629-a57c">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -1138,7 +1155,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Heavy Bolt Rifle - Assault Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="5d7e-afa8-7253-ab6c">
+    <profile name="Heavy Bolt Rifle - Assault Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="5d7e-afa8-7253-ab6c">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -1148,7 +1165,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Gravis armor only</characteristic>
       </characteristics>
     </profile>
-    <profile name="Heavy Bolt Rifle - Bolt Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="d9aa-6cd5-bbec-5767">
+    <profile name="Heavy Bolt Rifle - Bolt Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="d9aa-6cd5-bbec-5767">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -1158,7 +1175,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Gravis armor only</characteristic>
       </characteristics>
     </profile>
-    <profile name="Heavy Bolt Rifle - Stalker Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="9bea-1ae6-c27a-1670">
+    <profile name="Heavy Bolt Rifle - Stalker Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="9bea-1ae6-c27a-1670">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
@@ -1178,7 +1195,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Melta</characteristic>
       </characteristics>
     </profile>
-    <profile name="Infernus Heavy Bolter - Heavy Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="9712-70e4-81b2-e301">
+    <profile name="Infernus Heavy Bolter - Heavy Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="9712-70e4-81b2-e301">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
@@ -1188,7 +1205,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Infernus Heavy Bolter - Heavy Flamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="6d7b-b80a-585c-5027">
+    <profile name="Infernus Heavy Bolter - Heavy Flamer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="6d7b-b80a-585c-5027">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4</characteristic>
@@ -1198,7 +1215,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flames</characteristic>
       </characteristics>
     </profile>
-    <profile name="Lightning Claw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="996f-9cb7-d3cd-da81">
+    <profile name="Lightning Claw" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="996f-9cb7-d3cd-da81">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1218,7 +1235,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1), Melter</characteristic>
       </characteristics>
     </profile>
-    <profile name="Modified Bolt Rifle - Assault Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="eccd-1694-e9dc-1925">
+    <profile name="Modified Bolt Rifle - Assault Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="eccd-1694-e9dc-1925">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -1228,7 +1245,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Modified Bolt Rifle - Bolt Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="1baa-429a-e7ca-b107">
+    <profile name="Modified Bolt Rifle - Bolt Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="1baa-429a-e7ca-b107">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -1238,7 +1255,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Modified Bolt Rifle - Stalker Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="505f-907c-c42b-07d8">
+    <profile name="Modified Bolt Rifle - Stalker Ammo" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="505f-907c-c42b-07d8">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
@@ -1248,7 +1265,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Neo Volkite Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="78f7-788c-446a-e660">
+    <profile name="Neo Volkite Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="78f7-788c-446a-e660">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
@@ -1258,7 +1275,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Deadly(5+)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Pair of Lightning Claws" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="50af-adc1-984b-28ac">
+    <profile name="Pair of Lightning Claws" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="50af-adc1-984b-28ac">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1268,7 +1285,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flurry(2), Shred, Unwieldy</characteristic>
       </characteristics>
     </profile>
-    <profile name="Phase Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="09e9-8eaf-17f7-6337">
+    <profile name="Phase Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="09e9-8eaf-17f7-6337">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1298,7 +1315,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Power Axe" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="f027-656d-e2b3-cbcf">
+    <profile name="Power Axe" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="f027-656d-e2b3-cbcf">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1318,7 +1335,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="a78e-ed35-c409-5cda">AT(1), Slow(-2)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Power Lance - Charge" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="6794-9142-dc91-fa5a">
+    <profile name="Power Lance - Charge" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="6794-9142-dc91-fa5a">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1328,7 +1345,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(1), Quick(+1), Can only be used with a Charge order</characteristic>
       </characteristics>
     </profile>
-    <profile name="Power Lance - Melee" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="cf9f-30d9-469f-43ac">
+    <profile name="Power Lance - Melee" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="cf9f-30d9-469f-43ac">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1338,7 +1355,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Unwieldy</characteristic>
       </characteristics>
     </profile>
-    <profile name="Power Maul" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="2a63-53c1-2e92-79ae">
+    <profile name="Power Maul" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="2a63-53c1-2e92-79ae">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1348,7 +1365,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Power Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="0a4a-549e-e8ba-6957">
+    <profile name="Power Sword" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="0a4a-549e-e8ba-6957">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1358,7 +1375,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Pyre Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="cdda-160e-1cf8-424c">
+    <profile name="Pyre Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="cdda-160e-1cf8-424c">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">9&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 4</characteristic>
@@ -1368,7 +1385,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flames</characteristic>
       </characteristics>
     </profile>
-    <profile name="Relic Blade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="c885-1d19-3e3f-253f">
+    <profile name="Relic Blade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="c885-1d19-3e3f-253f">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1378,7 +1395,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Lieutenants only</characteristic>
       </characteristics>
     </profile>
-    <profile name="Thunder Hammer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="9549-b7f3-454a-f056">
+    <profile name="Thunder Hammer" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="9549-b7f3-454a-f056">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1388,7 +1405,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(2), Slow(-3)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Storm Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="4f53-873e-3ae2-e916">
+    <profile name="Storm Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="4f53-873e-3ae2-e916">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -1398,7 +1415,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Watch Spear - Ranged" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="f55e-5489-ead6-cf8d">
+    <profile name="Watch Spear - Ranged" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="f55e-5489-ead6-cf8d">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -1408,7 +1425,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Watch Spear - Melee" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="37f5-a7c9-2e07-fc35">
+    <profile name="Watch Spear - Melee" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="37f5-a7c9-2e07-fc35">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1438,7 +1455,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flames</characteristic>
       </characteristics>
     </profile>
-    <profile name="Heavy Machine Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="cff8-3dad-23f7-cc7e">
+    <profile name="Heavy Machine Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="cff8-3dad-23f7-cc7e">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
@@ -1448,7 +1465,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Machine Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="71ca-510a-8cda-8302">
+    <profile name="Machine Gun" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="71ca-510a-8cda-8302">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
@@ -1458,7 +1475,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Machine Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="faba-343d-9008-913a">
+    <profile name="Machine Pistol" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="faba-343d-9008-913a">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -1498,7 +1515,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Anti-Air, AT(1)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Combi-Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="4c63-b921-d03d-1a54">
+    <profile name="Combi-Bolter" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="4c63-b921-d03d-1a54">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
@@ -1538,7 +1555,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
-    <profile name="Twin Lascannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="777f-9b7a-5c48-8535">
+    <profile name="Twin Lascannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="777f-9b7a-5c48-8535">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2</characteristic>
@@ -1548,7 +1565,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">AT(2)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Frag Grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="8b58-4e8e-e8b5-ad86">
+    <profile name="Frag Grenade" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="8b58-4e8e-e8b5-ad86">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade 1</characteristic>
@@ -1558,7 +1575,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Explosive</characteristic>
       </characteristics>
     </profile>
-    <profile name="Pyro Blaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="37cb-2669-fe61-0ed5">
+    <profile name="Pyro Blaster" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="37cb-2669-fe61-0ed5">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 4</characteristic>
@@ -1568,7 +1585,7 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Keywords" typeId="837d-5e63-aeb7-1410">Flames</characteristic>
       </characteristics>
     </profile>
-    <profile name="Assault Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="9472-3dc7-ee7d-4f3f">
+    <profile name="Assault Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Ranged Weapons" hidden="false" id="9472-3dc7-ee7d-4f3f">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
         <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
@@ -1663,6 +1680,347 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The model has a 4+ invulnerability save.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Smite" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="d161-481d-ed84-b245">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers three automatic hits with Strength: 5 AP: -1 D: 1; Seeking.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bleed" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="073f-c120-f6dc-da29">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">12&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">Roll 1D6 per model of the target unit. For every 4+, it suffers an automatic wound with Strength: 4 AP: 0 D: 1; Seeking.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Endurance" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="ce2c-677e-7e48-e276">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Friendly unit (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains the &quot;Berserk(4+)&quot; and &quot;Move through cover&quot; abilities.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Unit the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Life Steal" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="4209-9bf2-df11-ecc2">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">12&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers an automatic wound with Strength: 4 AP: -4 D: 1; Seeking. The caster regains one lost Wound.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Steeled Body" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="e5f9-aa6b-1be7-f0d5">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">-</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Self (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains +1 Strength, +1 Toughness and +1 to its Saving throw.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Weaken" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="7593-e1f2-c620-810c">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Malediction</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers -1 to its Strength and is treated as moving through difficult terrain, even if it would normally ignore its effect.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Unnatural Speed" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="3ff1-6568-fbc3-06a7">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">-</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Self (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">7</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains +2 Initiative and &quot;Frenzy(6&quot;)&quot;.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psionic Guidance" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="2c46-897c-3f4a-854f">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">-</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Self</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">4</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">In the next Reinforcement phase, one friendly unit appears automatically without having to roll for it.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Perfect Timing" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="3fea-3660-7a0c-5a9d">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">12&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Friendly unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target may change the result of a single die roll to any result during their own activation.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Premonition" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="ea56-aa27-c76f-9678">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">12&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Friendly unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains the “Counter-attack” ability and ignores the penalty for Defensive fire.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Foresight" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="e998-f872-d07c-a909">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">12&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Friendly unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains a 5+ invulnerability save.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation.</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Misfortune" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="0c67-d6b9-6e04-c38e">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Malediction</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">All attacks against the target gain the &quot;Armor piercing(5+)&quot; ability.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gaze Into The Future" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="5851-32f4-ce5b-f8cb">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">-</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Self</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">7</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target may re-roll all rolls.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation.</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Burning Hands" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="2243-a703-2b8b-70f4">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">9&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers four automatic hits with Strength: 5 AP: -2 D: 1; Seeking.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flame Blade" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="4816-1348-f2f2-d850">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">-</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Self</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains +1 Strength and -1 AP for one melee weapon.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation.</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flame Shield" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="74d7-8c31-3d88-1d03">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">-</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Self</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">All attacks reduce their Strength and AP by 1 against the target.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inferno" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="e2a3-7ce8-9176-0ceb">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Malediction</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">24&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Terrain piece</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The terrain piece becomes dangerous terrain.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the end of the game</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Magma Beam" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="5467-7bab-b2cf-c72f">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">24&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers one hit with Strength: 8 AP: -5 D: 2; AT(4), Melta, Seeking.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fireball" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="8f36-a10b-ff7b-dde6">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">36&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">7</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers one automatic hit with Strength: 8 AP: -3 D: 1; AT(2), Barrage, Seeking.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Projectile Assault" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="22e1-e2e0-4209-c4c2">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">24&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">Six automatic hits with S:5 AP:-2 D:1; Seeking, Suppression.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Telekinetic Blast" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="8ee2-ad91-f051-8718">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target is pushed 1D6” away from the caster in a straight line.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Force Field" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="116b-f7a5-0ca4-d88a">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">-</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Self + attached unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains the benefit of cover.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Levitation" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="e061-3b15-d12e-28f5">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">12&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Friendly unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains +6&quot; Movement (to a maximum of 12&quot;) and the &quot;Anti-Grav&quot; ability.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mechanical Blockade" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="c56f-0a71-2fc1-c1e5">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit (Vehicle)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers 3 glancing hits.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psionic Storm" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="78d8-07b7-9701-d6b1">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">7</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers one automatic hit with Strength: 9 AP: -3 D: 1; AT(2), Barrage, Seeking, Suppression.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Complex</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Courage" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="6622-f401-75fa-933f">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">24&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Friendly unit (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">4</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target can&apos;t gain Battleshock tokens by any means and loses all current tokens.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Damnation" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="2cb4-7264-aae4-dce0">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Malediction</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">24&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">5</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target suffers a -2 penalty to its Leadership.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shrouding" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="7a21-79ce-6c7c-b602">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Augmentation</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">12&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Friendly unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">The target gains the &quot;Deflect&quot; and &quot;Parry&quot; abilities.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Shriek" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="701b-1b29-89d9-8ca4">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Witchfire</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">12&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">6</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">Roll 3D6 and substract the target&apos;s Leadership. The unit receives that amount of automatic wounds with Strength: 5 AP: -6 D: 1; Seeking.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dominate" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="8b76-cb7a-2b53-f701">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Malediction</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit (Creature)</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">7</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">Select one weapon of the target. It automatically hits one enemy unit of your choice within range (can be the unit itself) with a single attack or shot. Can only be successfully manifested once per round and per psyker.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Until the caster&apos;s next activation.</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Normal</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hallucinate" typeId="be7d-d5d5-f5cf-be4f" typeName="Psychic Powers" hidden="false" id="c355-885c-e2fe-7ca8">
+      <characteristics>
+        <characteristic name="Type" typeId="e004-51ac-9b24-2946">Malediction</characteristic>
+        <characteristic name="Range" typeId="ec7e-be8e-1543-3942">18&quot;</characteristic>
+        <characteristic name="Target" typeId="4d02-1799-54fd-bbff">Enemy unit</characteristic>
+        <characteristic name="Cast value" typeId="931b-9d36-5e7f-f4df">7</characteristic>
+        <characteristic name="Effect" typeId="f342-212f-7d7a-d01c">Assign a randomly chosen command face down to the target.</characteristic>
+        <characteristic name="Duration" typeId="6dd7-21f2-42b3-4e1d">Instant</characteristic>
+        <characteristic name="Complexity" typeId="8ee5-1aad-da49-39b2">Basic</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="9da0-b35f-27e6-da49">
@@ -1717,5 +2075,321 @@ If multiple models in a unit have the same weapon with this rule, the correspond
         <infoLink name="Autocannon" id="cef5-e436-8f1c-2660" hidden="false" type="profile" targetId="7f36-c8ba-64a2-6f91"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="eae4-8949-6416-c634">
+      <infoLinks>
+        <infoLink name="Smite" id="3bdb-5c69-d9ae-82ae" hidden="false" type="profile" targetId="d161-481d-ed84-b245"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbd9-e4b9-c3eb-b800"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f2e-f390-acc0-242e"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="General Psychic Disciplines" id="90d2-75b3-038b-990c" hidden="false" collapsible="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="d799-c40e-05b8-17ff" sortIndex="1">
+          <infoLinks>
+            <infoLink name="Smite" id="e016-42b7-9e66-d1aa" hidden="false" type="profile" targetId="d161-481d-ed84-b245"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="680b-2e49-ef7f-746c"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b63f-3918-afc2-d1c9"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Biomancy" id="c4a1-9dba-5194-3ff6" hidden="false" sortIndex="2" collapsible="true">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bleed" hidden="false" id="ac87-bf14-0da0-6290" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="12bb-8c2d-06f3-93c9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c310-b5a8-6f0f-544a"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Bleed" id="4c69-5c5a-e221-9188" hidden="false" type="profile" targetId="073f-c120-f6dc-da29"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Endurance" hidden="false" id="47c6-a835-f039-f441" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c777-9fd5-eb07-9db0"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2e5-c217-3ea6-8f7f"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Endurance" id="467f-7efb-78d9-dc9d" hidden="false" type="profile" targetId="ce2c-677e-7e48-e276"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Life Steal" hidden="false" id="3967-0b50-9fa1-1dd8" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8e86-c003-ffa6-1e0b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f0e-e4d3-3518-75e7"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Life Steal" id="c6ff-0f36-e1bd-26c0" hidden="false" type="profile" targetId="4209-9bf2-df11-ecc2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Steeled Body" hidden="false" id="080d-f712-1b93-550a" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="eefe-d2f8-ce37-af31"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d2e-3b89-863d-01a3"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Steeled Body" id="c26f-2c32-2222-1906" hidden="false" type="profile" targetId="e5f9-aa6b-1be7-f0d5"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Weaken" hidden="false" id="6c6b-45f4-7286-bd79" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2238-bfb5-d1c3-075b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3680-e896-f82f-7818"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Weaken" id="b29c-cb34-6515-4b52" hidden="false" type="profile" targetId="7593-e1f2-c620-810c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unnatural Speed" hidden="false" id="f732-a21d-7509-0323" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6252-8336-be3a-70e6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8f8-56e8-df95-1c1b"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Unnatural Speed" id="8be1-544e-e43a-fcdf" hidden="false" type="profile" targetId="3ff1-6568-fbc3-06a7"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Divination" id="0fbd-a18d-6c34-c550" hidden="false" sortIndex="3" collapsible="true">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Psionic Guidance" hidden="false" id="15d5-b682-74b4-a946" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ff5b-518e-12eb-8a5f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfa4-eb27-87b8-4e74"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Psionic Guidance" id="53c4-7073-462c-66fb" hidden="false" type="profile" targetId="2c46-897c-3f4a-854f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Perfect Timing" hidden="false" id="8e69-1f93-f25c-42c8" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c273-9438-28da-0028"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="887d-f9e3-717e-6dcc"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Perfect Timing" id="aef7-c558-ac8d-a73a" hidden="false" type="profile" targetId="3fea-3660-7a0c-5a9d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Premonition" hidden="false" id="2a8a-b759-365b-da45" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="117b-73c8-76aa-fddb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24f8-5116-afc9-a05c"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Premonition" id="b662-4aa0-5e8c-eaeb" hidden="false" type="profile" targetId="ea56-aa27-c76f-9678"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Foresight" hidden="false" id="163a-092c-95d6-d7b5" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="ffa2-ee52-302a-a553"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0355-597f-c1f0-b473"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Foresight" id="0937-c9ba-5792-8d4e" hidden="false" type="profile" targetId="e998-f872-d07c-a909"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Misfortune" hidden="false" id="4b27-729e-1c0a-f1c4" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5aa5-eff5-a1d3-1350"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2825-f757-9a13-26a5"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Misfortune" id="f4f2-171a-ad77-51cc" hidden="false" type="profile" targetId="0c67-d6b9-6e04-c38e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gaze Into The Future" hidden="false" id="8fa5-2a25-d0d9-8194" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4a4a-44e0-fa56-6d32"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f987-559f-9a37-ce7b"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Gaze Into The Future" id="f963-ff15-6484-0b1e" hidden="false" type="profile" targetId="5851-32f4-ce5b-f8cb"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pyromancy" id="a632-ec02-08d4-1078" hidden="false" sortIndex="4" collapsible="true">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Burning Hands" hidden="false" id="31f9-3e10-a9ed-a242" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d38a-63ed-e0b7-43ee"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8687-7277-c8ea-1ad2"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Burning Hands" id="6ff3-fa20-84d7-faa3" hidden="false" type="profile" targetId="2243-a703-2b8b-70f4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Flame Blade" hidden="false" id="5379-bd7a-f24e-c6da" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7856-b03e-e24e-a6cb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9da7-def4-7aca-bdaa"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Flame Blade" id="b96b-8bdb-c214-47ed" hidden="false" type="profile" targetId="4816-1348-f2f2-d850"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Flame Shield" hidden="false" id="7126-dadc-f29d-0e1d" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="94fb-ebb8-f91f-a75c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9552-cee8-6ec1-a06a"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Flame Shield" id="36f9-a925-dea2-5fd1" hidden="false" type="profile" targetId="74d7-8c31-3d88-1d03"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Inferno" hidden="false" id="83f1-12a2-a277-2c83" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="bc60-c748-fe08-2924"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb2d-27fa-cac1-77b2"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Inferno" id="8967-5e4a-37a0-2551" hidden="false" type="profile" targetId="e2a3-7ce8-9176-0ceb"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Magma Beam" hidden="false" id="43d2-341f-bb27-0911" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5200-9f50-48cb-faf6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fd0-7588-1399-3318"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Magma Beam" id="ed3d-257d-a5f3-c1d9" hidden="false" type="profile" targetId="5467-7bab-b2cf-c72f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fireball" hidden="false" id="7427-b943-3004-2020" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="716f-d69b-f6e4-6dff"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4810-0568-1a7c-0185"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Fireball" id="eea1-5bd6-7872-d7f1" hidden="false" type="profile" targetId="8f36-a10b-ff7b-dde6"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Telekinesis" id="97ca-58a6-70f4-8a45" hidden="false" sortIndex="5" collapsible="true">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Projectile Assault" hidden="false" id="d7d3-4494-4895-534e" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f3db-80b8-a7de-ddb9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15f7-4e8d-34d1-a2ce"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Projectile Assault" id="e562-c424-d436-bd64" hidden="false" type="profile" targetId="22e1-e2e0-4209-c4c2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Telekinetic Blast" hidden="false" id="adea-9b68-99d0-8c0c" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="eeeb-4073-ecc0-ac9a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18e6-40ce-0161-0aab"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Telekinetic Blast" id="ddc9-82e2-8302-071e" hidden="false" type="profile" targetId="8ee2-ad91-f051-8718"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Force Field" hidden="false" id="b438-66b0-1955-f39e" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="285d-c518-cfcc-278b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd3b-b77b-3f34-7944"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Force Field" id="9c47-dc7b-a1ae-3150" hidden="false" type="profile" targetId="116b-f7a5-0ca4-d88a"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Levitation" hidden="false" id="741f-2173-506b-29a3" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6d16-abf5-ec7e-4580"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a945-3b17-9922-d603"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Levitation" id="7204-2c28-53ce-90fb" hidden="false" type="profile" targetId="e061-3b15-d12e-28f5"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mechanical Blockade" hidden="false" id="3ddc-acbc-db54-36c9" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2dce-f890-b623-ba74"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7101-4064-7fb4-dd0b"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Mechanical Blockade" id="7bd8-16b8-265e-c33e" hidden="false" type="profile" targetId="c56f-0a71-2fc1-c1e5"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psionic Storm" hidden="false" id="06cc-00c6-6c04-5622" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a154-bcc3-07fa-5338"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a32e-f746-0b25-494e"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Psionic Storm" id="e764-26ff-98fa-af5b" hidden="false" type="profile" targetId="78d8-07b7-9701-d6b1"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Telepathy" id="b495-472e-b256-2299" hidden="false" sortIndex="6" collapsible="true">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Courage" hidden="false" id="bd23-7442-0fed-574f" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="2c06-1520-78ab-d9c0"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a28d-60df-f08b-cd5c"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Courage" id="3a93-aa48-b0ce-c94a" hidden="false" type="profile" targetId="6622-f401-75fa-933f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Damnation" hidden="false" id="7ca0-b790-9daf-f57b" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d426-6d13-17e2-c5d3"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a380-7f96-797a-76de"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Damnation" id="75cb-df12-4470-bf44" hidden="false" type="profile" targetId="2cb4-7264-aae4-dce0"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shrouding" hidden="false" id="5043-e1c3-d2a1-f8f6" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4b2b-2f13-f2ab-6394"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca45-ed5f-6072-da63"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Shrouding" id="6e56-c001-d84b-87e4" hidden="false" type="profile" targetId="7a21-79ce-6c7c-b602"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psychic Shriek" hidden="false" id="1958-7480-9428-467b" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f0b1-b3e1-89c3-f0ef"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a80-abdc-85de-d716"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Psychic Shriek" id="2424-565b-d5b3-40e2" hidden="false" type="profile" targetId="701b-1b29-89d9-8ca4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dominate" hidden="false" id="abb5-1dfc-4f01-4cd7" sortIndex="5">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="057e-8669-76e9-7618"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f127-eb0e-93bb-c339"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Dominate" id="68ac-ca76-68d2-fb3d" hidden="false" type="profile" targetId="8b76-cb7a-2b53-f701"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hallucinate" hidden="false" id="7062-4d0d-2994-e086" sortIndex="6">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f51c-0ffb-0a26-89f6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1dd-eec4-1c5c-ab41"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Hallucinate" id="b027-0a23-d9a6-9f89" hidden="false" type="profile" targetId="c355-885c-e2fe-7ca8"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </gameSystem>
